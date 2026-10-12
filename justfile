@@ -84,3 +84,15 @@ review-site-deploy:
       exit 1
     fi
     cd review-site && npm ci && npm run deploy
+
+# Collect glossary candidates from both models, one isolated call per chapter. Resumable.
+glossary-candidates book:
+    bun scripts/glossary-candidates.ts "$1"
+
+# Stamp today's approval date into the glossaries (Kevin, after review).
+glossary-approve:
+    bun scripts/glossary-approve.ts
+
+# Check that the glossaries cover every candidate and carry an approval date (required before Stage 1).
+glossary-check:
+    bun scripts/glossary-check.ts

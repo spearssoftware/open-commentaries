@@ -1,0 +1,347 @@
+{
+  "approved": null,
+  "entries": [
+    {
+      "word": "conversation",
+      "forms": ["conversation"],
+      "sense": "conduct, way of life",
+      "replacements": ["conduct", "way of life"]
+    },
+    {
+      "word": "prevent",
+      "forms": ["prevent", "prevents", "prevented"],
+      "sense": "go before, anticipate",
+      "replacements": ["go before", "come before"]
+    },
+    {
+      "word": "let",
+      "forms": ["let", "letteth"],
+      "sense": "hinder (only in this sense; ordinary 'let' is unaffected)",
+      "replacements": ["hinder"]
+    },
+    {
+      "word": "quick",
+      "forms": ["quick"],
+      "sense": "living",
+      "replacements": ["living"]
+    },
+    {
+      "word": "quicken",
+      "forms": ["quicken", "quickens", "quickened", "quickening"],
+      "sense": "make alive",
+      "replacements": ["make alive", "give life to", "made alive"]
+    },
+    {
+      "word": "meat",
+      "forms": ["meat"],
+      "sense": "food",
+      "replacements": ["food"]
+    },
+    {
+      "word": "want",
+      "forms": ["want", "wants", "wanted", "wanting"],
+      "sense": "lack, need",
+      "replacements": ["lack", "need"]
+    },
+    {
+      "word": "spake",
+      "forms": ["spake"],
+      "sense": "spoke",
+      "replacements": ["spoke"]
+    },
+    {
+      "word": "wrought",
+      "forms": ["wrought"],
+      "sense": "worked, brought about",
+      "replacements": ["worked", "brought about", "done"]
+    },
+    {
+      "word": "saith",
+      "forms": ["saith"],
+      "sense": "says",
+      "replacements": ["says"]
+    },
+    {
+      "word": "ye",
+      "forms": ["ye"],
+      "sense": "you (plural)",
+      "replacements": ["you"]
+    },
+    {
+      "word": "thee",
+      "forms": ["thee"],
+      "sense": "you (singular)",
+      "replacements": ["you"]
+    },
+    {
+      "word": "thou",
+      "forms": ["thou"],
+      "sense": "you (singular)",
+      "replacements": ["you"]
+    },
+    {
+      "word": "thy",
+      "forms": ["thy", "thine"],
+      "sense": "your, yours",
+      "replacements": ["your", "yours"]
+    },
+    {
+      "word": "unto",
+      "forms": ["unto"],
+      "sense": "to",
+      "replacements": ["to"]
+    },
+    {
+      "word": "hither",
+      "forms": ["hither"],
+      "sense": "here, to this place",
+      "replacements": ["here"]
+    },
+    {
+      "word": "thither",
+      "forms": ["thither"],
+      "sense": "there, to that place",
+      "replacements": ["there"]
+    },
+    {
+      "word": "whence",
+      "forms": ["whence"],
+      "sense": "from where",
+      "replacements": ["from where"]
+    },
+    {
+      "word": "withal",
+      "forms": ["withal"],
+      "sense": "as well, with it",
+      "replacements": ["as well", "with it"]
+    },
+    {
+      "word": "wherewith",
+      "forms": ["wherewith"],
+      "sense": "with which",
+      "replacements": ["with which"]
+    },
+    {
+      "word": "therein",
+      "forms": ["therein"],
+      "sense": "in it",
+      "replacements": ["in it"]
+    },
+    {
+      "word": "hereby",
+      "forms": ["hereby"],
+      "sense": "by this",
+      "replacements": ["by this"]
+    },
+    {
+      "word": "hitherto",
+      "forms": ["hitherto"],
+      "sense": "until now",
+      "replacements": ["until now", "so far"]
+    },
+    {
+      "word": "nay",
+      "forms": ["nay"],
+      "sense": "no; indeed",
+      "replacements": ["no", "indeed"]
+    },
+    {
+      "word": "behoves",
+      "forms": ["behoves", "behoveth", "behove"],
+      "sense": "is fitting, is necessary for",
+      "replacements": ["is right for", "is necessary for"]
+    },
+    {
+      "word": "abide",
+      "forms": ["abide", "abides", "abideth"],
+      "sense": "remain, stay",
+      "replacements": ["remain", "stay"]
+    },
+    {
+      "word": "affections",
+      "forms": ["affections", "affection"],
+      "sense": "desires, inclinations of the heart",
+      "replacements": ["desires", "heart's desires", "feelings"]
+    },
+    {
+      "word": "fulness",
+      "forms": ["fulness"],
+      "sense": "fullness",
+      "replacements": ["fullness"]
+    },
+    {
+      "word": "notions",
+      "forms": ["notions", "notion"],
+      "sense": "ideas, understanding",
+      "replacements": ["ideas", "understanding"]
+    },
+    {
+      "word": "discover",
+      "forms": ["discover", "discovers", "discovered", "discovery", "discoveries"],
+      "sense": "reveal, make known",
+      "replacements": ["reveal", "make known", "revelation"]
+    },
+    {
+      "word": "improve",
+      "forms": ["improve", "improves", "improved"],
+      "sense": "make good use of",
+      "replacements": ["make good use of", "use well"]
+    },
+    {
+      "word": "peculiar",
+      "forms": ["peculiar"],
+      "sense": "special, belonging particularly to",
+      "replacements": ["special", "particular", "his own"]
+    },
+    {
+      "word": "temper",
+      "forms": ["temper", "tempers"],
+      "sense": "disposition, frame of mind",
+      "replacements": ["disposition", "frame of mind"]
+    },
+    {
+      "word": "tokens",
+      "forms": ["tokens", "token"],
+      "sense": "signs, evidences",
+      "replacements": ["signs", "evidence"]
+    },
+    {
+      "word": "interest",
+      "forms": ["interest", "interested"],
+      "sense": "share, stake, claim",
+      "replacements": ["share", "claim"]
+    },
+    {
+      "word": "professor",
+      "forms": ["professor", "professors"],
+      "sense": "one who professes faith",
+      "replacements": ["one who professes faith", "professing believer"]
+    },
+    {
+      "word": "profession",
+      "forms": ["profession"],
+      "sense": "profession of faith",
+      "replacements": ["profession of faith"]
+    },
+    {
+      "word": "sensible",
+      "forms": ["sensible"],
+      "sense": "aware, conscious",
+      "replacements": ["aware", "conscious"]
+    },
+    {
+      "word": "design",
+      "forms": ["design", "designs"],
+      "sense": "purpose, intention",
+      "replacements": ["purpose", "intention"]
+    },
+    {
+      "word": "end",
+      "forms": ["end"],
+      "sense": "purpose, goal (where Henry means purpose)",
+      "replacements": ["purpose", "goal"]
+    },
+    {
+      "word": "charge",
+      "forms": ["charge"],
+      "sense": "command, responsibility",
+      "replacements": ["command", "responsibility"]
+    },
+    {
+      "word": "easy",
+      "forms": ["easy"],
+      "sense": "at ease, comfortable (where Henry means this)",
+      "replacements": ["at ease"]
+    },
+    {
+      "word": "apt",
+      "forms": ["apt"],
+      "sense": "inclined, likely",
+      "replacements": ["inclined", "likely"]
+    },
+    {
+      "word": "amiss",
+      "forms": ["amiss"],
+      "sense": "wrongly",
+      "replacements": ["wrongly", "badly"]
+    },
+    {
+      "word": "draw nigh",
+      "forms": ["draw nigh", "nigh"],
+      "sense": "come near",
+      "replacements": ["come near", "near"]
+    },
+    {
+      "word": "raiment",
+      "forms": ["raiment"],
+      "sense": "clothing",
+      "replacements": ["clothing"]
+    },
+    {
+      "word": "sepulchre",
+      "forms": ["sepulchre"],
+      "sense": "tomb",
+      "replacements": ["tomb"]
+    },
+    {
+      "word": "marvel",
+      "forms": ["marvel", "marvellous"],
+      "sense": "wonder, be amazed",
+      "replacements": ["wonder", "be amazed", "marvelous"]
+    },
+    {
+      "word": "stedfast",
+      "forms": ["stedfast", "stedfastly"],
+      "sense": "steadfast",
+      "replacements": ["steadfast", "steadfastly"]
+    },
+    {
+      "word": "listeth",
+      "forms": ["listeth"],
+      "sense": "wishes, pleases",
+      "replacements": ["wishes", "pleases"]
+    },
+    {
+      "word": "seemeth",
+      "forms": ["seemeth"],
+      "sense": "seems",
+      "replacements": ["seems"]
+    },
+    {
+      "word": "worketh",
+      "forms": ["worketh"],
+      "sense": "works",
+      "replacements": ["works"]
+    },
+    {
+      "word": "soever",
+      "forms": ["soever", "howsoever", "whatsoever"],
+      "sense": "-ever",
+      "replacements": ["ever", "however", "whatever"]
+    },
+    {
+      "word": "every thing",
+      "forms": ["every thing"],
+      "sense": "everything",
+      "replacements": ["everything"]
+    },
+    {
+      "word": "any thing",
+      "forms": ["any thing"],
+      "sense": "anything",
+      "replacements": ["anything"]
+    },
+    {
+      "word": "every where",
+      "forms": ["every where"],
+      "sense": "everywhere",
+      "replacements": ["everywhere"]
+    },
+    {
+      "word": "for ever",
+      "forms": ["for ever"],
+      "sense": "forever",
+      "replacements": ["forever"]
+    }
+  ]
+}

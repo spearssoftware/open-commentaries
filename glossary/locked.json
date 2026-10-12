@@ -1,0 +1,4471 @@
+{
+  "approved": null,
+  "entries": [
+    {
+      "term": "man",
+      "kind": "protected",
+      "forms": ["man"],
+      "note": "Generic 'man' stays as written."
+    },
+    {
+      "term": "men",
+      "kind": "protected",
+      "forms": ["men"],
+      "note": "Generic 'men' stays as written."
+    },
+    {
+      "term": "mankind",
+      "kind": "protected",
+      "forms": ["mankind"]
+    },
+    {
+      "term": "the Jews",
+      "kind": "protected",
+      "forms": ["the Jews", "Jews"],
+      "note": "Never 'the Jewish leaders' or similar."
+    },
+    {
+      "term": "Christ",
+      "kind": "protected",
+      "forms": ["Christ", "Christ's"]
+    },
+    {
+      "term": "Lord",
+      "kind": "protected",
+      "forms": ["Lord", "Lord's"]
+    },
+    {
+      "term": "God",
+      "kind": "theological",
+      "forms": ["God", "God's"]
+    },
+    {
+      "term": "Jesus",
+      "kind": "theological",
+      "forms": ["Jesus"]
+    },
+    {
+      "term": "Father",
+      "kind": "theological",
+      "forms": ["Father", "Father's"],
+      "note": "Capitalized: God the Father."
+    },
+    {
+      "term": "Son of God",
+      "kind": "theological",
+      "forms": ["Son of God"]
+    },
+    {
+      "term": "Son of man",
+      "kind": "theological",
+      "forms": ["Son of man"]
+    },
+    {
+      "term": "the Son",
+      "kind": "theological",
+      "forms": ["Son"],
+      "note": "Capitalized: Christ."
+    },
+    {
+      "term": "the Word",
+      "kind": "theological",
+      "forms": ["Word"],
+      "note": "Capitalized: Christ as the Word (John 1). Lowercase 'word' is not locked."
+    },
+    {
+      "term": "Holy Ghost",
+      "kind": "theological",
+      "forms": ["Holy Ghost"],
+      "note": "Henry's term; not changed to 'Holy Spirit'."
+    },
+    {
+      "term": "Holy Spirit",
+      "kind": "theological",
+      "forms": ["Holy Spirit"]
+    },
+    {
+      "term": "Spirit",
+      "kind": "theological",
+      "forms": ["Spirit", "Spirit's"],
+      "note": "Capitalized: the Holy Spirit."
+    },
+    {
+      "term": "Messiah",
+      "kind": "theological",
+      "forms": ["Messiah"]
+    },
+    {
+      "term": "Redeemer",
+      "kind": "theological",
+      "forms": ["Redeemer"]
+    },
+    {
+      "term": "Saviour",
+      "kind": "theological",
+      "forms": ["Saviour", "Savior"],
+      "note": "Modern spelling 'Savior' allowed."
+    },
+    {
+      "term": "Mediator",
+      "kind": "theological",
+      "forms": ["Mediator"]
+    },
+    {
+      "term": "Advocate",
+      "kind": "theological",
+      "forms": ["Advocate"]
+    },
+    {
+      "term": "Comforter",
+      "kind": "theological",
+      "forms": ["Comforter"]
+    },
+    {
+      "term": "Surety",
+      "kind": "theological",
+      "forms": ["Surety"]
+    },
+    {
+      "term": "High Priest",
+      "kind": "theological",
+      "forms": ["High Priest"]
+    },
+    {
+      "term": "Creator",
+      "kind": "theological",
+      "forms": ["Creator"]
+    },
+    {
+      "term": "the Almighty",
+      "kind": "theological",
+      "forms": ["Almighty"]
+    },
+    {
+      "term": "I AM",
+      "kind": "theological",
+      "forms": ["I AM"]
+    },
+    {
+      "term": "Lamb of God",
+      "kind": "theological",
+      "forms": ["Lamb of God"]
+    },
+    {
+      "term": "Sun of Righteousness",
+      "kind": "theological",
+      "forms": ["Sun of Righteousness"]
+    },
+    {
+      "term": "Prophet, Priest, and King",
+      "kind": "theological",
+      "forms": ["Prophet, Priest, and King"]
+    },
+    {
+      "term": "Master",
+      "kind": "theological",
+      "forms": ["Master"],
+      "note": "Capitalized: Christ."
+    },
+    {
+      "term": "Satan",
+      "kind": "theological",
+      "forms": ["Satan", "Satan's"]
+    },
+    {
+      "term": "devil",
+      "kind": "theological",
+      "forms": ["devil", "devils", "devil's"]
+    },
+    {
+      "term": "grace",
+      "kind": "theological",
+      "forms": ["grace", "graces"]
+    },
+    {
+      "term": "free grace",
+      "kind": "theological",
+      "forms": ["free grace"]
+    },
+    {
+      "term": "salvation",
+      "kind": "theological",
+      "forms": ["salvation"]
+    },
+    {
+      "term": "faith",
+      "kind": "theological",
+      "forms": ["faith"]
+    },
+    {
+      "term": "believe",
+      "kind": "theological",
+      "forms": ["believe", "believes", "believed", "believing", "believeth"]
+    },
+    {
+      "term": "believer",
+      "kind": "theological",
+      "forms": ["believer", "believers"]
+    },
+    {
+      "term": "unbelief",
+      "kind": "theological",
+      "forms": ["unbelief"]
+    },
+    {
+      "term": "unbeliever",
+      "kind": "theological",
+      "forms": ["unbeliever", "unbelievers"]
+    },
+    {
+      "term": "gospel",
+      "kind": "theological",
+      "forms": ["gospel", "Gospel", "gospels", "Gospels"]
+    },
+    {
+      "term": "repentance",
+      "kind": "theological",
+      "forms": ["repentance", "repent", "repents", "repented", "repenting"]
+    },
+    {
+      "term": "penitent",
+      "kind": "theological",
+      "forms": ["penitent", "penitents"]
+    },
+    {
+      "term": "regeneration",
+      "kind": "theological",
+      "forms": ["regeneration", "regenerate", "regenerated", "regenerating"]
+    },
+    {
+      "term": "new birth",
+      "kind": "theological",
+      "forms": ["new birth"]
+    },
+    {
+      "term": "born again",
+      "kind": "theological",
+      "forms": ["born again"]
+    },
+    {
+      "term": "conversion",
+      "kind": "theological",
+      "forms": ["conversion", "convert", "converts", "converted"]
+    },
+    {
+      "term": "justification",
+      "kind": "theological",
+      "forms": ["justification", "justify", "justifies", "justified"]
+    },
+    {
+      "term": "sanctification",
+      "kind": "theological",
+      "forms": ["sanctification", "sanctify", "sanctifies", "sanctified"]
+    },
+    {
+      "term": "atonement",
+      "kind": "theological",
+      "forms": ["atonement", "atoning"]
+    },
+    {
+      "term": "redemption",
+      "kind": "theological",
+      "forms": ["redemption", "redeem", "redeems", "redeemed"]
+    },
+    {
+      "term": "reconciliation",
+      "kind": "theological",
+      "forms": ["reconciliation", "reconcile", "reconciles", "reconciled", "reconciling"]
+    },
+    {
+      "term": "ransom",
+      "kind": "theological",
+      "forms": ["ransom"]
+    },
+    {
+      "term": "satisfaction",
+      "kind": "theological",
+      "forms": ["satisfaction"],
+      "note": "The doctrinal sense: Christ's satisfaction for sin."
+    },
+    {
+      "term": "sacrifice",
+      "kind": "theological",
+      "forms": ["sacrifice", "sacrifices"]
+    },
+    {
+      "term": "sin-offering",
+      "kind": "theological",
+      "forms": ["sin-offering"]
+    },
+    {
+      "term": "intercession",
+      "kind": "theological",
+      "forms": ["intercession"]
+    },
+    {
+      "term": "pardon",
+      "kind": "theological",
+      "forms": ["pardon", "pardons", "pardoned"]
+    },
+    {
+      "term": "forgiveness",
+      "kind": "theological",
+      "forms": ["forgiveness"]
+    },
+    {
+      "term": "mercy",
+      "kind": "theological",
+      "forms": ["mercy", "mercies"]
+    },
+    {
+      "term": "righteousness",
+      "kind": "theological",
+      "forms": ["righteousness"]
+    },
+    {
+      "term": "holiness",
+      "kind": "theological",
+      "forms": ["holiness"]
+    },
+    {
+      "term": "sin",
+      "kind": "theological",
+      "forms": ["sin", "sins", "sinned", "sinning"]
+    },
+    {
+      "term": "sinner",
+      "kind": "theological",
+      "forms": ["sinner", "sinners"]
+    },
+    {
+      "term": "iniquity",
+      "kind": "theological",
+      "forms": ["iniquity", "iniquities"]
+    },
+    {
+      "term": "transgression",
+      "kind": "theological",
+      "forms": ["transgression", "transgressions"]
+    },
+    {
+      "term": "corruption",
+      "kind": "theological",
+      "forms": ["corruption", "corruptions"],
+      "note": "Theological sense: the corruption of human nature."
+    },
+    {
+      "term": "carnal",
+      "kind": "theological",
+      "forms": ["carnal"],
+      "note": "Theological sense; kept as written."
+    },
+    {
+      "term": "condemnation",
+      "kind": "theological",
+      "forms": ["condemnation", "condemned"]
+    },
+    {
+      "term": "judgment",
+      "kind": "theological",
+      "forms": ["judgment", "judgments"]
+    },
+    {
+      "term": "wrath",
+      "kind": "theological",
+      "forms": ["wrath"]
+    },
+    {
+      "term": "curse",
+      "kind": "theological",
+      "forms": ["curse", "cursed"]
+    },
+    {
+      "term": "damned",
+      "kind": "theological",
+      "forms": ["damned"]
+    },
+    {
+      "term": "hell",
+      "kind": "theological",
+      "forms": ["hell"]
+    },
+    {
+      "term": "heaven",
+      "kind": "theological",
+      "forms": ["heaven", "heavens"]
+    },
+    {
+      "term": "glory",
+      "kind": "theological",
+      "forms": ["glory"]
+    },
+    {
+      "term": "glorify",
+      "kind": "theological",
+      "forms": ["glorify", "glorifies", "glorified"]
+    },
+    {
+      "term": "eternal life",
+      "kind": "theological",
+      "forms": ["eternal life"]
+    },
+    {
+      "term": "everlasting life",
+      "kind": "theological",
+      "forms": ["everlasting life"]
+    },
+    {
+      "term": "resurrection",
+      "kind": "theological",
+      "forms": ["resurrection"]
+    },
+    {
+      "term": "kingdom",
+      "kind": "theological",
+      "forms": ["kingdom", "kingdoms"]
+    },
+    {
+      "term": "covenant",
+      "kind": "theological",
+      "forms": ["covenant", "covenants"]
+    },
+    {
+      "term": "providence",
+      "kind": "theological",
+      "forms": ["providence", "Providence"]
+    },
+    {
+      "term": "ordinance",
+      "kind": "theological",
+      "forms": ["ordinance", "ordinances"]
+    },
+    {
+      "term": "sacrament",
+      "kind": "theological",
+      "forms": ["sacrament", "sacraments"]
+    },
+    {
+      "term": "sabbath",
+      "kind": "theological",
+      "forms": ["sabbath", "sabbaths", "Sabbath"]
+    },
+    {
+      "term": "Scripture",
+      "kind": "theological",
+      "forms": ["Scripture", "Scriptures", "scripture", "scriptures"]
+    },
+    {
+      "term": "word of God",
+      "kind": "theological",
+      "forms": ["word of God"]
+    },
+    {
+      "term": "the law",
+      "kind": "theological",
+      "forms": ["law"],
+      "note": "The law of Moses / of God."
+    },
+    {
+      "term": "prophet",
+      "kind": "theological",
+      "forms": ["prophet", "prophets", "Prophet"]
+    },
+    {
+      "term": "apostle",
+      "kind": "theological",
+      "forms": ["apostle", "apostles"]
+    },
+    {
+      "term": "disciple",
+      "kind": "theological",
+      "forms": ["disciple", "disciples"]
+    },
+    {
+      "term": "church",
+      "kind": "theological",
+      "forms": ["church", "churches"]
+    },
+    {
+      "term": "saint",
+      "kind": "theological",
+      "forms": ["saint", "saints"]
+    },
+    {
+      "term": "cross",
+      "kind": "theological",
+      "forms": ["cross"],
+      "note": "The cross of Christ."
+    },
+    {
+      "term": "miracle",
+      "kind": "theological",
+      "forms": ["miracle", "miracles"]
+    },
+    {
+      "term": "soul",
+      "kind": "theological",
+      "forms": ["soul", "souls"]
+    },
+    {
+      "term": "prayer",
+      "kind": "theological",
+      "forms": ["prayer", "prayers"]
+    },
+    {
+      "term": "communion",
+      "kind": "theological",
+      "forms": ["communion"]
+    },
+    {
+      "term": "union with Christ",
+      "kind": "theological",
+      "forms": ["union with Christ"]
+    },
+    {
+      "term": "Divine",
+      "kind": "theological",
+      "forms": ["Divine"],
+      "note": "Henry's capitalized 'Divine' is kept."
+    },
+    {
+      "term": "blasphemy",
+      "kind": "theological",
+      "forms": ["blasphemy"]
+    },
+    {
+      "term": "hypocrisy",
+      "kind": "theological",
+      "forms": ["hypocrisy", "hypocrite", "hypocrites"]
+    },
+    {
+      "term": "temptation",
+      "kind": "theological",
+      "forms": ["temptation", "temptations"]
+    },
+    {
+      "term": "obedience",
+      "kind": "theological",
+      "forms": ["obedience"]
+    },
+    {
+      "term": "doctrine",
+      "kind": "theological",
+      "forms": ["doctrine", "doctrines"]
+    },
+    {
+      "term": "religion",
+      "kind": "theological",
+      "forms": ["religion"]
+    },
+    {
+      "term": "testimony",
+      "kind": "theological",
+      "forms": ["testimony"]
+    },
+    {
+      "term": "baptism",
+      "kind": "theological",
+      "forms": ["baptism", "baptize", "baptized", "baptizing"]
+    },
+    {
+      "term": "passover",
+      "kind": "theological",
+      "forms": ["passover", "Passover"]
+    },
+    {
+      "term": "paschal lamb",
+      "kind": "theological",
+      "forms": ["paschal lamb"]
+    },
+    {
+      "term": "Revelation",
+      "kind": "theological",
+      "forms": ["Revelation"],
+      "note": "The book."
+    },
+    {
+      "term": "Epistles",
+      "kind": "theological",
+      "forms": ["Epistles"]
+    },
+    {
+      "term": "evangelist",
+      "kind": "theological",
+      "forms": ["evangelist", "evangelists"]
+    }
+  ],
+  "allowed_to_change": [
+    {
+      "term": "abide in Christ / abide in it / abide in Christ's love",
+      "reason": "Phrase; its locked words (christ, christs) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Abraham's works",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "acceptable service",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "acceptable services",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "acceptance",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "acceptance with God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "acceptance with him",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "accepted as righteous in God's sight",
+      "reason": "Phrase; its locked words (gods) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "accepted of him",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "accepted time",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "access to God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "acknowledge God in all their ways",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "act of grace / grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "adorn the doctrine of God our Saviour",
+      "reason": "Phrase; its locked words (doctrine, god, saviour) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "advocate, counsellor, monitor, and comforter",
+      "reason": "Phrase; its locked words (advocate, comforter) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "afflictions",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "aids and influences (of the Spirit)",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "all knowledge, and almighty power",
+      "reason": "Phrase; its locked words (almighty) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "All mine are thine, and thine are mine",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "almighty power",
+      "reason": "Phrase; its locked words (almighty) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "altar",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "angel",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "our Anointed",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "an answer of peace",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "apostate",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "appear in glory",
+      "reason": "Phrase; its locked words (glory) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "appointed",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "appointed means",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "appointment from the beginning",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "approval with God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the archangel's trumpet",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "ascension",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "ask in Christ's name",
+      "reason": "Phrase; its locked words (christs) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Asking in Christ's name",
+      "reason": "Phrase; its locked words (christs) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "atonement for the sins of the world",
+      "reason": "Phrase; its locked words (atonement, sins) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "atoning sacrifice",
+      "reason": "Phrase; its locked words (atoning, sacrifice) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Author",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "author of all lies",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the Author of this blessed change",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "authority",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the authority of Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "awakened consciences",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "awakened soul",
+      "reason": "Phrase; its locked words (soul) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "backslide",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "baptism / baptize",
+      "reason": "Phrase; its locked words (baptism, baptize) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "baptized / baptism",
+      "reason": "Phrase; its locked words (baptism, baptized) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "baptized / the name into which ... baptized",
+      "reason": "Phrase; its locked words (baptized) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "bare record",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "bear testimony",
+      "reason": "Phrase; its locked words (testimony) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "bear witness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "bearing fruit / fruitful / fruitfulness / unfruitful",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Before Abraham was, I AM",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "before all worlds",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "belief of the truth",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "believe / believing in Christ",
+      "reason": "Phrase; its locked words (believe, believing, christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "believe in Christ",
+      "reason": "Phrase; its locked words (believe, christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "believe in him",
+      "reason": "Phrase; its locked words (believe) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "believe on him",
+      "reason": "Phrase; its locked words (believe) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "believed on him",
+      "reason": "Phrase; its locked words (believed) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "believer(s)",
+      "reason": "Phrase; its locked words (believer) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "believers / believing",
+      "reason": "Phrase; its locked words (believers, believing) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "believers / weak believers",
+      "reason": "Phrase; its locked words (believers) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "believing hope",
+      "reason": "Phrase; its locked words (believing) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "believing on him",
+      "reason": "Phrase; its locked words (believing) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "beloved Son",
+      "reason": "Phrase; its locked words (son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "beloved Son, in whom the Father is well pleased",
+      "reason": "Phrase; its locked words (father, son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "benefits of redemption",
+      "reason": "Phrase; its locked words (redemption) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the blessed Jesus",
+      "reason": "Phrase; its locked words (jesus) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the blessed Spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "blessedness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "blessing",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "blessings",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "blind by nature",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "bodily presence",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "bond of peace",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "bondage of sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "bonds",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "bore sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "branches",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "brazen serpent",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Bread of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Bread which came down from heaven",
+      "reason": "Phrase; its locked words (heaven) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "brethren",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "brotherly love",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "bruised reed",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "by nature",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "his call",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "calling evil good, and good evil",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "calling of the Gentiles",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "captivity to Satan",
+      "reason": "Phrase; its locked words (satan) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Carnal hearts",
+      "reason": "Phrase; its locked words (carnal) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "carnal hearts / carnal mind / carnal ends",
+      "reason": "Phrase; its locked words (carnal) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "The carnal mind",
+      "reason": "Phrase; its locked words (carnal) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "carnal pleasure",
+      "reason": "Phrase; its locked words (carnal) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "carnal reasonings",
+      "reason": "Phrase; its locked words (carnal) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "carnal wisdom",
+      "reason": "Phrase; its locked words (carnal) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "cast out",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the cause of Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "cause of stumbling",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "cause of the gospel",
+      "reason": "Phrase; its locked words (gospel) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "ceremonial law",
+      "reason": "Phrase; its locked words (law) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "change of state and character",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "chief end",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "child of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "children of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "children of the light and of the day",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "chosen",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "chosen unto salvation",
+      "reason": "Phrase; its locked words (salvation) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "chosen unto salvation, through sanctification of the Spirit and belief of the truth",
+      "reason": "Phrase; its locked words (salvation, sanctification, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ and his truths and ways",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ crucified",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ has overcome the world",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ makes free",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ our Master",
+      "reason": "Phrase; its locked words (christ, master) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ the Door",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ the righteous",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ the true Vine / the Vine, the true Vine",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ took again his own life",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Christ, the Son of God",
+      "reason": "Phrase; its locked words (christ, god, son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christian",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Christian sabbath",
+      "reason": "Phrase; its locked words (sabbath) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christian temper, disposition, and life",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Christianity",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Christianity / our religion",
+      "reason": "Phrase; its locked words (religion) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ's ascension",
+      "reason": "Phrase; its locked words (christs) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ's ascension into heaven",
+      "reason": "Phrase; its locked words (christs, heaven) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ's departure / his going away",
+      "reason": "Phrase; its locked words (christs) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ's favour",
+      "reason": "Phrase; its locked words (christs) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ's kingdom",
+      "reason": "Phrase; its locked words (christs, kingdom) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ's mercies",
+      "reason": "Phrase; its locked words (christs, mercies) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ's prediction",
+      "reason": "Phrase; its locked words (christs) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ's righteousness, imparted to us",
+      "reason": "Phrase; its locked words (christs, righteousness) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ's salvation",
+      "reason": "Phrase; its locked words (christs, salvation) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ's sufferings",
+      "reason": "Phrase; its locked words (christs) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Christ's sufferings and death",
+      "reason": "Phrase; its locked words (christs) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "church of God",
+      "reason": "Phrase; its locked words (church, god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the cleansing of the soul from the pollutions of sin",
+      "reason": "Phrase; its locked words (sin, soul) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "cleansing virtue",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "coexistence with the Father",
+      "reason": "Phrase; its locked words (father) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "comfortable evidences of the love of God in Christ",
+      "reason": "Phrase; its locked words (christ, god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "comforts",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the comforts of his Spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "comforts of the gospel",
+      "reason": "Phrase; its locked words (gospel) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "comforts of the gospel / waters of comfort",
+      "reason": "Phrase; its locked words (gospel) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the command of God our Saviour",
+      "reason": "Phrase; its locked words (god, saviour) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "commandment",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "commandments",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "commands / commandments / laws of Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "communion with God",
+      "reason": "Phrase; its locked words (communion, god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "communion with God and his saints",
+      "reason": "Phrase; its locked words (communion, god, saints) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "communion with him",
+      "reason": "Phrase; its locked words (communion) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "company of the redeemed",
+      "reason": "Phrase; its locked words (redeemed) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "condemned / condemnation",
+      "reason": "Phrase; its locked words (condemnation, condemned) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "condemning ignorance",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "condemning sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "conscience",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "conscience / good conscience",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "consciences",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "conversion / converted",
+      "reason": "Phrase; its locked words (conversion, converted) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "conversion of sinners",
+      "reason": "Phrase; its locked words (conversion, sinners) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "conversion of souls",
+      "reason": "Phrase; its locked words (conversion, souls) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "conviction",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "conviction / convictions / conviction of sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "conviction(s)",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "convictions",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the convictions of the word",
+      "reason": "Phrase; its locked words (word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "convince / convincing work",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "convince and convert",
+      "reason": "Phrase; its locked words (convert) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Corn of wheat",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "corrupt",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "corrupt hearts",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the corrupt nature",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "corrupt reasonings",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "corruption / corruptions",
+      "reason": "Phrase; its locked words (corruption, corruptions) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "counsel of Divine Wisdom",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the counsels of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "counsels of the Father",
+      "reason": "Phrase; its locked words (father) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "course of this world",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "creature",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "creature-comforts",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "cross of Christ",
+      "reason": "Phrase; its locked words (christ, cross) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "crosses",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "crucified / lifted up",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "crucifying Christ afresh",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "cup",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "curse of the law",
+      "reason": "Phrase; its locked words (curse, law) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "daily guilt",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "damned sinners",
+      "reason": "Phrase; its locked words (damned, sinners) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "darkness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "day of judgment",
+      "reason": "Phrase; its locked words (judgment) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "days of grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "days of life and of grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "dead faith",
+      "reason": "Phrase; its locked words (faith) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "dead in sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "dead souls",
+      "reason": "Phrase; its locked words (souls) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "dead to the praises of men",
+      "reason": "Phrase; its locked words (men) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "death",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "defiling",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "deliverance, temporal or spiritual",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "dependence upon Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "depravity of our nature",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "deserted soul",
+      "reason": "Phrase; its locked words (soul) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "destroying error",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "devout",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "die in our sins",
+      "reason": "Phrase; its locked words (sins) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "die to the Lord",
+      "reason": "Phrase; its locked words (lord) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "directed",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "disciple whom Jesus loved",
+      "reason": "Phrase; its locked words (disciple, jesus) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "disciple(s)",
+      "reason": "Phrase; its locked words (disciple) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "disciples of Christ",
+      "reason": "Phrase; its locked words (christ, disciples) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "distinguishing grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine and human nature",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine authority",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine breathing",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine glory",
+      "reason": "Phrase; its locked words (divine, glory) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine grace",
+      "reason": "Phrase; its locked words (divine, grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine law",
+      "reason": "Phrase; its locked words (divine, law) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine nature",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Divine nature / the human nature",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine offices",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine origin",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine perfections",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine power",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine power and authority",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine power and perfection",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine presence",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine Providence",
+      "reason": "Phrase; its locked words (divine, providence) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine Teacher",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine things",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine truth",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine Wisdom",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divine word",
+      "reason": "Phrase; its locked words (divine, word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divinity",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Divinity of Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Divinity of Christ's person",
+      "reason": "Phrase; its locked words (christs) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "doctrinal statements",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "doctrine / the doctrine of Christ",
+      "reason": "Phrase; its locked words (christ, doctrine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "doctrine of Christ",
+      "reason": "Phrase; its locked words (christ, doctrine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "doctrine of Christ's grace",
+      "reason": "Phrase; its locked words (christs, doctrine, grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "doctrine of his cross",
+      "reason": "Phrase; its locked words (cross, doctrine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "doctrine, kingdom, and blessings",
+      "reason": "Phrase; its locked words (doctrine, kingdom) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Door",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "drawing back / backslide",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "draws",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "duties",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "duty",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "duty of disciples",
+      "reason": "Phrase; its locked words (disciples) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "edifying",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "effectual",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Elias",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the end of the law",
+      "reason": "Phrase; its locked words (law) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the end thereof is death",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "enlightened to salvation",
+      "reason": "Phrase; its locked words (salvation) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "enmity against God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "enmity of the heart of man to God",
+      "reason": "Phrase; its locked words (god, man) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "enmity of the human heart against God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "equal with God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "errors",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "eternal moment",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "eternal welfare",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "eternity",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "everlasting happiness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "everlasting happiness of believers",
+      "reason": "Phrase; its locked words (believers) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "everlasting punishment",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "everlasting punishment of the wicked",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "everlasting righteousness",
+      "reason": "Phrase; its locked words (righteousness) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "every weight",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "evidence of our interest in Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the evil",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "exceedingly sinful",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the experienced Christian",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "faith / faith alone",
+      "reason": "Phrase; its locked words (faith) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "faith / the exercise of their faith",
+      "reason": "Phrase; its locked words (faith) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "faith and hope",
+      "reason": "Phrase; its locked words (faith) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "faith in him",
+      "reason": "Phrase; its locked words (faith) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "faith in Jesus Christ",
+      "reason": "Phrase; its locked words (christ, faith, jesus) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "faith worketh by love",
+      "reason": "Phrase; its locked words (faith) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "faith, hope, and prayer",
+      "reason": "Phrase; its locked words (faith, prayer) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "his faithful disciples",
+      "reason": "Phrase; its locked words (disciples) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "faithful minister",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "faithfulness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "faithless / Christless / graceless / hopeless / joyless",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "fallen sinners",
+      "reason": "Phrase; its locked words (sinners) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "false professor",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "a Father / our Father's will / his love",
+      "reason": "Phrase; its locked words (father, fathers) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Father and Son",
+      "reason": "Phrase; its locked words (father, son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Father and Son are one",
+      "reason": "Phrase; its locked words (father, son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Father and the Son / union of the Father and the Son",
+      "reason": "Phrase; its locked words (father, son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Father of lights",
+      "reason": "Phrase; its locked words (father) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Father who sent him",
+      "reason": "Phrase; its locked words (father) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "favour of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "fear of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "feast of tabernacles",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "feed the sheep and lambs of Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "fervent prayers",
+      "reason": "Phrase; its locked words (prayers) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "final judgment",
+      "reason": "Phrase; its locked words (judgment) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "find favour",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Finisher / Author or Beginner",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the First and the Last",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "first day of the week",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "first principles",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "first-fruits",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the flesh",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "flesh and blood of the Son of man",
+      "reason": "Phrase; its locked words (man, son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "followers of Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "following Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "for Christ's name's sake",
+      "reason": "Phrase; its locked words (christs) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "for Christ's sake",
+      "reason": "Phrase; its locked words (christs) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "for us",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "forgiven",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "forgiveness of past sins",
+      "reason": "Phrase; its locked words (forgiveness, sins) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "forgiveness of sins",
+      "reason": "Phrase; its locked words (forgiveness, sins) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "form of a servant",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "formal profession",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "forms of religion",
+      "reason": "Phrase; its locked words (religion) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "found in fashion as a man",
+      "reason": "Phrase; its locked words (man) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "free gift",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "freedom",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "fruit of Christ's death",
+      "reason": "Phrase; its locked words (christs) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the fulfilling of Scripture",
+      "reason": "Phrase; its locked words (scripture) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "fulfilling of the Scriptures",
+      "reason": "Phrase; its locked words (scriptures) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "full of grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "full of truth",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "fulness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "fulness in Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "fulness of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "fulness of the Spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "fulness of time",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "garden of Eden",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Gentiles",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "gift of the Spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "gifts",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "gifts and graces",
+      "reason": "Phrase; its locked words (graces) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "gifts and graces of God's Spirit",
+      "reason": "Phrase; its locked words (gods, graces, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "gifts and graces of the Spirit",
+      "reason": "Phrase; its locked words (graces, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "given to the Son",
+      "reason": "Phrase; its locked words (son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "given up to errors",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "glorified / glorifying / glorify",
+      "reason": "Phrase; its locked words (glorified, glorify) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "glorified his name",
+      "reason": "Phrase; its locked words (glorified) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "glorified Redeemer",
+      "reason": "Phrase; its locked words (glorified, redeemer) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "glorify Christ",
+      "reason": "Phrase; its locked words (christ, glorify) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "glorify God",
+      "reason": "Phrase; its locked words (glorify, god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "glory and grace",
+      "reason": "Phrase; its locked words (glory, grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "glory of God",
+      "reason": "Phrase; its locked words (glory, god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "glory of the Father",
+      "reason": "Phrase; its locked words (father, glory) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God and man",
+      "reason": "Phrase; its locked words (god, man) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God blessed for evermore",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God dwelling in human nature",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God is light",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God manifest in the flesh",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God manifested in the flesh",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God of power",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God our Saviour",
+      "reason": "Phrase; its locked words (god, saviour) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God, as a Father / Father of all believers",
+      "reason": "Phrase; its locked words (believers, father, god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "godliness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "godly",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "God's Anointed",
+      "reason": "Phrase; its locked words (gods) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God's appointments",
+      "reason": "Phrase; its locked words (gods) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God's favourable presence",
+      "reason": "Phrase; its locked words (gods) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God's glory",
+      "reason": "Phrase; its locked words (glory, gods) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God's house",
+      "reason": "Phrase; its locked words (gods) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God's injured honour",
+      "reason": "Phrase; its locked words (gods) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God's love",
+      "reason": "Phrase; its locked words (gods) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God's mercies",
+      "reason": "Phrase; its locked words (gods, mercies) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God's people",
+      "reason": "Phrase; its locked words (gods) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God's providence",
+      "reason": "Phrase; its locked words (gods, providence) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God's purposes",
+      "reason": "Phrase; its locked words (gods) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God's service",
+      "reason": "Phrase; its locked words (gods) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God's Spirit",
+      "reason": "Phrase; its locked words (gods, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God's will",
+      "reason": "Phrase; its locked words (gods) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "God's word",
+      "reason": "Phrase; its locked words (gods, word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "good Shepherd",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "good word and work",
+      "reason": "Phrase; its locked words (word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "a good work",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "a good work in his heart",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "gospel benefit",
+      "reason": "Phrase; its locked words (gospel) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "gospel call",
+      "reason": "Phrase; its locked words (gospel) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "gospel duty",
+      "reason": "Phrase; its locked words (gospel) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "gospel of Christ",
+      "reason": "Phrase; its locked words (christ, gospel) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "gospel of grace",
+      "reason": "Phrase; its locked words (gospel, grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "gospel pardon",
+      "reason": "Phrase; its locked words (gospel, pardon) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "gospel passover",
+      "reason": "Phrase; its locked words (gospel, passover) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "gospel truths",
+      "reason": "Phrase; its locked words (gospel) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "grace and truth",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the grace and truth of Christ",
+      "reason": "Phrase; its locked words (christ, grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "grace for grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "grace of Christ",
+      "reason": "Phrase; its locked words (christ, grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "grace of God",
+      "reason": "Phrase; its locked words (god, grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "grace of the gospel",
+      "reason": "Phrase; its locked words (gospel, grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "grace sufficient",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "graceless",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "graces of the Spirit",
+      "reason": "Phrase; its locked words (graces, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "gracious intentions",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "gracious words",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "graciously accepted",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "grave of sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "great Shepherd of the sheep",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the great tribunal",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "our Guide",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "guile",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "guilt",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "guilt of their sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "guilty before God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Happiness and Portion",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "harvest / harvest-work",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "have a part in Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "He is in the Father, and the Father in Him",
+      "reason": "Phrase; its locked words (father) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "HE THAT IS",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "heal",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "heart-searching God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "hearts and consciences",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "heaven / a father's house",
+      "reason": "Phrase; its locked words (fathers, heaven) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "heavenly and Divine nature",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "heavenly glory",
+      "reason": "Phrase; its locked words (glory) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "heavenly happiness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "heir to joy",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "heirs of Abraham's faith",
+      "reason": "Phrase; its locked words (faith) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "hide pride from them",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "holiness and happiness",
+      "reason": "Phrase; its locked words (holiness) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "holiness of God",
+      "reason": "Phrase; its locked words (god, holiness) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "holiness of the heart",
+      "reason": "Phrase; its locked words (holiness) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "holy / The holy God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "holy affections",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "holy angels",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "holy boldness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "his holy day",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Holy Ghost / Holy Spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "The holy God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Holy One of Israel",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "holy ordinances",
+      "reason": "Phrase; its locked words (ordinances) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Holy Spirit's presence",
+      "reason": "Phrase; its locked words (spirits) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "holy tempers",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "honour the Son, as they honour the Father",
+      "reason": "Phrase; its locked words (father, son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "honouring Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "honours",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "hope",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Hope and Consolation of Israel",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "hope of glory",
+      "reason": "Phrase; its locked words (glory) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "hopes of heaven",
+      "reason": "Phrase; its locked words (heaven) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "His hour",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "house of merchandise",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "human and Divine natures",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "human nature",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "humble ourselves",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "his humbled state",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "humbling himself",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "humbling their souls",
+      "reason": "Phrase; its locked words (souls) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "humility",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the Husbandman",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "idol",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "idolatry",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the ignorance of foolish men",
+      "reason": "Phrase; its locked words (men) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "image of the invisible God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "immortal soul",
+      "reason": "Phrase; its locked words (soul) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "impotent folk in spiritual things",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "in all fulness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "in Christ's name",
+      "reason": "Phrase; its locked words (christs) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "in the beginning",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "in the place and stead of men",
+      "reason": "Phrase; its locked words (men) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "in the world, but not of it",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "infidel",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "infirmities",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "influences",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "innocence",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "integrity",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "interest in Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Israelites indeed",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "It is the Lord",
+      "reason": "Phrase; its locked words (lord) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "its own evidence",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "its own interpreter",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Jesus Christ",
+      "reason": "Phrase; its locked words (christ, jesus) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Jews and Gentiles",
+      "reason": "Phrase; its locked words (jews) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "John the Baptist",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the joy set before him / endured the cross and despised the shame",
+      "reason": "Phrase; its locked words (cross) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Judge",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Judge of all men",
+      "reason": "Phrase; its locked words (men) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "justice",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "justification / justified",
+      "reason": "Phrase; its locked words (justification, justified) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "justification before God",
+      "reason": "Phrase; its locked words (god, justification) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "a justified state",
+      "reason": "Phrase; its locked words (justified) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "justify / sanctify; justified and sanctified in his name",
+      "reason": "Phrase; its locked words (justified, justify, sanctified, sanctify) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "King of the Jews",
+      "reason": "Phrase; its locked words (jews) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "kingdom / the nature of his kingdom",
+      "reason": "Phrase; its locked words (kingdom) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "kingdom of heaven",
+      "reason": "Phrase; its locked words (heaven, kingdom) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "kingdom of the Messiah",
+      "reason": "Phrase; its locked words (kingdom, messiah) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "a kingdom within men",
+      "reason": "Phrase; its locked words (kingdom, men) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "knowledge and grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "knowledge of the truth",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "laid down his life of himself",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Lamb slain from the foundation of the world",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the last day",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "law of God",
+      "reason": "Phrase; its locked words (god, law) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "law of Moses",
+      "reason": "Phrase; its locked words (law) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "led into a truth",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "left to ourselves",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the letter",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the letter of the Scriptures",
+      "reason": "Phrase; its locked words (scriptures) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "liberty / the Son makes us free",
+      "reason": "Phrase; its locked words (son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "liberty by Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "life and godliness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "our life is hid with Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Life of men",
+      "reason": "Phrase; its locked words (men) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "life through his name",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "life with Jesus Christ",
+      "reason": "Phrase; its locked words (christ, jesus) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "life-giving Spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "lift up the heel against Him",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Light",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "light in us",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "a Light into the world",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the light of the gospel",
+      "reason": "Phrase; its locked words (gospel) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Light of the world",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "a living and a working faith",
+      "reason": "Phrase; its locked words (faith) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "living Bread",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the living God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "living water",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "living, active principle in the heart",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "living, running water",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Our Lord Jesus",
+      "reason": "Phrase; its locked words (jesus, lord) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Lord Jesus / Christ",
+      "reason": "Phrase; its locked words (christ, jesus, lord) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Lord Jesus / our Lord",
+      "reason": "Phrase; its locked words (jesus, lord) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Lord Jesus / our Master",
+      "reason": "Phrase; its locked words (jesus, lord, master) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Our Lord Jesus / the Lord Jesus",
+      "reason": "Phrase; its locked words (jesus, lord) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Lord our Righteousness",
+      "reason": "Phrase; its locked words (lord, righteousness) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Lord's day",
+      "reason": "Phrase; its locked words (lords) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Lord's methods",
+      "reason": "Phrase; its locked words (lords) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "love darkness rather than light",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "love of Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "love of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "love of God in Christ",
+      "reason": "Phrase; its locked words (christ, god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the love of God is shed abroad in his heart by the Holy Ghost",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "love of the world",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the love of the world / the sorrow of the world",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "love one another",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "love one another with a pure heart fervently",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "love to Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "loves to the end",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "lusts of the mind",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "made himself a curse for us",
+      "reason": "Phrase; its locked words (curse) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "made whole",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "make perfect the faith",
+      "reason": "Phrase; its locked words (faith) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Make ye a new heart",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "making his Son sin",
+      "reason": "Phrase; its locked words (sin, son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "a man of sorrows, and acquainted with grief",
+      "reason": "Phrase; its locked words (man) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "manna",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "man's nature",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "many sons to be brought to glory",
+      "reason": "Phrase; its locked words (glory) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "means of grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "means of knowledge and conviction",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "mediation",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the mediation of Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Mediator between God and man",
+      "reason": "Phrase; its locked words (god, man, mediator) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "meekness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "mercy / our own mercies",
+      "reason": "Phrase; its locked words (mercies, mercy) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "mercy, truth, and power",
+      "reason": "Phrase; its locked words (mercy) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "merit",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the merit and power of his death",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "merit of his death",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Messiah / the Christ",
+      "reason": "Phrase; its locked words (christ, messiah) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Messiah the Prince",
+      "reason": "Phrase; its locked words (messiah) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Messiah's kingdom",
+      "reason": "Phrase; its locked words (kingdom) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "methods of grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "ministers",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "ministry",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the ministry of the word",
+      "reason": "Phrase; its locked words (word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "miraculous gifts of the Holy Spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "mortify their corruptions",
+      "reason": "Phrase; its locked words (corruptions) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "mortifying their sins",
+      "reason": "Phrase; its locked words (sins) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Moses",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "most holy faith",
+      "reason": "Phrase; its locked words (faith) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "mourn for sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "My Lord and my God",
+      "reason": "Phrase; its locked words (god, lord) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "mysteries",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the name or character of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "natural conscience",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the natural man",
+      "reason": "Phrase; its locked words (man) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "nature, office, and character",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "The net of the gospel",
+      "reason": "Phrase; its locked words (gospel) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "new and living Way",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "a new commandment",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "new creatures",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "new nature",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "new principles, new affections, new aims",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "new-creating grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "newness of life",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Nicodemites",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "no salvation in any other",
+      "reason": "Phrase; its locked words (salvation) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "not by measure",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "offence",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "offended at Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the offerer and the offering",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "an offering for our sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "offering up himself without spot unto God, by the eternal Spirit",
+      "reason": "Phrase; its locked words (god, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the offers of the gospel",
+      "reason": "Phrase; its locked words (gospel) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "office",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "office (of the Spirit)",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the oil of gladness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "oil of gladness above his fellows",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "old serpent",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Old Testament",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the old world",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "one",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "one body under one head",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "one body, animated by one soul",
+      "reason": "Phrase; its locked words (soul) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the one living and true God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "one with and equal to the Father",
+      "reason": "Phrase; its locked words (father) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "one with the Father",
+      "reason": "Phrase; its locked words (father) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "only begotten and beloved Son",
+      "reason": "Phrase; its locked words (son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "ordinance of baptism",
+      "reason": "Phrase; its locked words (baptism, ordinance) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "ordinances of Christ's appointment",
+      "reason": "Phrase; its locked words (christs, ordinances) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the other world",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "outward profession",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "outward rite",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "outward sign",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "over all, God blessed for evermore",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "owns and saves",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "pardon of sin",
+      "reason": "Phrase; its locked words (pardon, sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "pardon of their sin",
+      "reason": "Phrase; its locked words (pardon, sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "pardon their sins",
+      "reason": "Phrase; its locked words (pardon, sins) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "pardoned sins",
+      "reason": "Phrase; its locked words (pardoned, sins) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "pardoning",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "partake of Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "partake of salvation",
+      "reason": "Phrase; its locked words (salvation) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "partakers",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "partakers of the Holy Spirit’s new-creating grace",
+      "reason": "Phrase; its locked words (grace, spirits) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "our Peace",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "peace / his peace / our Peace / peace of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Peace in Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "peace in Christ / peace with God",
+      "reason": "Phrase; its locked words (christ, god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "peace of mind from our justification before God",
+      "reason": "Phrase; its locked words (god, justification) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "peace with God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "a peculiar people",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "a people in the world that are his own",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "perfect righteousness",
+      "reason": "Phrase; its locked words (righteousness) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "perfection",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "perish",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Persecution / persecutors",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Person",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Pharisees or hypocrites",
+      "reason": "Phrase; its locked words (hypocrites) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "pious",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "plea",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "plead for us",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "power",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the power and grace of the Lord Jesus",
+      "reason": "Phrase; its locked words (grace, jesus, lord) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the power of Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "power of death",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the power of his death",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "power of sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the power of the blessed Spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the power of the Holy Spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "power of their sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "power to give judgment / power to declare",
+      "reason": "Phrase; its locked words (judgment) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "powers of darkness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "our practice",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "preachers of the gospel",
+      "reason": "Phrase; its locked words (gospel) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "preaching",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "preaching of the cross",
+      "reason": "Phrase; its locked words (cross) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "precepts",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "precious promises",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "precious souls",
+      "reason": "Phrase; its locked words (souls) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "present evil world",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "present with his Lord",
+      "reason": "Phrase; its locked words (lord) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "pride and envy, wrath and malice, enmity to good",
+      "reason": "Phrase; its locked words (wrath) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the prince of this world",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "principle of grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "principle of gratitude",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "privilege of a believer",
+      "reason": "Phrase; its locked words (believer) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "privileges of Abraham",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "privileges of disciples",
+      "reason": "Phrase; its locked words (disciples) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "profession",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "profession of religion",
+      "reason": "Phrase; its locked words (religion) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "professors",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the promise",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "promised Messiah",
+      "reason": "Phrase; its locked words (messiah) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "promised Seed",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "promises",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "promises of the covenant",
+      "reason": "Phrase; its locked words (covenant) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "prophecies",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "prophecies of the Old Testament",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "prophecy",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "providence and grace",
+      "reason": "Phrase; its locked words (grace, providence) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "providence of God",
+      "reason": "Phrase; its locked words (god, providence) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "pruning",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "public justice",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "punishment of sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "purchased",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "purchased them to himself",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "purchased them, and paid dear for them",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "purchases pardon",
+      "reason": "Phrase; its locked words (pardon) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "pure heart fervently",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "purification",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "purifying grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "purposes of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "quicken / quickened",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "quickened",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "quickening Spirit of God",
+      "reason": "Phrase; its locked words (god, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "raising the dead in their graves",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "received Christ Jesus the Lord",
+      "reason": "Phrase; its locked words (christ, jesus, lord) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "received up into glory",
+      "reason": "Phrase; its locked words (glory) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "receives Christ for his salvation",
+      "reason": "Phrase; its locked words (christ, salvation) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "reconciled and united",
+      "reason": "Phrase; its locked words (reconciled) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "reconciling the world to God",
+      "reason": "Phrase; its locked words (god, reconciling) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "reconciling the world to himself",
+      "reason": "Phrase; its locked words (reconciling) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "record",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "records his name",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "redeem and save",
+      "reason": "Phrase; its locked words (redeem) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "redeem us to God by his blood",
+      "reason": "Phrase; its locked words (god, redeem) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "redeemed soul",
+      "reason": "Phrase; its locked words (redeemed, soul) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "redemption wrought out by him",
+      "reason": "Phrase; its locked words (redemption) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "regenerating work of the Holy Spirit",
+      "reason": "Phrase; its locked words (regenerating, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "rejected of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "reliance upon Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "religious assembly",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "religious exercises",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "religiously observed / religious observance",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "remembrancer",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "renewed hearts",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "repent and believe the gospel",
+      "reason": "Phrase; its locked words (believe, gospel, repent) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "reproach of the cross",
+      "reason": "Phrase; its locked words (cross) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "reprove",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Resurrection and the Life",
+      "reason": "Phrase; its locked words (resurrection) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "resurrection to eternal life",
+      "reason": "Phrase; its locked words (resurrection) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "revealed will of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "revelation of God",
+      "reason": "Phrase; its locked words (god, revelation) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "revelation of God to man in Christ",
+      "reason": "Phrase; its locked words (christ, god, man, revelation) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "righteous ground",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the righteousness finished",
+      "reason": "Phrase; its locked words (righteousness) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the righteousness of Christ",
+      "reason": "Phrase; its locked words (christ, righteousness) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "rites",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "ruler and refuge",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the sabbath rest",
+      "reason": "Phrase; its locked words (sabbath) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the sabbath work",
+      "reason": "Phrase; its locked words (sabbath) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sabbath-breaking",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "sacred writers",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "a Sacrifice for our sins",
+      "reason": "Phrase; its locked words (sacrifice, sins) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sacrifice for the sins of the world",
+      "reason": "Phrase; its locked words (sacrifice, sins) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "salvation of his people",
+      "reason": "Phrase; its locked words (salvation) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "salvation of men by Jesus Christ",
+      "reason": "Phrase; its locked words (christ, jesus, men, salvation) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the same word",
+      "reason": "Phrase; its locked words (word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sanctification / sanctify / sanctifying grace",
+      "reason": "Phrase; its locked words (grace, sanctification, sanctify) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sanctification of the Spirit",
+      "reason": "Phrase; its locked words (sanctification, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sanctified throughout",
+      "reason": "Phrase; its locked words (sanctified) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sanctifying",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "sanctifying and comforting influences of the Holy Spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sanctifying grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Satan as a destroyer / as a deceiver",
+      "reason": "Phrase; its locked words (satan) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Satan the prince of this world",
+      "reason": "Phrase; its locked words (satan) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "satisfy God's injured honour",
+      "reason": "Phrase; its locked words (gods) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "save them from their sins",
+      "reason": "Phrase; its locked words (sins) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "save to the uttermost",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "save to the uttermost, all that come unto God by him",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "saved",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "saved / salvation of souls",
+      "reason": "Phrase; its locked words (salvation, souls) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "saving knowledge",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Saviour / Saviour of the world",
+      "reason": "Phrase; its locked words (saviour) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Saviour of sinners",
+      "reason": "Phrase; its locked words (saviour, sinners) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Saviour of the world",
+      "reason": "Phrase; its locked words (saviour) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sayings of the Lord Jesus",
+      "reason": "Phrase; its locked words (jesus, lord) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "scripture / the Scripture",
+      "reason": "Phrase; its locked words (scripture) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Scripture / the Scriptures",
+      "reason": "Phrase; its locked words (scripture, scriptures) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Scripture language",
+      "reason": "Phrase; its locked words (scripture) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Scripture terms",
+      "reason": "Phrase; its locked words (scripture) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Scripture truth",
+      "reason": "Phrase; its locked words (scripture) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sealed",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "sealed up in ignorance",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "seasons of grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "second coming",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "secret things... things revealed",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "see death",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "self-condemned",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "self-existence",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "sent of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the sentence of the law",
+      "reason": "Phrase; its locked words (law) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "service of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "serving Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "set them apart for himself",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "shapen in sin / shapen in iniquity",
+      "reason": "Phrase; its locked words (iniquity, sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "shed abroad the love of Christ in our hearts",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sheep of his pasture",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "sheep-fold / fold",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "sign",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "signs",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "sin (fact, fault, folly, filth, fountain, fruit of sin)",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sin / remains of sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sin / sinfulness",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sin / sins",
+      "reason": "Phrase; its locked words (sin, sins) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sin and Satan",
+      "reason": "Phrase; its locked words (satan, sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sin would be forgiven",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sincerity",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "sinful lust",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "sinful world",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "sinfulness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "sinned / sinful",
+      "reason": "Phrase; its locked words (sinned) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the sinner's way to eternal life",
+      "reason": "Phrase; its locked words (sinners) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the sinner's Way to the Father",
+      "reason": "Phrase; its locked words (father, sinners) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sins of Christians",
+      "reason": "Phrase; its locked words (sins) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "slave to that sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "slavish fear",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "slavish fear of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sleep",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the solemn day",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the Son and the Father were one",
+      "reason": "Phrase; its locked words (father, son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Son of God His Divine glory",
+      "reason": "Phrase; its locked words (divine, glory, god, son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Son of the Highest",
+      "reason": "Phrase; its locked words (son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Son of the living God",
+      "reason": "Phrase; its locked words (god, son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the sons of men",
+      "reason": "Phrase; its locked words (men) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "souls of sinners",
+      "reason": "Phrase; its locked words (sinners, souls) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "sound and saving",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "speak peace",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "special punishments of sin",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Spirit / Holy Spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Spirit and grace",
+      "reason": "Phrase; its locked words (grace, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "spirit and power of Elias",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Spirit of Christ's grace",
+      "reason": "Phrase; its locked words (christs, grace, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Spirit of God",
+      "reason": "Phrase; its locked words (god, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Spirit of God / the Spirit / Holy Spirit / Holy Ghost / eternal Spirit",
+      "reason": "Phrase; its locked words (god, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Spirit of grace",
+      "reason": "Phrase; its locked words (grace, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the Spirit of life",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "spiritual",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritual affections",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritual blessings",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritual concerns",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritual cure",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritual diseases",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritual import of the Divine law",
+      "reason": "Phrase; its locked words (divine, law) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "spiritual liberty",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritual life",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritual nature of Christ's kingdom",
+      "reason": "Phrase; its locked words (christs, kingdom) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "spiritual things",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritual tokens",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritual wants",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritual wants / spiritual blessings",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritual washing",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritual welfare",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritual wickedness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritually blind",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spiritually washed",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "spotless purity",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "standing testimony",
+      "reason": "Phrase; its locked words (testimony) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "strangers and sojourners",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "subjects of this kingdom / of the truth",
+      "reason": "Phrase; its locked words (kingdom) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "submission",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "submission to God's will",
+      "reason": "Phrase; its locked words (gods) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "submission to the will of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the substance ... the shadows",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "supplications",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "supplications / thanksgivings",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "supports and supplies",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Supreme Judge",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "taken man's nature",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "takes away the sin of the world",
+      "reason": "Phrase; its locked words (sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Teacher",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the teaching of his Spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "temple",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "temptations and snares",
+      "reason": "Phrase; its locked words (temptations) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the testimony of a good conscience",
+      "reason": "Phrase; its locked words (testimony) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "thanksgivings",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "that promised Seed",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "that Prophet",
+      "reason": "Phrase; its locked words (prophet) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "that Prophet / a great Prophet",
+      "reason": "Phrase; its locked words (prophet) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "things of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the things of the Spirit of God",
+      "reason": "Phrase; its locked words (god, spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the things which are above",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the throne of grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "through grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "thy truth",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "thy word is truth",
+      "reason": "Phrase; its locked words (word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "time appointed of the Father",
+      "reason": "Phrase; its locked words (father) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "tongues, and miracles",
+      "reason": "Phrase; its locked words (miracles) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "took our nature upon him",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "traditions",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "transfigured",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "tries the heart",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "trouble of spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "true believer",
+      "reason": "Phrase; its locked words (believer) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "true believers",
+      "reason": "Phrase; its locked words (believers) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "true Bread",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "true Christian",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "true Christianity",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "true Christians",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "his true disciple",
+      "reason": "Phrase; its locked words (disciple) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "true Light",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "true penitent",
+      "reason": "Phrase; its locked words (penitent) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "true Vine",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the truth",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "truth / the Truth / his truth",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "truth of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "truths",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Turn and live",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the twelve",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "two distinct natures in one person",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "type",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "types",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "unbelief / unbelieving",
+      "reason": "Phrase; its locked words (unbelief) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "unbelievers / unbelief",
+      "reason": "Phrase; its locked words (unbelief, unbelievers) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "unfeigned love",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "unforgiven guilt",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the ungodly",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "Ungodly men",
+      "reason": "Phrase; its locked words (men) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "union",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "union of the Father and the Son",
+      "reason": "Phrase; its locked words (father, son) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the union of the human and Divine natures",
+      "reason": "Phrase; its locked words (divine) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "union with him by faith",
+      "reason": "Phrase; its locked words (faith) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "unity of the Spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the unity of the Spirit in the bond of peace",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "unpardoned",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the unseen world",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "unworthiness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "unwritten traditions",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "an upright heart",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "veil of flesh",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "walk before God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "walk humbly with our God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "walks in darkness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "watch and pray",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "way of duty",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "way of figure",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the way of his duty",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the Way, the Truth, the Life",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "when enemies",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the whole man, with all its parts and powers",
+      "reason": "Phrase; its locked words (man) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "whom God has chosen",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the wicked",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the will and glory of God",
+      "reason": "Phrase; its locked words (glory, god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the will of Christ",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the will of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "wisdom and holiness",
+      "reason": "Phrase; its locked words (holiness) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "wisdom of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "Wisdom, Righteousness, Sanctification, and Redemption",
+      "reason": "Phrase; its locked words (redemption, righteousness, sanctification) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "wise unto salvation",
+      "reason": "Phrase; its locked words (salvation) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "without Christ we can do nothing",
+      "reason": "Phrase; its locked words (christ) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "word (his word / the word / God's word)",
+      "reason": "Phrase; its locked words (gods, word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "his word / the word of eternal life",
+      "reason": "Phrase; its locked words (word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "his word and ordinances",
+      "reason": "Phrase; its locked words (ordinances, word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the word and providence of God",
+      "reason": "Phrase; its locked words (god, providence, word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "his word and Spirit",
+      "reason": "Phrase; its locked words (spirit, word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the word of Christ",
+      "reason": "Phrase; its locked words (christ, word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the word of Christ / that word",
+      "reason": "Phrase; its locked words (christ, word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the word of eternal life",
+      "reason": "Phrase; its locked words (word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the word of Jesus",
+      "reason": "Phrase; its locked words (jesus, word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the word of salvation",
+      "reason": "Phrase; its locked words (salvation, word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the word of the Lord",
+      "reason": "Phrase; its locked words (lord, word) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "a work already wrought in a man",
+      "reason": "Phrase; its locked words (man) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the work of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the work of grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the work of grace in the soul",
+      "reason": "Phrase; its locked words (grace, soul) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the work of his grace",
+      "reason": "Phrase; its locked words (grace) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "workers of iniquity",
+      "reason": "Phrase; its locked words (iniquity) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "works meet for repentance",
+      "reason": "Phrase; its locked words (repentance) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "works of darkness",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "works of necessity and mercy",
+      "reason": "Phrase; its locked words (mercy) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the world",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "the world / spirit of the world",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the world and the flesh",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "worldly",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "worldly / worldly wisdom",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "worship",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "worship / object of worship / place of worship",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "worship of God",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "worship of God in their families",
+      "reason": "Phrase; its locked words (god) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "worshipped",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "worshipped / worship",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "wounded spirit",
+      "reason": "Phrase; its locked words (spirit) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the wrath of God",
+      "reason": "Phrase; its locked words (god, wrath) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the wrath to come",
+      "reason": "Phrase; its locked words (wrath) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "the wrong done to God by the sin of man",
+      "reason": "Phrase; its locked words (god, man, sin) are counted individually. Wording rule still applies."
+    },
+    {
+      "term": "zeal",
+      "reason": "Not count-locked. The general wording rule still applies: keep Henry's word unless archaic or shifted."
+    },
+    {
+      "term": "zealous for the Lord",
+      "reason": "Phrase; its locked words (lord) are counted individually. Wording rule still applies."
+    }
+  ]
+}
