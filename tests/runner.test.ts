@@ -70,7 +70,9 @@ beforeEach(() => {
 });
 
 afterAll(() => {
-  process.env.TMPDIR = originalTmp;
+  // Assigning undefined would store the string "undefined" and break later tests' tmpdir().
+  if (originalTmp === undefined) delete process.env.TMPDIR;
+  else process.env.TMPDIR = originalTmp;
   for (const root of roots) rmSync(root, { recursive: true, force: true });
 });
 
