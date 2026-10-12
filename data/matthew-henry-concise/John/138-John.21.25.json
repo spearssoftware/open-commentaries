@@ -25,16 +25,7 @@
   ],
   "quotes": [
     {
-      "span": "for all that is in the",
-      "osis": "1John.2.16",
-      "source": "code",
-      "kjv_match": "exact",
-      "kjv_text": "For all that is in the world, the lust of the flesh, and the lust of the eyes, and the pride of life, is not of the Father, but is of the world.",
-      "bsb_text": "For all that is in the world — the desires of the flesh, the desires of the eyes, and the pride of life — is not from the Father but from the world.",
-      "bsb_note": null
-    },
-    {
-      "span": "These are written that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name",
+      "span": "written that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name",
       "osis": "John.20.31",
       "source": "code",
       "kjv_match": "exact",

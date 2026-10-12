@@ -23,30 +23,12 @@
   "references": [],
   "quotes": [
     {
-      "span": "with God. All things were made by him, and",
-      "osis": "John.1.2-John.1.3",
-      "source": "code",
-      "kjv_match": "exact",
-      "kjv_text": "The same was in the beginning with God. All things were made by him; and without him was not any thing made that was made.",
-      "bsb_text": "He was with God in the beginning. Through Him all things were made, and without Him nothing was made that has been made.",
-      "bsb_note": null
-    },
-    {
       "span": "Without him was not any thing made that was made",
       "osis": "John.1.3",
       "source": "code",
       "kjv_match": "exact",
       "kjv_text": "All things were made by him; and without him was not any thing made that was made.",
       "bsb_text": "Through Him all things were made, and without Him nothing was made that has been made.",
-      "bsb_note": null
-    },
-    {
-      "span": "that our eyes may be opened",
-      "osis": "Matt.20.33",
-      "source": "code",
-      "kjv_match": "exact",
-      "kjv_text": "They say unto him, Lord, that our eyes may be opened.",
-      "bsb_text": "“Lord,” they answered, “let our eyes be opened.”",
       "bsb_note": null
     }
   ],

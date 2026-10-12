@@ -20,24 +20,6 @@
   "references": [],
   "quotes": [
     {
-      "span": "by the word of God, and",
-      "osis": "1Tim.4.5",
-      "source": "code",
-      "kjv_match": "exact",
-      "kjv_text": "For it is sanctified by the word of God and prayer.",
-      "bsb_text": "because it is sanctified by the word of God and prayer.",
-      "bsb_note": null
-    },
-    {
-      "span": "in the way of his heart",
-      "osis": "Isa.57.17",
-      "source": "code",
-      "kjv_match": "exact",
-      "kjv_text": "For the iniquity of his covetousness was I wroth, and smote him: I hid me, and was wroth, and he went on frowardly in the way of his heart.",
-      "bsb_text": "I was enraged by his sinful greed, so I struck him and hid My face in anger; yet he kept turning back to the desires of his heart.",
-      "bsb_note": null
-    },
-    {
       "span": "according to the course of this world",
       "osis": "Eph.2.2",
       "source": "code",
@@ -47,7 +29,7 @@
       "bsb_note": null
     },
     {
-      "span": "because there is no light in him",
+      "span": "because there is no light",
       "osis": "John.11.10",
       "source": "code",
       "kjv_match": "exact",

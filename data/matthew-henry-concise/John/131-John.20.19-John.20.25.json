@@ -29,21 +29,12 @@
   "references": [],
   "quotes": [
     {
-      "span": "the first day of the week",
+      "span": "first day of the week",
       "osis": null,
       "source": "code",
       "kjv_match": "loose",
       "kjv_text": null,
       "bsb_text": null,
-      "bsb_note": null
-    },
-    {
-      "span": "stood in the midst of them",
-      "osis": "Luke.24.36",
-      "source": "code",
-      "kjv_match": "exact",
-      "kjv_text": "And as they thus spake, Jesus himself stood in the midst of them, and saith unto them, Peace be unto you.",
-      "bsb_text": "While they were describing these events, Jesus Himself stood among them and said, “Peace be with you.”",
       "bsb_note": null
     },
     {

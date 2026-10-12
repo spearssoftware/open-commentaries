@@ -16,15 +16,39 @@ interface Word {
   norm: string;
   start: number;
   end: number;
+  /** Index of the sentence in Henry's text; quotation runs never cross sentences. */
+  sentence: number;
 }
 
 export function words(text: string): Word[] {
-  return [...text.matchAll(/[A-Za-z0-9]+(?:['’][A-Za-z]+)*/g)].map((m) => ({
-    norm: m[0].toLowerCase().replace(/['’]/g, ""),
-    start: m.index,
-    end: m.index + m[0].length,
-  }));
+  let sentence = 0;
+  let last = 0;
+  return [...text.matchAll(/[A-Za-z0-9]+(?:['’][A-Za-z]+)*/g)].map((m) => {
+    if (/[.?!]/.test(text.slice(last, m.index))) sentence++;
+    last = m.index + m[0].length;
+    return {
+      norm: m[0].toLowerCase().replace(/['’]/g, ""),
+      start: m.index,
+      end: last,
+      sentence,
+    };
+  });
 }
+
+/**
+ * Words that cannot begin or end a quotation span. Trimming them keeps common connective phrases
+ * ("to do the work of the") from passing as quotations; "all", "not", and the like stay because
+ * they carry a claim's strength.
+ */
+const FUNCTION_WORDS = new Set(
+  "the a an and or but of to in on at by for with from that this these those it is are was were be been he she they we you i his her its their our my me him them us as so which who whom what may shall will do did have hath has had there then unto into upon".split(
+    " ",
+  ),
+);
+
+/** After trimming, a kept span needs this many words, of which MIN_CONTENT_WORDS are not function words. */
+const MIN_TRIMMED_WORDS = 5;
+const MIN_CONTENT_WORDS = 3;
 
 interface Chapter {
   book: string;
@@ -105,11 +129,11 @@ function findRuns(
   const runs: Run[] = [];
   let i = 0;
   while (i + SHINGLE <= henry.length) {
-    const key = henry
-      .slice(i, i + SHINGLE)
-      .map((w) => w.norm)
-      .join(" ");
-    const hits = index.shingles.get(key);
+    const sentence = henry[i]?.sentence;
+    const shingle = henry.slice(i, i + SHINGLE);
+    const hits = shingle.every((w) => w.sentence === sentence)
+      ? index.shingles.get(shingle.map((w) => w.norm).join(" "))
+      : undefined;
     if (!hits) {
       i++;
       continue;
@@ -118,11 +142,13 @@ function findRuns(
     let candidates: Run[] = hits.map(({ chapter, pos }) => {
       const words = (index.chapters[chapter] as Chapter).words;
       let len = SHINGLE;
-      while (i + len < henry.length && words[pos + len] === henry[i + len]?.norm) len++;
+      while (henry[i + len]?.sentence === sentence && words[pos + len] === henry[i + len]?.norm)
+        len++;
       let back = 0;
       while (
         i - back > floor &&
         pos - back > 0 &&
+        henry[i - back - 1]?.sentence === sentence &&
         words[pos - back - 1] === henry[i - back - 1]?.norm
       )
         back++;
@@ -154,6 +180,7 @@ function findRuns(
       !prev.ambiguous &&
       !run.ambiguous &&
       prev.chapter === run.chapter &&
+      henry[prev.from]?.sentence === henry[run.from]?.sentence &&
       run.from - prev.to <= MAX_GAP &&
       run.kFrom >= prev.kTo &&
       run.kFrom - prev.kTo <= MAX_GAP
@@ -165,7 +192,23 @@ function findRuns(
     }
     merged.push(run);
   }
-  return merged;
+  return merged.flatMap((run) => trimRun(run, henry));
+}
+
+/** Drops function words from both ends; returns nothing if too little of substance remains. */
+function trimRun(run: Run, henry: Word[]): Run[] {
+  const isFunction = (i: number) => FUNCTION_WORDS.has(henry[i]?.norm ?? "");
+  while (run.from < run.to && isFunction(run.from)) {
+    run.from++;
+    run.kFrom++;
+  }
+  while (run.to > run.from && isFunction(run.to - 1)) {
+    run.to--;
+    run.kTo--;
+  }
+  let content = 0;
+  for (let i = run.from; i < run.to; i++) if (!isFunction(i)) content++;
+  return run.to - run.from >= MIN_TRIMMED_WORDS && content >= MIN_CONTENT_WORDS ? [run] : [];
 }
 
 function osisFor(c: Chapter, kFrom: number, kTo: number): { osis: string; verses: string[] } {
@@ -177,33 +220,36 @@ function osisFor(c: Chapter, kFrom: number, kTo: number): { osis: string; verses
   return { osis: first === last ? start : `${start}-${verses.at(-1)}`, verses };
 }
 
-/** BSB verses that are absent or text-critical, with the verse whose footnote explains them. */
-export const BSB_TEXT_CRITICAL: Record<string, { noteFrom: string }> = {
-  "John.5.4": { noteFrom: "John.5.3" },
+/**
+ * BSB verses that are absent or text-critical, with the footnote that explains them: the note on
+ * `noteFrom` that contains `match`.
+ */
+export const BSB_TEXT_CRITICAL: Record<string, { noteFrom: string; match: string }> = {
+  "John.5.4": { noteFrom: "John.5.3", match: "include" },
   ...Object.fromEntries(
     ["John.7.53", ...Array.from({ length: 11 }, (_, i) => `John.8.${i + 1}`)].map((v) => [
       v,
-      { noteFrom: "John.7.52" },
+      { noteFrom: "John.7.52", match: "do not include" },
     ]),
   ),
 };
 
+/** BSB text of the verses present (null when none are), and any text-critical note. */
 function bsbFor(
   verses: string[],
   bsb: Map<string, VerseText>,
 ): { text: string | null; note: string | null } {
-  const texts = verses.map((v) => bsb.get(v)?.text);
-  const notes = [
-    ...new Set(
-      verses.flatMap((v) => {
-        const from = BSB_TEXT_CRITICAL[v]?.noteFrom;
-        return from ? (bsb.get(from)?.notes ?? []) : [];
-      }),
-    ),
-  ];
+  const texts = verses.flatMap((v) => bsb.get(v)?.text ?? []);
+  const notes = new Set(
+    verses.flatMap((v) => {
+      const critical = BSB_TEXT_CRITICAL[v];
+      if (!critical) return [];
+      return (bsb.get(critical.noteFrom)?.notes ?? []).filter((n) => n.includes(critical.match));
+    }),
+  );
   return {
-    text: texts.some((t) => t === undefined) ? null : texts.join(" "),
-    note: notes.length ? notes.join(" ") : null,
+    text: texts.length ? texts.join(" ") : null,
+    note: notes.size ? [...notes].join(" ") : null,
   };
 }
 

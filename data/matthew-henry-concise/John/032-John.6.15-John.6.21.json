@@ -20,7 +20,7 @@
   "references": [],
   "quotes": [
     {
-      "span": "They see Jesus walking on the sea",
+      "span": "see Jesus walking on the sea",
       "osis": "John.6.19",
       "source": "code",
       "kjv_match": "exact",
@@ -29,7 +29,7 @@
       "bsb_note": null
     },
     {
-      "span": "I am Jesus whom thou persecutest",
+      "span": "am Jesus whom thou persecutest",
       "osis": null,
       "source": "code",
       "kjv_match": "loose",

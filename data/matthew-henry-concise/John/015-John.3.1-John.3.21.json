@@ -107,7 +107,7 @@
   ],
   "quotes": [
     {
-      "span": "The wind bloweth where it listeth",
+      "span": "wind bloweth where it listeth",
       "osis": "John.3.8",
       "source": "code",
       "kjv_match": "exact",
@@ -116,21 +116,12 @@
       "bsb_note": null
     },
     {
-      "span": "the things of the Spirit of God",
+      "span": "things of the Spirit of God",
       "osis": "1Cor.2.14",
       "source": "code",
       "kjv_match": "exact",
       "kjv_text": "But the natural man receiveth not the things of the Spirit of God: for they are foolishness unto him: neither can he know them, because they are spiritually discerned.",
       "bsb_text": "The natural man does not accept the things that come from the Spirit of God. For they are foolishness to him, and he cannot understand them, because they are spiritually discerned.",
-      "bsb_note": null
-    },
-    {
-      "span": "he is the Son of man",
-      "osis": "John.5.27",
-      "source": "code",
-      "kjv_match": "exact",
-      "kjv_text": "And hath given him authority to execute judgment also, because he is the Son of man.",
-      "bsb_text": "And He has given Him authority to execute judgment, because He is the Son of Man.",
       "bsb_note": null
     },
     {
@@ -152,7 +143,7 @@
       "bsb_note": null
     },
     {
-      "span": "The love of God is shed abroad in",
+      "span": "love of God is shed abroad",
       "osis": "Rom.5.5",
       "source": "code",
       "kjv_match": "exact",

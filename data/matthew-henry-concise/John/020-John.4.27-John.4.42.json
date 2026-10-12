@@ -37,7 +37,7 @@
   "references": [],
   "quotes": [
     {
-      "span": "of all the children of men",
+      "span": "all the children of men",
       "osis": "1Kgs.8.39",
       "source": "code",
       "kjv_match": "exact",
@@ -47,15 +47,6 @@
     },
     {
       "span": "know that this is indeed the Christ",
-      "osis": "John.4.42",
-      "source": "code",
-      "kjv_match": "exact",
-      "kjv_text": "And said unto the woman, Now we believe, not because of thy saying: for we have heard him ourselves, and know that this is indeed the Christ, the Saviour of the world.",
-      "bsb_text": "They said to the woman, “We now believe not only because of your words; we have heard for ourselves, and we know that this man truly is the Savior of the world.”",
-      "bsb_note": null
-    },
-    {
-      "span": "for we have heard him ourselves",
       "osis": "John.4.42",
       "source": "code",
       "kjv_match": "exact",

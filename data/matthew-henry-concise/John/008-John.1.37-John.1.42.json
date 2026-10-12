@@ -26,17 +26,7 @@
       "inferred": false
     }
   ],
-  "quotes": [
-    {
-      "span": "It is good for us to be",
-      "osis": "Luke.9.33",
-      "source": "code",
-      "kjv_match": "exact",
-      "kjv_text": "And it came to pass, as they departed from him, Peter said unto Jesus, Master, it is good for us to be here: and let us make three tabernacles; one for thee, and one for Moses, and one for Elias: not knowing what he said.",
-      "bsb_text": "As Moses and Elijah were leaving, Peter said to Jesus, “Master, it is good for us to be here. Let us put up three shelters— one for You, one for Moses, and one for Elijah.” ( He did not know what he was saying.)",
-      "bsb_note": null
-    }
-  ],
+  "quotes": [],
   "claims": [],
   "modern_heading": null,
   "modern_sentences": [],

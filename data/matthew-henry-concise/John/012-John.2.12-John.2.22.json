@@ -22,7 +22,7 @@
   "references": [],
   "quotes": [
     {
-      "span": "In three days I will raise it up",
+      "span": "three days I will raise it up",
       "osis": "John.2.19",
       "source": "code",
       "kjv_match": "exact",
@@ -31,7 +31,7 @@
       "bsb_note": null
     },
     {
-      "span": "was risen from the dead, his disciples remembered",
+      "span": "risen from the dead, his disciples remembered",
       "osis": "John.2.22",
       "source": "code",
       "kjv_match": "exact",
