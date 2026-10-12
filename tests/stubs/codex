@@ -8,7 +8,11 @@ memories             stable             false
 shell_tool           stable             true
 resize_all_images    removed            true
 auth_elicitation     stable             true
-brand_new_tool       under development  true`;
+brand_new_tool       under development  true
+unified_exec         stable             true
+plugins              stable             true
+multi_agent          stable             true
+browser_use          stable             true`;
 
 const args = process.argv.slice(2);
 if (args[0] === "--version") {
@@ -32,7 +36,7 @@ requireFlags(args, [
   ["-s", "read-only"],
   ["-c", 'approval_policy="never"'],
 ]);
-for (const f of ["apps", "hooks", "shell_tool", "brand_new_tool"]) {
+for (const f of ["apps", "hooks", "shell_tool", "brand_new_tool", "unified_exec", "plugins", "multi_agent", "browser_use"]) {
   if (!args.some((a, i) => a === "--disable" && args[i + 1] === f)) violation(`feature ${f} not disabled`);
 }
 for (const setting of ['web_search="disabled"', "project_doc_max_bytes=0", "project_doc_fallback_filenames=[]"]) {

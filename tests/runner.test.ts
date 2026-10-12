@@ -11,7 +11,7 @@ import {
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { runClaude } from "../src/models/claude.ts";
-import { runCodex } from "../src/models/codex.ts";
+import { featuresToDisable, runCodex } from "../src/models/codex.ts";
 import {
   CliError,
   IsolationError,
@@ -149,6 +149,16 @@ describe("runCodex", () => {
     expect(c?.args).not.toContain("auth_elicitation");
     expect(c?.args).not.toContain("resize_all_images");
     expect(leftoverDirs()).toEqual([]);
+  });
+
+  test("an unreadable features list fails closed", () => {
+    const fake = join(process.env.TMPDIR as string, "fake-codex");
+    writeFileSync(
+      fake,
+      "#!/bin/sh\necho 'feature,stage,enabled'\necho 'shell_tool,stable,true'\n",
+      { mode: 0o755 },
+    );
+    expect(() => featuresToDisable(fake, { PATH: process.env.PATH ?? "" })).toThrow(IsolationError);
   });
 
   test("a command execution item fails the call", async () => {

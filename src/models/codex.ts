@@ -28,17 +28,40 @@ export const FEATURE_ALLOWLIST = new Set([
 /** Stream items the model may produce. Anything else (commands, file changes, MCP, search) fails the call. */
 const ALLOWED_ITEMS = new Set(["agent_message", "reasoning", "error"]);
 
+/**
+ * Features that must appear in `codex features list`. If any is missing the output format has
+ * changed, and parsing it could silently disable nothing, so the call fails instead.
+ */
+const MUST_BE_LISTED = [
+  "shell_tool",
+  "unified_exec",
+  "apps",
+  "plugins",
+  "hooks",
+  "multi_agent",
+  "browser_use",
+];
+
 /** Every enabled feature outside the allowlist, read from `codex features list` so new ones are caught. */
 export function featuresToDisable(bin: string, env: Record<string, string>): string[] {
   const result = Bun.spawnSync([bin, "features", "list"], { env, cwd: tmpdir() });
   if (result.exitCode !== 0) {
     throw new CliError(`${bin} features list failed: ${summarize(result.stderr.toString())}`);
   }
-  return result.stdout
+  const rows = result.stdout
     .toString()
     .split("\n")
     .map((line) => line.trim().split(/\s{2,}/))
-    .filter(([name, stage, enabled]) => name && enabled === "true" && stage !== "removed")
+    .filter((cols) => cols.length === 3 && (cols[2] === "true" || cols[2] === "false"));
+  const listed = new Set(rows.map(([name]) => name));
+  const missing = MUST_BE_LISTED.filter((f) => !listed.has(f));
+  if (missing.length) {
+    throw new IsolationError(
+      `\`${bin} features list\` did not list ${missing.join(", ")}; its format may have changed, so features cannot be disabled reliably`,
+    );
+  }
+  return rows
+    .filter(([, stage, enabled]) => enabled === "true" && stage !== "removed")
     .map(([name]) => name as string)
     .filter((name) => !FEATURE_ALLOWLIST.has(name));
 }

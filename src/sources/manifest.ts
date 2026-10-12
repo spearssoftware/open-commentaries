@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { readdirSync, readFileSync, statSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
 
 export const SOURCES_DIR = join(import.meta.dir, "../../sources");
@@ -43,12 +43,10 @@ export function hashTree(dir: string): Record<string, string> {
   return files;
 }
 
+/** The manifest, or {} when none exists yet. A corrupt manifest throws rather than look empty. */
 export function readManifest(): Manifest {
-  try {
-    return JSON.parse(readFileSync(MANIFEST_PATH, "utf8")) as Manifest;
-  } catch {
-    return {};
-  }
+  if (!existsSync(MANIFEST_PATH)) return {};
+  return JSON.parse(readFileSync(MANIFEST_PATH, "utf8")) as Manifest;
 }
 
 /** Re-hashes the committed source files and returns a list of mismatches (empty when clean). */

@@ -57,18 +57,29 @@ function parseEvents(stdout: string): Event[] {
     });
 }
 
-function checkInit(init: Event | undefined): void {
+const listed = (init: Event, key: string): unknown[] => {
+  const value = init[key];
+  if (!Array.isArray(value)) {
+    throw new IsolationError(`claude init event has no ${key} list; cannot confirm isolation`);
+  }
+  return value;
+};
+
+/** Checks the session's tools and extensions and returns the model it runs. */
+function checkInit(init: Event | undefined): string {
   if (!init) throw new IsolationError("claude emitted no init event; cannot confirm isolation");
-  const tools = (init.tools as string[] | undefined) ?? [];
-  const extraTools = tools.filter((t) => t !== STRUCTURED_OUTPUT_TOOL);
-  const nonEmpty = (["mcp_servers", "slash_commands", "skills"] as const).filter(
-    (key) => ((init[key] as unknown[] | undefined) ?? []).length > 0,
+  const extraTools = listed(init, "tools").filter((t) => t !== STRUCTURED_OUTPUT_TOOL);
+  const nonEmpty = ["mcp_servers", "slash_commands", "skills"].filter(
+    (key) => listed(init, key).length > 0,
   );
   if (extraTools.length || nonEmpty.length) {
     throw new IsolationError(
       `claude started with tools [${extraTools.join(", ")}] and non-empty ${nonEmpty.join(", ") || "nothing else"}`,
     );
   }
+  if (typeof init.model !== "string")
+    throw new CliError("claude init event does not name its model");
+  return init.model;
 }
 
 function checkToolUse(events: Event[]): void {
@@ -97,7 +108,7 @@ export async function runClaude<T = unknown>(call: ModelCall): Promise<ModelResu
     if (exitCode !== 0 && !final) {
       throw new CliError(`claude exited ${exitCode}: ${summarize(stderr || stdout)}`);
     }
-    checkInit(events.find((e) => e.type === "system" && e.subtype === "init"));
+    const model = checkInit(events.find((e) => e.type === "system" && e.subtype === "init"));
     checkToolUse(events);
     if (!final) throw new CliError(`claude produced no result event: ${summarize(stderr)}`);
     if (final.subtype !== "success" || final.is_error === true) {
@@ -111,10 +122,9 @@ export async function runClaude<T = unknown>(call: ModelCall): Promise<ModelResu
       throw new MalformedOutputError("claude result has no structured_output");
     }
     const usage = (final.usage as Record<string, number> | undefined) ?? {};
-    const modelUsage = Object.keys((final.modelUsage as Event | undefined) ?? {});
     return {
       output: checkOutput(final.structured_output, call.schema),
-      model: modelUsage[0] ?? call.model,
+      model,
       usage: {
         inputTokens: usage.input_tokens ?? null,
         outputTokens: usage.output_tokens ?? null,
