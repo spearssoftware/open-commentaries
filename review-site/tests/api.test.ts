@@ -33,6 +33,18 @@ describe("authentication", () => {
     }
   });
 
+  it("rejects uploads with malformed quotes or rounds", async () => {
+    await seedSchema();
+    for (const bad of [{ quotes: [null] }, { rounds: [{ round: "2" }] }]) {
+      const res = await call("/admin/sections", {
+        method: "PUT",
+        maintainer: MAINTAINER,
+        body: { sections: [section(1, 1, bad as never)] },
+      });
+      expect(res.status).toBe(400);
+    }
+  });
+
   it("a reviewer token is not a maintainer token", async () => {
     const token = await setup([section(1, 1)]);
     expect((await call("/admin/export", { maintainer: token })).status).toBe(403);

@@ -123,6 +123,7 @@ export class ZComTestament {
   sections(book: string): ZComSection[] {
     const sections: ZComSection[] = [];
     let current: { key: string; section: ZComSection } | undefined;
+    const seen = new Set<string>();
     for (const { slot, chapter, verse } of this.verseSlots(book)) {
       const p = this.pointer(slot);
       const osis = `${book}.${chapter}.${verse}`;
@@ -135,6 +136,12 @@ export class ZComTestament {
         current.section.osisEnd = osis;
         continue;
       }
+      // A pointer that reappears after a gap would silently become a duplicate section.
+      if (seen.has(key))
+        throw new Error(
+          `${osis}: entry reappears after an unlinked gap; check the module's linkage`,
+        );
+      seen.add(key);
       current = { key, section: { osisStart: osis, osisEnd: osis, raw: this.text(p) } };
       sections.push(current.section);
     }

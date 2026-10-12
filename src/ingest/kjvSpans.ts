@@ -33,17 +33,16 @@ function sentenceStarts(text: string): number[] {
   return starts;
 }
 
+const WORD = /[A-Za-z0-9]+(?:['’][A-Za-z]+)*/g;
+const normWord = (w: string) => w.toLowerCase().replace(/['’]/g, "");
+
+/** Henry's words with offsets and sentence indices. */
 export function words(text: string): Word[] {
   const starts = sentenceStarts(text);
   let sentence = 0;
-  return [...text.matchAll(/[A-Za-z0-9]+(?:['’][A-Za-z]+)*/g)].map((m) => {
+  return [...text.matchAll(WORD)].map((m) => {
     while ((starts[sentence + 1] ?? Number.POSITIVE_INFINITY) <= m.index) sentence++;
-    return {
-      norm: m[0].toLowerCase().replace(/['’]/g, ""),
-      start: m.index,
-      end: m.index + m[0].length,
-      sentence,
-    };
+    return { norm: normWord(m[0]), start: m.index, end: m.index + m[0].length, sentence };
   });
 }
 
@@ -87,8 +86,9 @@ export function buildKjvIndex(kjv: Map<string, VerseText>): KjvIndex {
       byKey.set(key, chapter);
       chapters.push(chapter);
     }
-    for (const w of words(text)) {
-      chapter.words.push(w.norm);
+    // KJV text needs only normalized words, not offsets or sentence indices.
+    for (const m of text.matchAll(WORD)) {
+      chapter.words.push(normWord(m[0]));
       chapter.verses.push(Number(verse));
     }
   }

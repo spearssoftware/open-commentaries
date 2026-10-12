@@ -112,4 +112,27 @@ describe("mergeReviews", () => {
     );
     expect(r.sections[0]?.reviews.map((x) => x.phase)).toEqual(["blind", "amended"]);
   });
+
+  test("a changed amendment replaces the earlier one on re-import", () => {
+    const first = mergeReviews(
+      [section("s1")],
+      [decision(), decision({ id: "d2", phase: "amended" })],
+    );
+    const again = mergeReviews(first.sections, [
+      decision(),
+      decision({
+        id: "d2",
+        phase: "amended",
+        decision: "approve",
+        type: null,
+        created_at: "2026-10-03T00:00:00.000Z",
+      }),
+    ]);
+    expect(again.added).toBe(1);
+    expect(again.alreadyImported).toBe(1);
+    expect(again.sections[0]?.reviews.map((x) => [x.phase, x.decision])).toEqual([
+      ["blind", "flag"],
+      ["amended", "approve"],
+    ]);
+  });
 });

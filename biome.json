@@ -5,17 +5,23 @@
       "**",
       "!sources",
       "!data",
+      "!glossary",
       "!review-site",
       "!node_modules",
       "!dist",
       "!tests/fixtures"
     ]
   },
-  "formatter": { "indentStyle": "space", "lineWidth": 100 },
+  "formatter": {
+    "indentStyle": "space",
+    "lineWidth": 100
+  },
   "linter": {
     "rules": {
       "preset": "recommended",
-      "suspicious": { "noExplicitAny": "error" }
+      "suspicious": {
+        "noExplicitAny": "error"
+      }
     }
   }
 }

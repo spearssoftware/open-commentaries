@@ -46,8 +46,11 @@ const PATTERNS: {
   {
     // "ver. 16", "v. 5", "ver. 11-13", "ver. #(11-13)" (a conversion artifact in the source)
     re: new RegExp(String.raw`\b(?:ver|vs|v)\.\s*#?\(?${NUM}\)?`, "g"),
+    // The book introduction (chapter 0) has no chapter to resolve a bare verse against.
     resolve: (m, book, chapter) =>
-      verseRange(book, chapter, Number(m[1]), m[2] ? Number(m[2]) : undefined),
+      chapter === 0
+        ? null
+        : verseRange(book, chapter, Number(m[1]), m[2] ? Number(m[2]) : undefined),
   },
   {
     // "Joh 1:14", "1Pe 1:23", "Ps. 23:1"

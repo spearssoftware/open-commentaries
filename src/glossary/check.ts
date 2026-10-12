@@ -1,4 +1,5 @@
 // Structure and coverage checks for the three glossaries.
+import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type { CandidatesFile } from "./candidates.ts";
@@ -16,6 +17,8 @@ export interface LockedEntry {
 
 export interface Locked {
   approved: string | null;
+  /** Hash of the content that was approved; approval lapses when the content changes. */
+  approved_hash?: string | null;
   entries: LockedEntry[];
   allowed_to_change: { term: string; reason: string }[];
 }
@@ -29,6 +32,8 @@ export interface DriftEntry {
 
 export interface Drift {
   approved: string | null;
+  /** Hash of the content that was approved; approval lapses when the content changes. */
+  approved_hash?: string | null;
   entries: DriftEntry[];
 }
 
@@ -41,6 +46,8 @@ export interface StrengthEntry {
 
 export interface Strength {
   approved: string | null;
+  /** Hash of the content that was approved; approval lapses when the content changes. */
+  approved_hash?: string | null;
   entries: StrengthEntry[];
 }
 
@@ -128,10 +135,20 @@ export function checkGlossaries(g: Glossaries, candidates?: CandidatesFile): str
   return problems;
 }
 
+type GlossaryFile = { approved: string | null; approved_hash?: string | null };
+
+/** Hash of a glossary's content, excluding its approval fields. */
+export function contentHash(file: GlossaryFile): string {
+  const { approved: _a, approved_hash: _h, ...content } = file;
+  return createHash("sha256").update(JSON.stringify(content)).digest("hex");
+}
+
+/** Glossaries without an approval that matches their current content. */
 export function unapproved(g: Glossaries): string[] {
-  return Object.entries(g)
-    .filter(([, file]) => (file as { approved: string | null }).approved === null)
-    .map(([name]) => `${name}.json`);
+  return GLOSSARY_FILES.filter((name) => {
+    const file: GlossaryFile = g[name];
+    return file.approved === null || file.approved_hash !== contentHash(file);
+  }).map((name) => `${name}.json`);
 }
 
 export type CandidateStatus = "locked" | "allowed" | "drift" | "strength" | "open";
@@ -154,7 +171,7 @@ export function candidateStatuses(g: Glossaries, candidates: CandidatesFile): Ca
 
 export function writeGlossary(
   name: (typeof GLOSSARY_FILES)[number],
-  file: { approved: string | null },
+  file: GlossaryFile,
   dir = GLOSSARY_DIR,
 ): void {
   writeFileSync(join(dir, `${name}.json`), `${JSON.stringify(file, null, 2)}\n`);
@@ -165,6 +182,8 @@ export function approveGlossaries(g: Glossaries, candidates: CandidatesFile): st
   const problems = checkGlossaries(g, candidates);
   if (problems.length) return problems;
   const today = new Date().toISOString().slice(0, 10);
-  for (const name of GLOSSARY_FILES) writeGlossary(name, { ...g[name], approved: today });
+  for (const name of GLOSSARY_FILES) {
+    writeGlossary(name, { ...g[name], approved: today, approved_hash: contentHash(g[name]) });
+  }
   return [];
 }

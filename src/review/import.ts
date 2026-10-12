@@ -17,6 +17,7 @@ interface PrivateComment {
 interface MergeResult {
   sections: SectionState[];
   comments: PrivateComment[];
+  /** New reviews plus amendments that replaced an earlier version. */
   added: number;
   alreadyImported: number;
   unknownSections: number;
@@ -36,24 +37,30 @@ function toReview(d: ExportedDecision): Review {
   };
 }
 
-const reviewKey = (r: Review) =>
-  JSON.stringify([r.reviewer, r.phase, r.decision, r.type ?? null, r.text_hash, r.date]);
+/**
+ * One review per reviewer, phase, and text version. The server lets a reviewer replace an
+ * amended decision, so a re-import replaces the earlier amended review instead of appending.
+ */
+const sameSlot = (a: Review, b: Review) =>
+  a.reviewer === b.reviewer && a.phase === b.phase && a.text_hash === b.text_hash;
 
 /**
- * Appends exported decisions to the matching sections' `reviews`, skipping ones already present.
+ * Merges exported decisions into the matching sections' `reviews`: new ones are appended, changed
+ * amendments replace their earlier version, and identical ones are skipped.
  * Only `reviews` changes; unchanged sections are returned as the same objects. Comments are
  * returned separately and never enter section state.
  */
 export function mergeReviews(sections: SectionState[], decisions: ExportedDecision[]): MergeResult {
-  const keys = new Map(sections.map((s) => [s.id, new Set(s.reviews.map(reviewKey))]));
-  const added = new Map<string, Review[]>();
+  const reviews = new Map(sections.map((s) => [s.id, s.reviews]));
+  const changed = new Set<string>();
   const comments: PrivateComment[] = [];
+  let added = 0;
   let alreadyImported = 0;
   let unknownSections = 0;
 
   for (const d of decisions) {
-    const seen = keys.get(d.section_id);
-    if (!seen) {
+    const current = reviews.get(d.section_id);
+    if (!current) {
       unknownSections++;
       continue;
     }
@@ -69,24 +76,24 @@ export function mergeReviews(sections: SectionState[], decisions: ExportedDecisi
       });
     }
     const review = toReview(d);
-    const key = reviewKey(review);
-    if (seen.has(key)) {
+    const at = current.findIndex((r) => sameSlot(r, review));
+    if (at >= 0 && JSON.stringify(current[at]) === JSON.stringify(review)) {
       alreadyImported++;
       continue;
     }
-    seen.add(key);
-    added.set(d.section_id, [...(added.get(d.section_id) ?? []), review]);
+    reviews.set(d.section_id, at >= 0 ? current.with(at, review) : [...current, review]);
+    changed.add(d.section_id);
+    added++;
   }
 
-  const merged = sections.map((s) => {
-    const extra = added.get(s.id);
-    return extra ? { ...s, reviews: [...s.reviews, ...extra] } : s;
-  });
-  const count = [...added.values()].reduce((n, r) => n + r.length, 0);
-  return { sections: merged, comments, added: count, alreadyImported, unknownSections };
+  const merged = sections.map((s) =>
+    changed.has(s.id) ? { ...s, reviews: reviews.get(s.id) as Review[] } : s,
+  );
+  return { sections: merged, comments, added, alreadyImported, unknownSections };
 }
 
 interface ImportSummary {
+  /** New reviews plus amendments that replaced an earlier version. */
   added: number;
   alreadyImported: number;
   commentsWritten: number;

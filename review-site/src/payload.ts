@@ -85,5 +85,18 @@ export function checkUpload(s: unknown): string | null {
   for (const key of ["quotes", "rounds", "rule_checks", "claims", "tags", "modern_sentences"]) {
     if (!Array.isArray(v[key])) return `${key} must be an array`;
   }
+  for (const [i, q] of (v.quotes as unknown[]).entries()) {
+    if (typeof q !== "object" || q === null) return `quotes[${i}] must be an object`;
+    const quote = q as Record<string, unknown>;
+    if (!isString(quote.span)) return `quotes[${i}].span must be a string`;
+    for (const key of ["osis", "kjv_text", "bsb_text", "bsb_note"]) {
+      if (!isNullableString(quote[key] ?? null)) return `quotes[${i}].${key} must be a string or null`;
+    }
+  }
+  for (const [i, r] of (v.rounds as unknown[]).entries()) {
+    if (typeof r !== "object" || r === null || !Number.isInteger((r as { round?: unknown }).round)) {
+      return `rounds[${i}].round must be an integer`;
+    }
+  }
   return null;
 }

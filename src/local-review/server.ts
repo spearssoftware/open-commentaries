@@ -8,6 +8,7 @@ import {
   approveGlossaries,
   candidateStatuses,
   checkGlossaries,
+  contentHash,
   GLOSSARY_FILES,
   type Glossaries,
   readGlossaries,
@@ -49,9 +50,8 @@ function glossaryState(g: Glossaries, candidates: CandidatesFile) {
 function saveGlossaries(next: Glossaries): Glossaries {
   const saved = readGlossaries();
   for (const name of GLOSSARY_FILES) {
-    const strip = (f: { approved: string | null }) => JSON.stringify({ ...f, approved: null });
-    if (strip(saved[name]) === strip(next[name])) continue;
-    const file = { ...next[name], approved: null };
+    if (contentHash(saved[name]) === contentHash(next[name])) continue;
+    const file = { ...next[name], approved: null, approved_hash: null };
     writeGlossary(name, file);
     Object.assign(saved, { [name]: file });
   }
@@ -123,7 +123,19 @@ export function startServer(book: string, port: number) {
           }),
         ),
         PUT: withGuard(async (req) => {
-          const saved = saveGlossaries((await req.json()) as Glossaries);
+          const body: unknown = await req.json().catch(() => null);
+          const isFile = (v: unknown) =>
+            typeof v === "object" &&
+            v !== null &&
+            Array.isArray((v as { entries?: unknown }).entries);
+          const g = body as Record<string, unknown> | null;
+          if (!g || !GLOSSARY_FILES.every((name) => isFile(g[name]))) {
+            return json(
+              { error: "body must hold locked, drift, and strength, each with entries" },
+              400,
+            );
+          }
+          const saved = saveGlossaries(body as Glossaries);
           return json(glossaryState(saved, candidates));
         }),
       },

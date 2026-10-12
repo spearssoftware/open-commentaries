@@ -31,6 +31,12 @@ test("plain-text reference styles resolve against the section's book and chapter
   }
 });
 
+test("a bare verse in the book introduction is not resolved", () => {
+  expect(
+    parsePlainReferences("as ver. 3 shows, and ch. 3:5", "John", 0).map((r) => r.osis),
+  ).toEqual(["John.3.5"]);
+});
+
 test("roman numerals", () => {
   expect([
     romanToNumber("iii"),

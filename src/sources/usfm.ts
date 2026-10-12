@@ -69,13 +69,23 @@ export function parseUsfm(source: string): UsfmBook {
     current = undefined;
   };
 
+  // A line without a leading marker continues the previous one: verse text, or a heading being skipped.
+  let inHeading = false;
   for (const line of source.split(/\r?\n/)) {
+    const notesOpened = (line.match(/\\[fx]\s/g) ?? []).length;
+    const notesClosed = (line.match(/\\[fx]\*/g) ?? []).length;
+    if (notesOpened !== notesClosed) {
+      throw new Error(
+        `A footnote or cross-reference spans lines in ${usfm} chapter ${chapter}; the parser expects one line.`,
+      );
+    }
     const marker = /^\\(\+?[a-z]+\d*)(?:\s+|$)(.*)$/.exec(line);
     if (!marker) {
-      append(` ${line}`);
+      if (!inHeading) append(` ${line}`);
       continue;
     }
     const [, name = "", rest = ""] = marker;
+    inHeading = HEADING.test(name);
     let body = rest;
     if (name === "c") {
       close();

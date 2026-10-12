@@ -66,11 +66,16 @@ export function loadCandidates(): CandidatesFile {
 
 /** The candidates collected so far for this book and prompt version, or an empty file to start one. */
 export function readCandidates(book: string): CandidatesFile {
-  if (existsSync(CANDIDATES_PATH)) {
-    const file = JSON.parse(readFileSync(CANDIDATES_PATH, "utf8")) as CandidatesFile;
-    if (file.book === book && file.prompt_version === PROMPT_VERSION) return file;
+  if (!existsSync(CANDIDATES_PATH)) {
+    return { book, prompt_version: PROMPT_VERSION, models: {}, calls: [], candidates: [] };
   }
-  return { book, prompt_version: PROMPT_VERSION, models: {}, calls: [], candidates: [] };
+  const file = JSON.parse(readFileSync(CANDIDATES_PATH, "utf8")) as CandidatesFile;
+  if (file.book !== book || file.prompt_version !== PROMPT_VERSION) {
+    throw new Error(
+      `${CANDIDATES_PATH} holds ${file.book} candidates from ${file.prompt_version}; move it aside before collecting ${book} with ${PROMPT_VERSION}, since a new run would overwrite it`,
+    );
+  }
+  return file;
 }
 
 export function mergeReply(
