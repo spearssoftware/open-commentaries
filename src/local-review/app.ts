@@ -2,6 +2,7 @@
 import type { Candidate } from "../glossary/candidates.ts";
 import type { CandidateStatus, Glossaries, LockedEntry } from "../glossary/check.ts";
 import type { Quote, SectionState } from "../types.ts";
+import { diffWords } from "./diff.ts";
 import type { SectionNote } from "./server.ts";
 
 interface GlossaryState {
@@ -73,6 +74,8 @@ let sections: SectionState[] = [];
 let notes: Record<string, SectionNote> = {};
 let book = "";
 let current = 0;
+let sources: Record<string, string> = {};
+let textView: "text" | "diff" = "text";
 
 function rangeLabel(s: SectionState): string {
   if (s.kind === "intro") return s.chapter === 0 ? "Book introduction" : `Ch. ${s.chapter} outline`;
@@ -149,6 +152,35 @@ async function saveNote(
   notes = res.notes;
 }
 
+/** Side-by-side word diff: the module entry with markup stripped vs. what ingest kept. */
+function sourceDiff(source: string, ingested: string): HTMLElement {
+  if (!source) return el("p", { class: "muted" }, "No source entry found for this section.");
+  const ops = diffWords(source, ingested);
+  const left = el("div", { class: "text diffcol" });
+  const right = el("div", { class: "text diffcol" });
+  for (const op of ops) {
+    if (op.type !== "add") left.append(op.type === "del" ? el("del", {}, op.text) : op.text, " ");
+    if (op.type !== "del") right.append(op.type === "add" ? el("ins", {}, op.text) : op.text, " ");
+  }
+  const removed = ops.filter((o) => o.type === "del").map((o) => o.text);
+  const added = ops.filter((o) => o.type === "add").map((o) => o.text);
+  const summary =
+    !removed.length && !added.length
+      ? "Identical apart from whitespace."
+      : `Removed: ${removed.map((r) => `“${r}”`).join(", ") || "nothing"} · Added: ${added.map((a) => `“${a}”`).join(", ") || "nothing"}`;
+  return el(
+    "div",
+    {},
+    el("p", { class: "diffsum" }, summary),
+    el(
+      "div",
+      { class: "diff" },
+      el("div", {}, el("h4", { class: "colhead" }, "SWORD module entry (markup stripped)"), left),
+      el("div", {}, el("h4", { class: "colhead" }, "Ingested heading + original_text"), right),
+    ),
+  );
+}
+
 function sectionDetail(s: SectionState): HTMLElement {
   const note = notes[s.id];
   const detail = el("div", { class: "detail" });
@@ -161,17 +193,40 @@ function sectionDetail(s: SectionState): HTMLElement {
     ),
   );
   if (s.heading) detail.append(el("p", { class: "muted" }, `Heading: ${s.heading}`));
-  detail.append(
-    el(
-      "div",
-      { class: "legend" },
-      "Quotations:",
-      el("span", { class: "badge exact" }, "exact KJV"),
-      el("span", { class: "badge loose" }, "loose / ambiguous"),
-      el("span", { class: "badge none" }, "quoted, no KJV match"),
-    ),
-    highlightedText(s.original_text, s.quotes),
-  );
+  const toggle = el("div", { class: "subtabs" });
+  for (const [view, label] of [
+    ["text", "Text & quotations"],
+    ["diff", "Source → ingested diff"],
+  ] as const) {
+    toggle.append(
+      button(
+        label,
+        () => {
+          textView = view;
+          renderSections();
+        },
+        textView === view ? "active" : "",
+      ),
+    );
+  }
+  detail.append(toggle);
+  if (textView === "diff") {
+    detail.append(
+      sourceDiff(sources[s.id] ?? "", [s.heading, s.original_text].filter(Boolean).join(" ")),
+    );
+  } else {
+    detail.append(
+      el(
+        "div",
+        { class: "legend" },
+        "Quotations:",
+        el("span", { class: "badge exact" }, "exact KJV"),
+        el("span", { class: "badge loose" }, "loose / ambiguous"),
+        el("span", { class: "badge none" }, "quoted, no KJV match"),
+      ),
+      highlightedText(s.original_text, s.quotes),
+    );
+  }
 
   if (s.references.length) {
     const chips = el("div", { class: "chips" });
@@ -765,9 +820,10 @@ async function show(next: typeof tab): Promise<void> {
       const res = await api<{
         book: string;
         sections: SectionState[];
+        sources: Record<string, string>;
         notes: Record<string, SectionNote>;
       }>("/api/sections");
-      ({ book, sections, notes } = res);
+      ({ book, sections, sources, notes } = res);
     }
     renderSections();
   } else {
@@ -823,6 +879,7 @@ document.addEventListener("keydown", (e) => {
   renderGlossary();
 });
 
-const initial = location.hash.match(/^#(glossary|s=(\d+))$/);
+const initial = location.hash.match(/^#(glossary|s=(\d+)(&diff)?)$/);
 if (initial?.[2]) current = Number(initial[2]);
+if (initial?.[3]) textView = "diff";
 void show(initial?.[1] === "glossary" ? "glossary" : "sections");

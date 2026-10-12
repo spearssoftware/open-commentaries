@@ -451,3 +451,47 @@ td select {
     padding: 16px;
   }
 }
+
+/* Source diff */
+.diffsum {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 13px;
+}
+.diff {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.diff .colhead {
+  margin: 0 0 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+}
+.diffcol {
+  font-size: 15px;
+  max-width: none;
+}
+del {
+  background: var(--bad-soft);
+  color: var(--bad);
+  text-decoration: line-through;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+ins {
+  background: var(--ok-soft);
+  color: var(--ok);
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+@media (max-width: 1000px) {
+  .diff {
+    grid-template-columns: 1fr;
+  }
+}

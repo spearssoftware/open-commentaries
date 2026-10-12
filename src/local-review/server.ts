@@ -13,6 +13,7 @@ import {
 } from "../glossary/check.ts";
 import { DATA_DIR, readSections, sectionFileName } from "../ingest/ingest.ts";
 import page from "./index.html";
+import { sourceTexts } from "./source.ts";
 
 const ROOT = join(import.meta.dir, "../..");
 const GLOSSARY_DIR = join(ROOT, "glossary");
@@ -89,7 +90,10 @@ export function startServer(book: string, port: number) {
     routes: {
       "/": page,
       "/api/sections": {
-        GET: withGuard(() => json({ book, sections: readSections(book), notes: readNotes() })),
+        GET: withGuard(() => {
+          const sections = readSections(book);
+          return json({ book, sections, sources: sourceTexts(book, sections), notes: readNotes() });
+        }),
       },
       "/api/notes/:id": {
         PUT: withGuard(async (req) => {
