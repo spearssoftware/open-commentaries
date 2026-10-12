@@ -1,0 +1,41 @@
+{
+  "id": "matthew-henry-concise:John.6.60-John.6.65",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 38,
+  "osis_start": "John.6.60",
+  "osis_end": "John.6.65",
+  "chapter": 6,
+  "heading": null,
+  "original_text": "The human nature of Christ had not before been in heaven, but being God and man, that wondrous Person was truly said to have come down from heaven. The Messiah's kingdom was not of this world; and they were to understand by faith, what he had said of a spiritual living upon him, and his fulness. As without the soul of man the flesh is of no value, so without the quickening Spirit of God all forms of religion are dead and worthless. He who made this provision for our souls, alone can teach us these things, and draw us unto Christ, that we may live by faith in him. Let us apply to Christ, thankful that it is declared that every one who is willing to come unto him shall be made welcome.",
+  "original_sentences": [
+    "The human nature of Christ had not before been in heaven, but being God and man, that wondrous Person was truly said to have come down from heaven.",
+    "The Messiah's kingdom was not of this world; and they were to understand by faith, what he had said of a spiritual living upon him, and his fulness.",
+    "As without the soul of man the flesh is of no value, so without the quickening Spirit of God all forms of religion are dead and worthless.",
+    "He who made this provision for our souls, alone can teach us these things, and draw us unto Christ, that we may live by faith in him.",
+    "Let us apply to Christ, thankful that it is declared that every one who is willing to come unto him shall be made welcome."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

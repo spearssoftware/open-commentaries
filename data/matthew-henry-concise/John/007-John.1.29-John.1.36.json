@@ -1,0 +1,70 @@
+{
+  "id": "matthew-henry-concise:John.1.29-John.1.36",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 7,
+  "osis_start": "John.1.29",
+  "osis_end": "John.1.36",
+  "chapter": 1,
+  "heading": null,
+  "original_text": "John saw Jesus coming to him, and pointed him out as the Lamb of God. The paschal lamb, in the shedding and sprinkling of its blood, the roasting and eating of its flesh, and all the other circumstances of the ordinance, represented the salvation of sinners by faith in Christ. And the lambs sacrificed every morning and evening, can only refer to Christ slain as a sacrifice to redeem us to God by his blood. John came as a preacher of repentance, yet he told his followers that they were to look for the pardon of their sins to Jesus only, and to his death. It agrees with God's glory to pardon all who depend on the atoning sacrifice of Christ. He takes away the sin of the world; purchases pardon for all that repent and believe the gospel. This encourages our faith; if Christ takes away the sin of the world, then why not my sin? He bore sin for us, and so bears it from us. God could have taken away sin, by taking away the sinner, as he took away the sin of the old world; but here is a way of doing away sin, yet sparing the sinner, by making his Son sin, that is, a sin-offering, for us. See Jesus taking away sin, and let that cause hatred of sin, and resolutions against it. Let us not hold that fast, which the Lamb of God came to take away. To confirm his testimony concerning Christ, John declares the appearance at his baptism, in which God himself bore witness to him. He saw and bare record that he is the Son of God. This is the end and object of John's testimony, that Jesus was the promised Messiah. John took every opportunity that offered to lead people to Christ.",
+  "original_sentences": [
+    "John saw Jesus coming to him, and pointed him out as the Lamb of God.",
+    "The paschal lamb, in the shedding and sprinkling of its blood, the roasting and eating of its flesh, and all the other circumstances of the ordinance, represented the salvation of sinners by faith in Christ.",
+    "And the lambs sacrificed every morning and evening, can only refer to Christ slain as a sacrifice to redeem us to God by his blood.",
+    "John came as a preacher of repentance, yet he told his followers that they were to look for the pardon of their sins to Jesus only, and to his death.",
+    "It agrees with God's glory to pardon all who depend on the atoning sacrifice of Christ.",
+    "He takes away the sin of the world; purchases pardon for all that repent and believe the gospel.",
+    "This encourages our faith; if Christ takes away the sin of the world, then why not my sin?",
+    "He bore sin for us, and so bears it from us.",
+    "God could have taken away sin, by taking away the sinner, as he took away the sin of the old world; but here is a way of doing away sin, yet sparing the sinner, by making his Son sin, that is, a sin-offering, for us.",
+    "See Jesus taking away sin, and let that cause hatred of sin, and resolutions against it.",
+    "Let us not hold that fast, which the Lamb of God came to take away.",
+    "To confirm his testimony concerning Christ, John declares the appearance at his baptism, in which God himself bore witness to him.",
+    "He saw and bare record that he is the Son of God.",
+    "This is the end and object of John's testimony, that Jesus was the promised Messiah.",
+    "John took every opportunity that offered to lead people to Christ."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "away the sin of the world",
+      "osis": "John.1.29",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "The next day John seeth Jesus coming unto him, and saith, Behold the Lamb of God, which taketh away the sin of the world.",
+      "bsb_text": "The next day John saw Jesus coming toward him and said, “Look, the Lamb of God, who takes away the sin of the world!",
+      "bsb_note": null
+    },
+    {
+      "span": "away the sin of the world",
+      "osis": "John.1.29",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "The next day John seeth Jesus coming unto him, and saith, Behold the Lamb of God, which taketh away the sin of the world.",
+      "bsb_text": "The next day John saw Jesus coming toward him and said, “Look, the Lamb of God, who takes away the sin of the world!",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

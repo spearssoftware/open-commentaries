@@ -1,0 +1,50 @@
+{
+  "id": "matthew-henry-concise:John.17.20-John.17.23",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 116,
+  "osis_start": "John.17.20",
+  "osis_end": "John.17.23",
+  "chapter": 17,
+  "heading": null,
+  "original_text": "Our Lord especially prayed, that all believers might be as one body under one head, animated by one soul, by their union with Christ and the Father in him, through the Holy Spirit dwelling in them. The more they dispute about lesser things, the more they throw doubts upon Christianity. Let us endeavour to keep the unity of the Spirit in the bond of peace, praying that all believers may be more and more united in one mind and one judgment. Thus shall we convince the world of the truth and excellence of our religion, and find more sweet communion with God and his saints.",
+  "original_sentences": [
+    "Our Lord especially prayed, that all believers might be as one body under one head, animated by one soul, by their union with Christ and the Father in him, through the Holy Spirit dwelling in them.",
+    "The more they dispute about lesser things, the more they throw doubts upon Christianity.",
+    "Let us endeavour to keep the unity of the Spirit in the bond of peace, praying that all believers may be more and more united in one mind and one judgment.",
+    "Thus shall we convince the world of the truth and excellence of our religion, and find more sweet communion with God and his saints."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "keep the unity of the Spirit in the bond of peace",
+      "osis": "Eph.4.3",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Endeavouring to keep the unity of the Spirit in the bond of peace.",
+      "bsb_text": "and with diligence to preserve the unity of the Spirit through the bond of peace.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

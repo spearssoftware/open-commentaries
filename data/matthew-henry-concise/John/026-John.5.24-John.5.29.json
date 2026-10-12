@@ -1,0 +1,42 @@
+{
+  "id": "matthew-henry-concise:John.5.24-John.5.29",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 26,
+  "osis_start": "John.5.24",
+  "osis_end": "John.5.29",
+  "chapter": 5,
+  "heading": null,
+  "original_text": "Our Lord declared his authority and character, as the Messiah. The time was come when the dead should hear his voice, as the Son of God, and live. Our Lord first refers to his raising those who were dead in sin, to newness of life, by the power of the Spirit, and then to his raising the dead in their graves. The office of Judge of all men, can only be exercised by one who has all knowledge, and almighty power. May we believe His testimony; thus our faith and hope will be in God, and we shall not come into condemnation. And may His voice reach the hearts of those dead in sin; that they may do works meet for repentance, and prepare for the solemn day.",
+  "original_sentences": [
+    "Our Lord declared his authority and character, as the Messiah.",
+    "The time was come when the dead should hear his voice, as the Son of God, and live.",
+    "Our Lord first refers to his raising those who were dead in sin, to newness of life, by the power of the Spirit, and then to his raising the dead in their graves.",
+    "The office of Judge of all men, can only be exercised by one who has all knowledge, and almighty power.",
+    "May we believe His testimony; thus our faith and hope will be in God, and we shall not come into condemnation.",
+    "And may His voice reach the hearts of those dead in sin; that they may do works meet for repentance, and prepare for the solemn day."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

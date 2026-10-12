@@ -1,0 +1,40 @@
+{
+  "id": "matthew-henry-concise:John.11.54-John.11.57",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 80,
+  "osis_start": "John.11.54",
+  "osis_end": "John.11.57",
+  "chapter": 11,
+  "heading": null,
+  "original_text": "Before our gospel passover we must renew our repentance. Thus by a voluntary purification, and by religious exercises, many, more devout than their neighbours, spent some time before the passover at Jerusalem. When we expect to meet God, we must solemnly prepare. No devices of man can alter the purposes of God: and while hypocrites amuse themselves with forms and disputes, and worldly men pursue their own plans, Jesus still orders all things for his own glory and the salvation of his people.",
+  "original_sentences": [
+    "Before our gospel passover we must renew our repentance.",
+    "Thus by a voluntary purification, and by religious exercises, many, more devout than their neighbours, spent some time before the passover at Jerusalem.",
+    "When we expect to meet God, we must solemnly prepare.",
+    "No devices of man can alter the purposes of God: and while hypocrites amuse themselves with forms and disputes, and worldly men pursue their own plans, Jesus still orders all things for his own glory and the salvation of his people."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

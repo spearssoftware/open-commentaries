@@ -1,0 +1,43 @@
+{
+  "id": "matthew-henry-concise:John.10-John.10",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 65,
+  "osis_start": "John.10",
+  "osis_end": "John.10",
+  "chapter": 10,
+  "heading": "Chapter Outline",
+  "original_text": "The parable of the good shepherd. (1-5)\n\nChrist the Door. (6-9)\n\nChrist the good Shepherd. (10-18)\n\nThe Jews' opinion concerning Jesus. (19-21)\n\nHis discourse at the feast of dedication. (22-30)\n\nThe Jews attempt to stone Jesus. (31-38)\n\nHe departs from Jerusalem. (39-42)",
+  "original_sentences": [
+    "The parable of the good shepherd. (1-5)",
+    "Christ the Door. (6-9)",
+    "Christ the good Shepherd. (10-18)",
+    "The Jews' opinion concerning Jesus. (19-21)",
+    "His discourse at the feast of dedication. (22-30)",
+    "The Jews attempt to stone Jesus. (31-38)",
+    "He departs from Jerusalem. (39-42)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

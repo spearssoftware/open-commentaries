@@ -1,0 +1,41 @@
+{
+  "id": "matthew-henry-concise:John.16-John.16",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 105,
+  "osis_start": "John.16",
+  "osis_end": "John.16",
+  "chapter": 16,
+  "heading": "Chapter Outline",
+  "original_text": "Persecution foretold. (1-6)\n\nThe promise of the Holy Spirit, and his office. (7-15)\n\nChrist's departure and return. (16-22)\n\nEncouragement to prayer. (23-27)\n\nChrist's discoveries of himself. (28-33)",
+  "original_sentences": [
+    "Persecution foretold. (1-6)",
+    "The promise of the Holy Spirit, and his office. (7-15)",
+    "Christ's departure and return. (16-22)",
+    "Encouragement to prayer. (23-27)",
+    "Christ's discoveries of himself. (28-33)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

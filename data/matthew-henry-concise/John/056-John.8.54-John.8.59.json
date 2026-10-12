@@ -1,0 +1,93 @@
+{
+  "id": "matthew-henry-concise:John.8.54-John.8.59",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 56,
+  "osis_start": "John.8.54",
+  "osis_end": "John.8.59",
+  "chapter": 8,
+  "heading": null,
+  "original_text": "Christ and all that are his, depend upon God for honour. Men may be able to dispute about God, yet may not know him. Such as know not God, and obey not the gospel of Christ, are put together, 2Th 1:8. All who rightly know anything of Christ, earnestly desire to know more of him. Those who discern the dawn of the light of the Sun of Righteousness, wish to see his rising. \"Before Abraham was, I AM.\" This speaks Abraham a creature, and our Lord the Creator; well, therefore, might he make himself greater than Abraham. I AM, is the name of God, Ex 3:14; it speaks his self-existence; he is the First and the Last, ever the same, Re 1:8. Thus he was not only before Abraham, but before all worlds, Pr 8:23; Joh 1:1. As Mediator, he was the appointed Messiah, long before Abraham; the Lamb slain from the foundation of the world, Re 13:8. The Lord Jesus was made of God Wisdom, Righteousness, Sanctification, and Redemption, to Adam, and Abel, and all that lived and died by faith in him, before Abraham. The Jews were about to stone Jesus for blasphemy, but he withdrew; by his miraculous power he passed through them unhurt. Let us stedfastly profess what we know and believe concerning God; and if heirs of Abraham's faith, we shall rejoice in looking forward to that day when the Saviour shall appear in glory, to the confusion of his enemies, and to complete the salvation of all who believe in him.",
+  "original_sentences": [
+    "Christ and all that are his, depend upon God for honour.",
+    "Men may be able to dispute about God, yet may not know him.",
+    "Such as know not God, and obey not the gospel of Christ, are put together, 2Th 1:8.",
+    "All who rightly know anything of Christ, earnestly desire to know more of him.",
+    "Those who discern the dawn of the light of the Sun of Righteousness, wish to see his rising.",
+    "\"Before Abraham was, I AM.\"",
+    "This speaks Abraham a creature, and our Lord the Creator; well, therefore, might he make himself greater than Abraham.",
+    "I AM, is the name of God, Ex 3:14; it speaks his self-existence; he is the First and the Last, ever the same, Re 1:8.",
+    "Thus he was not only before Abraham, but before all worlds, Pr 8:23; Joh 1:1.",
+    "As Mediator, he was the appointed Messiah, long before Abraham; the Lamb slain from the foundation of the world, Re 13:8.",
+    "The Lord Jesus was made of God Wisdom, Righteousness, Sanctification, and Redemption, to Adam, and Abel, and all that lived and died by faith in him, before Abraham.",
+    "The Jews were about to stone Jesus for blasphemy, but he withdrew; by his miraculous power he passed through them unhurt.",
+    "Let us stedfastly profess what we know and believe concerning God; and if heirs of Abraham's faith, we shall rejoice in looking forward to that day when the Saviour shall appear in glory, to the confusion of his enemies, and to complete the salvation of all who believe in him."
+  ],
+  "references": [
+    {
+      "osis": "2Thess.1.8",
+      "inferred": false
+    },
+    {
+      "osis": "Exod.3.14",
+      "inferred": false
+    },
+    {
+      "osis": "Rev.1.8",
+      "inferred": false
+    },
+    {
+      "osis": "Prov.8.23",
+      "inferred": false
+    },
+    {
+      "osis": "John.1.1",
+      "inferred": false
+    },
+    {
+      "osis": "Rev.13.8",
+      "inferred": false
+    }
+  ],
+  "quotes": [
+    {
+      "span": "Before Abraham was, I AM.",
+      "osis": null,
+      "source": "code",
+      "kjv_match": "none",
+      "kjv_text": null,
+      "bsb_text": null,
+      "bsb_note": null
+    },
+    {
+      "span": "Lamb slain from the foundation of the world",
+      "osis": "Rev.13.8",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "And all that dwell upon the earth shall worship him, whose names are not written in the book of life of the Lamb slain from the foundation of the world.",
+      "bsb_text": "And all who dwell on the earth will worship the beast — all whose names have not been written from the foundation of the world in the Book of Life belonging to the Lamb who was slain.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "matthew-henry-concise:John.12.12-John.12.19",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 83,
+  "osis_start": "John.12.12",
+  "osis_end": "John.12.19",
+  "chapter": 12,
+  "heading": null,
+  "original_text": "Christ's riding in triumph to Jerusalem is recorded by all the evangelists. Many excellent things, both in the word and providence of God, disciples do not understand at their first acquaintance with the things of God. The right understanding of spiritual nature of Christ's kingdom, prevents our misapplying the Scriptures which speak of it.",
+  "original_sentences": [
+    "Christ's riding in triumph to Jerusalem is recorded by all the evangelists.",
+    "Many excellent things, both in the word and providence of God, disciples do not understand at their first acquaintance with the things of God.",
+    "The right understanding of spiritual nature of Christ's kingdom, prevents our misapplying the Scriptures which speak of it."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

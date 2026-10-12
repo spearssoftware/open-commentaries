@@ -1,0 +1,41 @@
+{
+  "id": "matthew-henry-concise:John.2.23-John.2.25",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 13,
+  "osis_start": "John.2.23",
+  "osis_end": "John.2.25",
+  "chapter": 2,
+  "heading": null,
+  "original_text": "Our Lord knew all men, their nature, dispositions, affections, designs, so as we do not know any man, not even ourselves. He knows his crafty enemies, and all their secret projects; his false friends, and their true characters. He knows who are truly his, knows their uprightness, and knows their weaknesses. We know what is done by men; Christ knows what is in them, he tries the heart. Beware of a dead faith, or a formal profession: carnal, empty professors are not to be trusted, and however men impose on others or themselves, they cannot impose on the heart-searching God.",
+  "original_sentences": [
+    "Our Lord knew all men, their nature, dispositions, affections, designs, so as we do not know any man, not even ourselves.",
+    "He knows his crafty enemies, and all their secret projects; his false friends, and their true characters.",
+    "He knows who are truly his, knows their uprightness, and knows their weaknesses.",
+    "We know what is done by men; Christ knows what is in them, he tries the heart.",
+    "Beware of a dead faith, or a formal profession: carnal, empty professors are not to be trusted, and however men impose on others or themselves, they cannot impose on the heart-searching God."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "matthew-henry-concise:John.7.40-John.7.53",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 46,
+  "osis_start": "John.7.40",
+  "osis_end": "John.7.53",
+  "chapter": 7,
+  "heading": null,
+  "original_text": "The malice of Christ's enemies is always against reason, and sometimes the staying of it cannot be accounted for. Never any man spake with that wisdom, and power, and grace, that convincing clearness, and that sweetness, wherewith Christ spake. Alas, that many, who are for a time restrained, and who speak highly of the word of Jesus, speedily lose their convictions, and go on in their sins! People are foolishly swayed by outward motives in matters of eternal moment, are willing even to be damned for fashion's sake. As the wisdom of God often chooses things which men despise, so the folly of men commonly despises those whom God has chosen. The Lord brings forward his weak and timid disciples, and sometimes uses them to defeat the designs of his enemies.",
+  "original_sentences": [
+    "The malice of Christ's enemies is always against reason, and sometimes the staying of it cannot be accounted for.",
+    "Never any man spake with that wisdom, and power, and grace, that convincing clearness, and that sweetness, wherewith Christ spake.",
+    "Alas, that many, who are for a time restrained, and who speak highly of the word of Jesus, speedily lose their convictions, and go on in their sins!",
+    "People are foolishly swayed by outward motives in matters of eternal moment, are willing even to be damned for fashion's sake.",
+    "As the wisdom of God often chooses things which men despise, so the folly of men commonly despises those whom God has chosen.",
+    "The Lord brings forward his weak and timid disciples, and sometimes uses them to defeat the designs of his enemies."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

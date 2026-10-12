@@ -1,0 +1,56 @@
+{
+  "id": "matthew-henry-concise:John.9.1-John.9.7",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 58,
+  "osis_start": "John.9.1",
+  "osis_end": "John.9.7",
+  "chapter": 9,
+  "heading": null,
+  "original_text": "Christ cured many who were blind by disease or accident; here he cured one born blind. Thus he showed his power to help in the most desperate cases, and the work of his grace upon the souls of sinners, which gives sight to those blind by nature. This poor man could not see Christ, but Christ saw him. And if we know or apprehend anything of Christ, it is because we were first known of him. Christ says of uncommon calamities, that they are not always to be looked on as special punishments of sin; sometimes they are for the glory of God, and to manifest his works. Our life is our day, in which it concerns us to do the work of the day. We must be busy, and not waste day-time; it will be time to rest when our day is done, for it is but a day. The approach of death should quicken us to improve all our opportunities of doing and getting good. What good we have an opportunity to do, we should do quickly. And he that will never do a good work till there is nothing to be objected against, will leave many a good work for ever undone, Ec 11:4. Christ magnified his power, in making a blind man to see, doing that which one would think more likely to make a seeing man blind. Human reason cannot judge of the Lord's methods; he uses means and instruments that men despise. Those that would be healed by Christ must be ruled by him. He came back from the pool wondering and wondered at; he came seeing. This represents the benefits in attending on ordinances of Christ's appointment; souls go weak, and come away strengthened; go doubting, and come away satisfied; go mourning, and come away rejoicing; go blind, and come away seeing.",
+  "original_sentences": [
+    "Christ cured many who were blind by disease or accident; here he cured one born blind.",
+    "Thus he showed his power to help in the most desperate cases, and the work of his grace upon the souls of sinners, which gives sight to those blind by nature.",
+    "This poor man could not see Christ, but Christ saw him.",
+    "And if we know or apprehend anything of Christ, it is because we were first known of him.",
+    "Christ says of uncommon calamities, that they are not always to be looked on as special punishments of sin; sometimes they are for the glory of God, and to manifest his works.",
+    "Our life is our day, in which it concerns us to do the work of the day.",
+    "We must be busy, and not waste day-time; it will be time to rest when our day is done, for it is but a day.",
+    "The approach of death should quicken us to improve all our opportunities of doing and getting good.",
+    "What good we have an opportunity to do, we should do quickly.",
+    "And he that will never do a good work till there is nothing to be objected against, will leave many a good work for ever undone, Ec 11:4.",
+    "Christ magnified his power, in making a blind man to see, doing that which one would think more likely to make a seeing man blind.",
+    "Human reason cannot judge of the Lord's methods; he uses means and instruments that men despise.",
+    "Those that would be healed by Christ must be ruled by him.",
+    "He came back from the pool wondering and wondered at; he came seeing.",
+    "This represents the benefits in attending on ordinances of Christ's appointment; souls go weak, and come away strengthened; go doubting, and come away satisfied; go mourning, and come away rejoicing; go blind, and come away seeing."
+  ],
+  "references": [
+    {
+      "osis": "Eccl.11.4",
+      "inferred": false
+    }
+  ],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

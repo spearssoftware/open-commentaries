@@ -1,0 +1,10 @@
+node_modules/
+dist/
+reviews/private/
+.dev.vars
+.env*
+tests/.cache/
+.wrangler/
+.DS_Store
+*.log
+.local-review/

@@ -1,0 +1,43 @@
+{
+  "id": "matthew-henry-concise:John.10.1-John.10.5",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 66,
+  "osis_start": "John.10.1",
+  "osis_end": "John.10.5",
+  "chapter": 10,
+  "heading": null,
+  "original_text": "Here is a parable or similitude, taken from the customs of the East, in the management of sheep. Men, as creatures depending on their Creator, are called the sheep of his pasture. The church of God in the world is as a sheep-fold, exposed to deceivers and persecutors. The great Shepherd of the sheep knows all that are his, guards them by his providence, guides them by his Spirit and word, and goes before them, as the Eastern shepherds went before their sheep, to set them in the way of his steps. Ministers must serve the sheep in their spiritual concerns. The Spirit of Christ will set before them an open door. The sheep of Christ will observe their Shepherd, and be cautious and shy of strangers, who would draw them from faith in him to fancies about him.",
+  "original_sentences": [
+    "Here is a parable or similitude, taken from the customs of the East, in the management of sheep.",
+    "Men, as creatures depending on their Creator, are called the sheep of his pasture.",
+    "The church of God in the world is as a sheep-fold, exposed to deceivers and persecutors.",
+    "The great Shepherd of the sheep knows all that are his, guards them by his providence, guides them by his Spirit and word, and goes before them, as the Eastern shepherds went before their sheep, to set them in the way of his steps.",
+    "Ministers must serve the sheep in their spiritual concerns.",
+    "The Spirit of Christ will set before them an open door.",
+    "The sheep of Christ will observe their Shepherd, and be cautious and shy of strangers, who would draw them from faith in him to fancies about him."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

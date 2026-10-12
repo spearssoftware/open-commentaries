@@ -1,0 +1,38 @@
+{
+  "id": "matthew-henry-concise:John.15.26-John.15.27",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 104,
+  "osis_start": "John.15.26",
+  "osis_end": "John.15.27",
+  "chapter": 15,
+  "heading": null,
+  "original_text": "The blessed Spirit will maintain the cause of Christ in the world, notwithstanding the opposition it meets with. Believers taught and encouraged by his influences, would bear testimony to Christ and his salvation.",
+  "original_sentences": [
+    "The blessed Spirit will maintain the cause of Christ in the world, notwithstanding the opposition it meets with.",
+    "Believers taught and encouraged by his influences, would bear testimony to Christ and his salvation."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

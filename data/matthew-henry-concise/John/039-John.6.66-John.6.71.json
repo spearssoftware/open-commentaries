@@ -1,0 +1,58 @@
+{
+  "id": "matthew-henry-concise:John.6.66-John.6.71",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 39,
+  "osis_start": "John.6.66",
+  "osis_end": "John.6.71",
+  "chapter": 6,
+  "heading": null,
+  "original_text": "When we admit into our minds hard thoughts of the words and works of Jesus, we enter into temptation, which, if the Lord in mercy prevent not, will end in drawing back. The corrupt and wicked heart of man often makes that an occasion for offence, which is matter of the greatest comfort. Our Lord had, in the foregoing discourse, promised eternal life to his followers; the disciples fastened on that plain saying, and resolved to cleave to him, when others fastened on hard sayings, and forsook him. Christ's doctrine is the word of eternal life, therefore we must live and die by it. If we forsake Christ, we forsake our own mercies. They believed that this Jesus was the Messiah promised to their fathers, the Son of the living God. When we are tempted to backslide or turn away, it is good to remember first principles, and to keep to them. And let us ever remember our Lord's searching question; Shall we go away and forsake our Redeemer? To whom can we go? He alone can give salvation by the forgiveness of sins. And this alone brings confidence, comfort, and joy, and bids fear and despondency flee away. It gains the only solid happiness in this world, and opens a way to the happiness of the next.",
+  "original_sentences": [
+    "When we admit into our minds hard thoughts of the words and works of Jesus, we enter into temptation, which, if the Lord in mercy prevent not, will end in drawing back.",
+    "The corrupt and wicked heart of man often makes that an occasion for offence, which is matter of the greatest comfort.",
+    "Our Lord had, in the foregoing discourse, promised eternal life to his followers; the disciples fastened on that plain saying, and resolved to cleave to him, when others fastened on hard sayings, and forsook him.",
+    "Christ's doctrine is the word of eternal life, therefore we must live and die by it.",
+    "If we forsake Christ, we forsake our own mercies.",
+    "They believed that this Jesus was the Messiah promised to their fathers, the Son of the living God.",
+    "When we are tempted to backslide or turn away, it is good to remember first principles, and to keep to them.",
+    "And let us ever remember our Lord's searching question; Shall we go away and forsake our Redeemer?",
+    "To whom can we go?",
+    "He alone can give salvation by the forgiveness of sins.",
+    "And this alone brings confidence, comfort, and joy, and bids fear and despondency flee away.",
+    "It gains the only solid happiness in this world, and opens a way to the happiness of the next."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "Son of the living God",
+      "osis": "John.6.69",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "And we believe and are sure that thou art that Christ, the Son of the living God.",
+      "bsb_text": "We believe and know that You are the Holy One of God.”",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

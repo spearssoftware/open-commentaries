@@ -1,0 +1,62 @@
+{
+  "id": "matthew-henry-concise:John.11.7-John.11.10",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 75,
+  "osis_start": "John.11.7",
+  "osis_end": "John.11.10",
+  "chapter": 11,
+  "heading": null,
+  "original_text": "Christ never brings his people into any danger but he goes with them in it. We are apt to think ourselves zealous for the Lord, when really we are only zealous for our wealth, credit, ease, and safety; we have therefore need to try our principles. But our day shall be lengthened out, till our work is done, and our testimony finished. A man has comfort and satisfaction while in the way of his duty, as set forth by the word of God, and determined by the providence of God. Christ, wherever he went, walked in the day; and so shall we, if we follow his steps. If a man walks in the way of his heart, and according to the course of this world, if he consults his own carnal reasonings more than the will and glory of God, he falls into temptations and snares. He stumbles, because there is no light in him; for light in us is to our moral actions, that which light about us to our natural actions.",
+  "original_sentences": [
+    "Christ never brings his people into any danger but he goes with them in it.",
+    "We are apt to think ourselves zealous for the Lord, when really we are only zealous for our wealth, credit, ease, and safety; we have therefore need to try our principles.",
+    "But our day shall be lengthened out, till our work is done, and our testimony finished.",
+    "A man has comfort and satisfaction while in the way of his duty, as set forth by the word of God, and determined by the providence of God.",
+    "Christ, wherever he went, walked in the day; and so shall we, if we follow his steps.",
+    "If a man walks in the way of his heart, and according to the course of this world, if he consults his own carnal reasonings more than the will and glory of God, he falls into temptations and snares.",
+    "He stumbles, because there is no light in him; for light in us is to our moral actions, that which light about us to our natural actions."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "according to the course of this world",
+      "osis": "Eph.2.2",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Wherein in time past ye walked according to the course of this world, according to the prince of the power of the air, the spirit that now worketh in the children of disobedience:",
+      "bsb_text": "in which you used to walk when you conformed to the ways of this world and of the ruler of the power of the air, the spirit who is now at work in the sons of disobedience.",
+      "bsb_note": null
+    },
+    {
+      "span": "because there is no light",
+      "osis": "John.11.10",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "But if a man walk in the night, he stumbleth, because there is no light in him.",
+      "bsb_text": "But if anyone walks at night, he will stumble, because he has no light.”",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

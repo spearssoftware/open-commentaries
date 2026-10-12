@@ -1,0 +1,62 @@
+{
+  "id": "matthew-henry-concise:John.8.17-John.8.20",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 50,
+  "osis_start": "John.8.17",
+  "osis_end": "John.8.20",
+  "chapter": 8,
+  "heading": null,
+  "original_text": "If we knew Christ better, we should know the Father better. Those become vain in their imaginations concerning God, who will not learn of Christ. Those who know not his glory and grace, know not the Father that sent him. The time of our departure out of the world, depends upon God. Our enemies cannot hasten it any sooner, nor can our friends delay it any longer, than the time appointed of the Father. Every true believer can look up and say with pleasure, My times are in thy hand, and better there than in my own. To all God's purposes there is a time.",
+  "original_sentences": [
+    "If we knew Christ better, we should know the Father better.",
+    "Those become vain in their imaginations concerning God, who will not learn of Christ.",
+    "Those who know not his glory and grace, know not the Father that sent him.",
+    "The time of our departure out of the world, depends upon God.",
+    "Our enemies cannot hasten it any sooner, nor can our friends delay it any longer, than the time appointed of the Father.",
+    "Every true believer can look up and say with pleasure, My times are in thy hand, and better there than in my own.",
+    "To all God's purposes there is a time."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "time appointed of the Father",
+      "osis": "Gal.4.2",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "But is under tutors and governors until the time appointed of the father.",
+      "bsb_text": "He is subject to guardians and trustees until the date set by his father.",
+      "bsb_note": null
+    },
+    {
+      "span": "times are in thy hand",
+      "osis": "Ps.31.15",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "My times are in thy hand: deliver me from the hand of mine enemies, and from them that persecute me.",
+      "bsb_text": "My times are in Your hands; deliver me from my enemies and from those who pursue me.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

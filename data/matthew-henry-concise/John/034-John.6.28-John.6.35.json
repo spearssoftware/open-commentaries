@@ -1,0 +1,67 @@
+{
+  "id": "matthew-henry-concise:John.6.28-John.6.35",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 34,
+  "osis_start": "John.6.28",
+  "osis_end": "John.6.35",
+  "chapter": 6,
+  "heading": null,
+  "original_text": "Constant exercise of faith in Christ, is the most important and difficult part of the obedience required from us, as sinners seeking salvation. When by his grace we are enabled to live a life of faith in the Son of God, holy tempers follow, and acceptable services may be done. God, even his Father, who gave their fathers that food from heaven to support their natural lives, now gave them the true Bread for the salvation of their souls. Coming to Jesus, and believing on him, signify the same. Christ shows that he is the true Bread; he is to the soul what bread is to the body, nourishes and supports the spiritual life. He is the Bread of God. Bread which the Father gives, which he has made to be the food of our souls. Bread nourishes only by the powers of a living body; but Christ is himself living Bread, and nourishes by his own power. The doctrine of Christ crucified is now as strengthening and comforting to a believer as ever it was. He is the Bread which came down from heaven. It denotes the Divinity of Christ's person and his authority; also, the Divine origin of all the good which flows to us through him. May we with understanding and earnestness say, Lord, evermore give us this Bread.",
+  "original_sentences": [
+    "Constant exercise of faith in Christ, is the most important and difficult part of the obedience required from us, as sinners seeking salvation.",
+    "When by his grace we are enabled to live a life of faith in the Son of God, holy tempers follow, and acceptable services may be done.",
+    "God, even his Father, who gave their fathers that food from heaven to support their natural lives, now gave them the true Bread for the salvation of their souls.",
+    "Coming to Jesus, and believing on him, signify the same.",
+    "Christ shows that he is the true Bread; he is to the soul what bread is to the body, nourishes and supports the spiritual life.",
+    "He is the Bread of God.",
+    "Bread which the Father gives, which he has made to be the food of our souls.",
+    "Bread nourishes only by the powers of a living body; but Christ is himself living Bread, and nourishes by his own power.",
+    "The doctrine of Christ crucified is now as strengthening and comforting to a believer as ever it was.",
+    "He is the Bread which came down from heaven.",
+    "It denotes the Divinity of Christ's person and his authority; also, the Divine origin of all the good which flows to us through him.",
+    "May we with understanding and earnestness say, Lord, evermore give us this Bread."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "Bread which came down from heaven",
+      "osis": "John.6.41",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "The Jews then murmured at him, because he said, I am the bread which came down from heaven.",
+      "bsb_text": "At this, the Jews began to grumble about Jesus because He had said, “I am the bread that came down from heaven.”",
+      "bsb_note": null
+    },
+    {
+      "span": "Lord, evermore give us this Bread",
+      "osis": "John.6.34",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Then said they unto him, Lord, evermore give us this bread.",
+      "bsb_text": "“Sir,” they said, “give us this bread at all times.”",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

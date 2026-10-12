@@ -1,0 +1,54 @@
+{
+  "id": "matthew-henry-concise:John.11.1-John.11.6",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 74,
+  "osis_start": "John.11.1",
+  "osis_end": "John.11.6",
+  "chapter": 11,
+  "heading": null,
+  "original_text": "It is no new thing for those whom Christ loves, to be sick; bodily distempers correct the corruption, and try the graces of God's people. He came not to preserve his people from these afflictions, but to save them from their sins, and from the wrath to come; however, it behoves us to apply to Him in behalf of our friends and relatives when sick and afflicted. Let this reconcile us to the darkest dealings of Providence, that they are all for the glory of God: sickness, loss, disappointment, are so; and if God be glorified, we ought to be satisfied. Jesus loved Martha, and her sister, and Lazarus. The families are greatly favoured in which love and peace abound; but those are most happy whom Jesus loves, and by whom he is beloved. Alas, that this should seldom be the case with every person, even in small families. God has gracious intentions, even when he seems to delay. When the work of deliverance, temporal or spiritual, public or personal, is delayed, it does but stay for the right time.",
+  "original_sentences": [
+    "It is no new thing for those whom Christ loves, to be sick; bodily distempers correct the corruption, and try the graces of God's people.",
+    "He came not to preserve his people from these afflictions, but to save them from their sins, and from the wrath to come; however, it behoves us to apply to Him in behalf of our friends and relatives when sick and afflicted.",
+    "Let this reconcile us to the darkest dealings of Providence, that they are all for the glory of God: sickness, loss, disappointment, are so; and if God be glorified, we ought to be satisfied.",
+    "Jesus loved Martha, and her sister, and Lazarus.",
+    "The families are greatly favoured in which love and peace abound; but those are most happy whom Jesus loves, and by whom he is beloved.",
+    "Alas, that this should seldom be the case with every person, even in small families.",
+    "God has gracious intentions, even when he seems to delay.",
+    "When the work of deliverance, temporal or spiritual, public or personal, is delayed, it does but stay for the right time."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "Jesus loved Martha, and her sister, and Lazarus",
+      "osis": "John.11.5",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Now Jesus loved Martha, and her sister, and Lazarus.",
+      "bsb_text": "Now Jesus loved Martha and her sister and Lazarus.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

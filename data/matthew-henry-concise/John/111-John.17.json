@@ -1,0 +1,39 @@
+{
+  "id": "matthew-henry-concise:John.17-John.17",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 111,
+  "osis_start": "John.17",
+  "osis_end": "John.17",
+  "chapter": 17,
+  "heading": "Chapter Outline",
+  "original_text": "Christ's prayer for himself. (1-5)\n\nHis prayer for his disciples. (6-10)\n\nHis prayer. (11-26)",
+  "original_sentences": [
+    "Christ's prayer for himself. (1-5)",
+    "His prayer for his disciples. (6-10)",
+    "His prayer. (11-26)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

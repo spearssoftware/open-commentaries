@@ -1,0 +1,64 @@
+{
+  "id": "matthew-henry-concise:John.2.12-John.2.22",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 12,
+  "osis_start": "John.2.12",
+  "osis_end": "John.2.22",
+  "chapter": 2,
+  "heading": null,
+  "original_text": "The first public work in which we find Christ engaged, was driving from the temple the traders whom the covetous priests and rulers encouraged to make a market-place of its courts. Those now make God's house a house of merchandise, whose minds are filled with cares about worldly business when attending religious exercises, or who perform Divine offices for love of gain. Christ, having thus cleansed the temple, gave a sign to those who demanded it, to prove his authority for so doing. He foretells his death by the Jews' malice, Destroy ye this temple; I will permit you to destroy it. He foretells his resurrection by his own power; In three days I will raise it up. Christ took again his own life. Men mistake by understanding that according to the letter, which the Scripture speaks by way of figure. When Jesus was risen from the dead, his disciples remembered he has said this. It helps much in understanding the Divine word, to observe the fulfilling of the Scriptures.",
+  "original_sentences": [
+    "The first public work in which we find Christ engaged, was driving from the temple the traders whom the covetous priests and rulers encouraged to make a market-place of its courts.",
+    "Those now make God's house a house of merchandise, whose minds are filled with cares about worldly business when attending religious exercises, or who perform Divine offices for love of gain.",
+    "Christ, having thus cleansed the temple, gave a sign to those who demanded it, to prove his authority for so doing.",
+    "He foretells his death by the Jews' malice, Destroy ye this temple; I will permit you to destroy it.",
+    "He foretells his resurrection by his own power; In three days I will raise it up.",
+    "Christ took again his own life.",
+    "Men mistake by understanding that according to the letter, which the Scripture speaks by way of figure.",
+    "When Jesus was risen from the dead, his disciples remembered he has said this.",
+    "It helps much in understanding the Divine word, to observe the fulfilling of the Scriptures."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "three days I will raise it up",
+      "osis": "John.2.19",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Jesus answered and said unto them, Destroy this temple, and in three days I will raise it up.",
+      "bsb_text": "Jesus answered, “Destroy this temple, and in three days I will raise it up again.”",
+      "bsb_note": null
+    },
+    {
+      "span": "risen from the dead, his disciples remembered",
+      "osis": "John.2.22",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "When therefore he was risen from the dead, his disciples remembered that he had said this unto them; and they believed the scripture, and the word which Jesus had said.",
+      "bsb_text": "After He was raised from the dead, His disciples remembered that He had said this. Then they believed the Scripture and the word that Jesus had spoken.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

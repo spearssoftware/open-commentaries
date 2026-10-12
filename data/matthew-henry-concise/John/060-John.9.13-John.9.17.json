@@ -1,0 +1,53 @@
+{
+  "id": "matthew-henry-concise:John.9.13-John.9.17",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 60,
+  "osis_start": "John.9.13",
+  "osis_end": "John.9.17",
+  "chapter": 9,
+  "heading": null,
+  "original_text": "Christ not only worked miracles on the sabbath, but in such a manner as would give offence to the Jews, for he would not seem to yield to the scribes and Pharisees. Their zeal for mere rites consumed the substantial matters of religion; therefore Christ would not give place to them. Also, works of necessity and mercy are allowed, and the sabbath rest is to be kept, in order to the sabbath work. How many blind eyes have been opened by the preaching of the gospel on the Lord's day! how many impotent souls cured on that day! Much unrighteous and uncharitable judging comes from men's adding their own fancies to God's appointments. How perfect in wisdom and holiness was our Redeemer, when his enemies could find nothing against him, but the oft-refuted charge of breaking the sabbath! May we be enabled, by well-doing, to silence the ignorance of foolish men.",
+  "original_sentences": [
+    "Christ not only worked miracles on the sabbath, but in such a manner as would give offence to the Jews, for he would not seem to yield to the scribes and Pharisees.",
+    "Their zeal for mere rites consumed the substantial matters of religion; therefore Christ would not give place to them.",
+    "Also, works of necessity and mercy are allowed, and the sabbath rest is to be kept, in order to the sabbath work.",
+    "How many blind eyes have been opened by the preaching of the gospel on the Lord's day! how many impotent souls cured on that day!",
+    "Much unrighteous and uncharitable judging comes from men's adding their own fancies to God's appointments.",
+    "How perfect in wisdom and holiness was our Redeemer, when his enemies could find nothing against him, but the oft-refuted charge of breaking the sabbath!",
+    "May we be enabled, by well-doing, to silence the ignorance of foolish men."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "silence the ignorance of foolish men",
+      "osis": "1Pet.2.15",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "For so is the will of God, that with well doing ye may put to silence the ignorance of foolish men:",
+      "bsb_text": "For it is God’s will that by doing good you should silence the ignorance of foolish men.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

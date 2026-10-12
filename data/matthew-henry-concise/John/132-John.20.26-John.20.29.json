@@ -1,0 +1,75 @@
+{
+  "id": "matthew-henry-concise:John.20.26-John.20.29",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 132,
+  "osis_start": "John.20.26",
+  "osis_end": "John.20.29",
+  "chapter": 20,
+  "heading": null,
+  "original_text": "That one day in seven should be religiously observed, was an appointment from the beginning. And that, in the kingdom of the Messiah, the first day of the week should be that solemn day, was pointed out, in that Christ on that day once and again met his disciples in a religious assembly. The religious observance of that day has come down to us through every age of the church. There is not an unbelieving word in our tongues, nor thought in our minds, but it is known to the Lord Jesus; and he was pleased to accommodate himself even to Thomas, rather than leave him in his unbelief. We ought thus to bear with the weak, Ro 15:1, 2. This warning is given to all. If we are faithless, we are Christless and graceless, hopeless and joyless. Thomas was ashamed of his unbelief, and cried out, My Lord and my God. He spoke with affection, as one that took hold of Christ with all his might; \"My Lord and my God.\" Sound and sincere believers, though slow and weak, shall be graciously accepted of the Lord Jesus. It is the duty of those who read and hear the gospel, to believe, to embrace the doctrine of Christ, and that record concerning him, 1Jo 5:11.",
+  "original_sentences": [
+    "That one day in seven should be religiously observed, was an appointment from the beginning.",
+    "And that, in the kingdom of the Messiah, the first day of the week should be that solemn day, was pointed out, in that Christ on that day once and again met his disciples in a religious assembly.",
+    "The religious observance of that day has come down to us through every age of the church.",
+    "There is not an unbelieving word in our tongues, nor thought in our minds, but it is known to the Lord Jesus; and he was pleased to accommodate himself even to Thomas, rather than leave him in his unbelief.",
+    "We ought thus to bear with the weak, Ro 15:1, 2.",
+    "This warning is given to all.",
+    "If we are faithless, we are Christless and graceless, hopeless and joyless.",
+    "Thomas was ashamed of his unbelief, and cried out, My Lord and my God.",
+    "He spoke with affection, as one that took hold of Christ with all his might; \"My Lord and my God.\"",
+    "Sound and sincere believers, though slow and weak, shall be graciously accepted of the Lord Jesus.",
+    "It is the duty of those who read and hear the gospel, to believe, to embrace the doctrine of Christ, and that record concerning him, 1Jo 5:11."
+  ],
+  "references": [
+    {
+      "osis": "Rom.15.1",
+      "inferred": false
+    },
+    {
+      "osis": "1John.5.11",
+      "inferred": false
+    }
+  ],
+  "quotes": [
+    {
+      "span": "first day of the week",
+      "osis": null,
+      "source": "code",
+      "kjv_match": "loose",
+      "kjv_text": null,
+      "bsb_text": null,
+      "bsb_note": null
+    },
+    {
+      "span": "My Lord and my God.",
+      "osis": null,
+      "source": "code",
+      "kjv_match": "none",
+      "kjv_text": null,
+      "bsb_text": null,
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

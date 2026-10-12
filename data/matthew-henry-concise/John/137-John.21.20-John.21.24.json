@@ -1,0 +1,52 @@
+{
+  "id": "matthew-henry-concise:John.21.20-John.21.24",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 137,
+  "osis_start": "John.21.20",
+  "osis_end": "John.21.24",
+  "chapter": 21,
+  "heading": null,
+  "original_text": "Sufferings, pains, and death, will appear formidable even to the experienced Christian; but in the hope to glorify God, to leave a sinful world, and to be present with his Lord, he becomes ready to obey the Redeemer's call, and to follow Him through death to glory. It is the will of Christ that his disciples should mind their own duty, and not be curious about future events, either as to themselves or others. Many things we are apt to be anxious about, which are nothing to us. Other people's affairs are nothing to us, to intermeddle in; we must quietly work, and mind our own business. Many curious questions are put about the counsels of God, and the state of the unseen world, as to which we may say, What is this to us? And if we attend to the duty of following Christ, we shall find neither heart nor time to meddle with that which does not belong to us. How little are any unwritten traditions to be relied upon! Let the Scripture be its own interpreter, and explain itself; as it is, in a great measure, its own evidence, and proves itself, for it is light. See the easy setting right such mistakes by the word of Christ. Scripture language is the safest channel for Scripture truth; the words which the Holy Ghost teaches, 1Co 2:13. Those who cannot agree in the same terms of art, and the application of them, may yet agree in the same Scripture terms, and to love one another.",
+  "original_sentences": [
+    "Sufferings, pains, and death, will appear formidable even to the experienced Christian; but in the hope to glorify God, to leave a sinful world, and to be present with his Lord, he becomes ready to obey the Redeemer's call, and to follow Him through death to glory.",
+    "It is the will of Christ that his disciples should mind their own duty, and not be curious about future events, either as to themselves or others.",
+    "Many things we are apt to be anxious about, which are nothing to us.",
+    "Other people's affairs are nothing to us, to intermeddle in; we must quietly work, and mind our own business.",
+    "Many curious questions are put about the counsels of God, and the state of the unseen world, as to which we may say, What is this to us?",
+    "And if we attend to the duty of following Christ, we shall find neither heart nor time to meddle with that which does not belong to us.",
+    "How little are any unwritten traditions to be relied upon!",
+    "Let the Scripture be its own interpreter, and explain itself; as it is, in a great measure, its own evidence, and proves itself, for it is light.",
+    "See the easy setting right such mistakes by the word of Christ.",
+    "Scripture language is the safest channel for Scripture truth; the words which the Holy Ghost teaches, 1Co 2:13.",
+    "Those who cannot agree in the same terms of art, and the application of them, may yet agree in the same Scripture terms, and to love one another."
+  ],
+  "references": [
+    {
+      "osis": "1Cor.2.13",
+      "inferred": false
+    }
+  ],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

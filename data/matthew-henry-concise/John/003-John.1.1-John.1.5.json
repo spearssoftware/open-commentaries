@@ -1,0 +1,56 @@
+{
+  "id": "matthew-henry-concise:John.1.1-John.1.5",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 3,
+  "osis_start": "John.1.1",
+  "osis_end": "John.1.5",
+  "chapter": 1,
+  "heading": null,
+  "original_text": "The plainest reason why the Son of God is called the Word, seems to be, that as our words explain our minds to others, so was the Son of God sent in order to reveal his Father's mind to the world. What the evangelist says of Christ proves that he is God. He asserts, His existence in the beginning; His coexistence with the Father. The Word was with God. All things were made by him, and not as an instrument. Without him was not any thing made that was made, from the highest angel to the meanest worm. This shows how well qualified he was for the work of our redemption and salvation. The light of reason, as well as the life of sense, is derived from him, and depends upon him. This eternal Word, this true Light shines, but the darkness comprehends it not. Let us pray without ceasing, that our eyes may be opened to behold this Light, that we may walk in it; and thus be made wise unto salvation, by faith in Jesus Christ.",
+  "original_sentences": [
+    "The plainest reason why the Son of God is called the Word, seems to be, that as our words explain our minds to others, so was the Son of God sent in order to reveal his Father's mind to the world.",
+    "What the evangelist says of Christ proves that he is God.",
+    "He asserts, His existence in the beginning; His coexistence with the Father.",
+    "The Word was with God.",
+    "All things were made by him, and not as an instrument.",
+    "Without him was not any thing made that was made, from the highest angel to the meanest worm.",
+    "This shows how well qualified he was for the work of our redemption and salvation.",
+    "The light of reason, as well as the life of sense, is derived from him, and depends upon him.",
+    "This eternal Word, this true Light shines, but the darkness comprehends it not.",
+    "Let us pray without ceasing, that our eyes may be opened to behold this Light, that we may walk in it; and thus be made wise unto salvation, by faith in Jesus Christ."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "Without him was not any thing made that was made",
+      "osis": "John.1.3",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "All things were made by him; and without him was not any thing made that was made.",
+      "bsb_text": "Through Him all things were made, and without Him nothing was made that has been made.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

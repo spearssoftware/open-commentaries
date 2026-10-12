@@ -1,0 +1,56 @@
+{
+  "id": "matthew-henry-concise:John.20.1-John.20.10",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 129,
+  "osis_start": "John.20.1",
+  "osis_end": "John.20.10",
+  "chapter": 20,
+  "heading": null,
+  "original_text": "If Christ gave his life a ransom, and had not taken it again, it would not have appeared that his giving it was accepted as satisfaction. It was a great trial to Mary, that the body was gone. Weak believers often make that the matter of complaint, which is really just ground of hope, and matter of joy. It is well when those more honoured than others with the privileges of disciples, are more active than others in the duty of disciples; more willing to take pains, and run hazards, in a good work. We must do our best, and neither envy those who can do better, nor despise those who do as well as they can, though they come behind. The disciple whom Jesus loved in a special manner, and who therefore in a special manner loved Jesus, was foremost. The love of Christ will make us to abound in every duty more than any thing else. He that was behind was Peter, who had denied Christ. A sense of guilt hinders us in the service of God. As yet the disciples knew not the Scripture; they Christ must rise again from the dead.",
+  "original_sentences": [
+    "If Christ gave his life a ransom, and had not taken it again, it would not have appeared that his giving it was accepted as satisfaction.",
+    "It was a great trial to Mary, that the body was gone.",
+    "Weak believers often make that the matter of complaint, which is really just ground of hope, and matter of joy.",
+    "It is well when those more honoured than others with the privileges of disciples, are more active than others in the duty of disciples; more willing to take pains, and run hazards, in a good work.",
+    "We must do our best, and neither envy those who can do better, nor despise those who do as well as they can, though they come behind.",
+    "The disciple whom Jesus loved in a special manner, and who therefore in a special manner loved Jesus, was foremost.",
+    "The love of Christ will make us to abound in every duty more than any thing else.",
+    "He that was behind was Peter, who had denied Christ.",
+    "A sense of guilt hinders us in the service of God.",
+    "As yet the disciples knew not the Scripture; they Christ must rise again from the dead."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "must rise again from the dead",
+      "osis": "John.20.9",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "For as yet they knew not the scripture, that he must rise again from the dead.",
+      "bsb_text": "For they still did not understand from the Scripture that Jesus had to rise from the dead.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

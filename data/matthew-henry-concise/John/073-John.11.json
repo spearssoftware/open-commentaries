@@ -1,0 +1,43 @@
+{
+  "id": "matthew-henry-concise:John.11-John.11",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 73,
+  "osis_start": "John.11",
+  "osis_end": "John.11",
+  "chapter": 11,
+  "heading": "Chapter Outline",
+  "original_text": "The sickness of Lazarus. (1-6)\n\nChrist returns to Judea. (7-10)\n\nThe death of Lazarus. (11-16)\n\nChrist arrives at Bethany. (17-32)\n\nHe raises Lazarus. (33-46)\n\nThe Pharisees consult against Jesus. (47-53)\n\nThe Jews seek for him. (54-57)",
+  "original_sentences": [
+    "The sickness of Lazarus. (1-6)",
+    "Christ returns to Judea. (7-10)",
+    "The death of Lazarus. (11-16)",
+    "Christ arrives at Bethany. (17-32)",
+    "He raises Lazarus. (33-46)",
+    "The Pharisees consult against Jesus. (47-53)",
+    "The Jews seek for him. (54-57)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

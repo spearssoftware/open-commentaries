@@ -1,0 +1,44 @@
+{
+  "id": "matthew-henry-concise:John.4.1-John.4.3",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 18,
+  "osis_start": "John.4.1",
+  "osis_end": "John.4.3",
+  "chapter": 4,
+  "heading": null,
+  "original_text": "Jesus applied himself more to preaching, which was the more excellent, 1Co 1:17, than to baptism. He would put honour upon his disciples, by employing them to baptize. He teaches us that the benefit of sacraments depends not on the hand that administers them.",
+  "original_sentences": [
+    "Jesus applied himself more to preaching, which was the more excellent, 1Co 1:17, than to baptism.",
+    "He would put honour upon his disciples, by employing them to baptize.",
+    "He teaches us that the benefit of sacraments depends not on the hand that administers them."
+  ],
+  "references": [
+    {
+      "osis": "1Cor.1.17",
+      "inferred": false
+    }
+  ],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

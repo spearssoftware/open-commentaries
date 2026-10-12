@@ -1,0 +1,54 @@
+{
+  "id": "matthew-henry-concise:John.1.15-John.1.18",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 5,
+  "osis_start": "John.1.15",
+  "osis_end": "John.1.18",
+  "chapter": 1,
+  "heading": null,
+  "original_text": "As to the order of time and entrance on his work, Christ came after John, but in every other way he was before him. The expression clearly shows that Jesus had existence before he appeared on earth as man. All fulness dwells in him, from which alone fallen sinners have, and shall receive, by faith, all that renders them wise, strong, holy, useful, and happy. Our receivings by Christ are all summed up in this one word, grace; we have received \"even grace,\" a gift so great, so rich, so invaluable; the good will of God towards us, and the good work of God in us. The law of God is holy, just, and good; and we should make the proper use of it. But we cannot derive from it pardon, righteousness, or strength. It teaches us to adorn the doctrine of God our Saviour, but it cannot supply the place of that doctrine. As no mercy comes from God to sinners but through Jesus Christ, no man can come to the Father but by him; no man can know God, except as he is made known in the only begotten and beloved Son.",
+  "original_sentences": [
+    "As to the order of time and entrance on his work, Christ came after John, but in every other way he was before him.",
+    "The expression clearly shows that Jesus had existence before he appeared on earth as man.",
+    "All fulness dwells in him, from which alone fallen sinners have, and shall receive, by faith, all that renders them wise, strong, holy, useful, and happy.",
+    "Our receivings by Christ are all summed up in this one word, grace; we have received \"even grace,\" a gift so great, so rich, so invaluable; the good will of God towards us, and the good work of God in us.",
+    "The law of God is holy, just, and good; and we should make the proper use of it.",
+    "But we cannot derive from it pardon, righteousness, or strength.",
+    "It teaches us to adorn the doctrine of God our Saviour, but it cannot supply the place of that doctrine.",
+    "As no mercy comes from God to sinners but through Jesus Christ, no man can come to the Father but by him; no man can know God, except as he is made known in the only begotten and beloved Son."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "adorn the doctrine of God our Saviour",
+      "osis": "Titus.2.10",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Not purloining, but shewing all good fidelity; that they may adorn the doctrine of God our Saviour in all things.",
+      "bsb_text": "not stealing from them, but showing all good faith, so that in every respect they will adorn the teaching about God our Savior.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

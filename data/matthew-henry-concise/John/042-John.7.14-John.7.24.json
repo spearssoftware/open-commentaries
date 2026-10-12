@@ -1,0 +1,43 @@
+{
+  "id": "matthew-henry-concise:John.7.14-John.7.24",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 42,
+  "osis_start": "John.7.14",
+  "osis_end": "John.7.24",
+  "chapter": 7,
+  "heading": null,
+  "original_text": "Every faithful minister may humbly adopt Christ's words. His doctrine is not his own finding out, but is from God's word, through the teaching of his Spirit. And amidst the disputes which disturb the world, if any man, of any nation, seeks to do the will of God, he shall know whether the doctrine is of God, or whether men speak of themselves. Only those who hate the truth shall be given up to errors which will be fatal. Surely it was as agreeable to the design of the sabbath to restore health to the afflicted, as to administer an outward rite. Jesus told them to decide on his conduct according to the spiritual import of the Divine law. We must not judge concerning any by their outward appearance, but by their worth, and by the gifts and graces of God's Spirit in them.",
+  "original_sentences": [
+    "Every faithful minister may humbly adopt Christ's words.",
+    "His doctrine is not his own finding out, but is from God's word, through the teaching of his Spirit.",
+    "And amidst the disputes which disturb the world, if any man, of any nation, seeks to do the will of God, he shall know whether the doctrine is of God, or whether men speak of themselves.",
+    "Only those who hate the truth shall be given up to errors which will be fatal.",
+    "Surely it was as agreeable to the design of the sabbath to restore health to the afflicted, as to administer an outward rite.",
+    "Jesus told them to decide on his conduct according to the spiritual import of the Divine law.",
+    "We must not judge concerning any by their outward appearance, but by their worth, and by the gifts and graces of God's Spirit in them."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

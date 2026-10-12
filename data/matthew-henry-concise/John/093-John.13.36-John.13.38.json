@@ -1,0 +1,61 @@
+{
+  "id": "matthew-henry-concise:John.13.36-John.13.38",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 93,
+  "osis_start": "John.13.36",
+  "osis_end": "John.13.38",
+  "chapter": 13,
+  "heading": null,
+  "original_text": "What Christ had said concerning brotherly love, Peter overlooked, but spoke of that about which Christ kept them ignorant. It is common to be more eager to know about secret things, which belong to God only, than about things revealed, which belong to us and our children; to be more desirous to have our curiosity gratified, than our consciences directed; to know what is done in heaven, than what we may do to get thither. How soon discourse as to what is plain and edifying is dropped, while a doubtful dispute runs on into endless strife of words! We are apt to take it amiss to be told we cannot do this and the other, whereas, without Christ we can do nothing. Christ knows us better than we know ourselves, and has many ways of discovering those to themselves, whom he loves, and he will hide pride from them. May we endeavour to keep the unity of the Spirit in the bond of peace, to love one another with a pure heart fervently, and to walk humbly with our God.",
+  "original_sentences": [
+    "What Christ had said concerning brotherly love, Peter overlooked, but spoke of that about which Christ kept them ignorant.",
+    "It is common to be more eager to know about secret things, which belong to God only, than about things revealed, which belong to us and our children; to be more desirous to have our curiosity gratified, than our consciences directed; to know what is done in heaven, than what we may do to get thither.",
+    "How soon discourse as to what is plain and edifying is dropped, while a doubtful dispute runs on into endless strife of words!",
+    "We are apt to take it amiss to be told we cannot do this and the other, whereas, without Christ we can do nothing.",
+    "Christ knows us better than we know ourselves, and has many ways of discovering those to themselves, whom he loves, and he will hide pride from them.",
+    "May we endeavour to keep the unity of the Spirit in the bond of peace, to love one another with a pure heart fervently, and to walk humbly with our God."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "keep the unity of the Spirit in the bond of peace",
+      "osis": "Eph.4.3",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Endeavouring to keep the unity of the Spirit in the bond of peace.",
+      "bsb_text": "and with diligence to preserve the unity of the Spirit through the bond of peace.",
+      "bsb_note": null
+    },
+    {
+      "span": "love one another with a pure heart fervently",
+      "osis": "1Pet.1.22",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Seeing ye have purified your souls in obeying the truth through the Spirit unto unfeigned love of the brethren, see that ye love one another with a pure heart fervently:",
+      "bsb_text": "Since you have purified your souls by obedience to the truth so that you have a genuine love for your brothers, love one another deeply, from a pure heart.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "matthew-henry-concise:John.7.25-John.7.30",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 43,
+  "osis_start": "John.7.25",
+  "osis_end": "John.7.30",
+  "chapter": 7,
+  "heading": null,
+  "original_text": "Christ proclaimed aloud, that they were in error in their thoughts about his origin. He was sent of God, who showed himself true to his promises. This declaration, that they knew not God, with his claim to peculiar knowledge, provoked the hearers; and they sought to take him, but God can tie men's hands, though he does not turn their hearts.",
+  "original_sentences": [
+    "Christ proclaimed aloud, that they were in error in their thoughts about his origin.",
+    "He was sent of God, who showed himself true to his promises.",
+    "This declaration, that they knew not God, with his claim to peculiar knowledge, provoked the hearers; and they sought to take him, but God can tie men's hands, though he does not turn their hearts."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

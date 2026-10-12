@@ -1,0 +1,57 @@
+{
+  "id": "matthew-henry-concise:John.12.27-John.12.33",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 85,
+  "osis_start": "John.12.27",
+  "osis_end": "John.12.33",
+  "chapter": 12,
+  "heading": null,
+  "original_text": "The sin of our souls was the troubled of Christ's soul, when he undertook to redeem and save us, and to make his soul an offering for our sin. Christ was willing to suffer, yet prayed to be saved from suffering. Prayer against trouble may well agree with patience under it, and submission to the will of God in it. Our Lord Jesus undertook to satisfy God's injured honour, and he did it by humbling himself. The voice of the Father from heaven, which had declared him to be his beloved Son, at his baptism, and when he was transfigured, was heard proclaiming that He had both glorified his name, and would glorify it. Christ, reconciling the world to God by the merit of his death, broke the power of death, and cast out Satan as a destroyer. Christ, bringing the world to God by the doctrine of his cross, broke the power of sin, and cast out Satan as a deceiver. The soul that was at a distance from Christ, is brought to love him and trust him. Jesus was now going to heaven, and he would draw men's hearts to him thither. There is power in the death of Christ to draw souls to him. We have heard from the gospel that which exalts free grace, and we have heard also that which enjoins duty; we must from the heart embrace both, and not separate them.",
+  "original_sentences": [
+    "The sin of our souls was the troubled of Christ's soul, when he undertook to redeem and save us, and to make his soul an offering for our sin.",
+    "Christ was willing to suffer, yet prayed to be saved from suffering.",
+    "Prayer against trouble may well agree with patience under it, and submission to the will of God in it.",
+    "Our Lord Jesus undertook to satisfy God's injured honour, and he did it by humbling himself.",
+    "The voice of the Father from heaven, which had declared him to be his beloved Son, at his baptism, and when he was transfigured, was heard proclaiming that He had both glorified his name, and would glorify it.",
+    "Christ, reconciling the world to God by the merit of his death, broke the power of death, and cast out Satan as a destroyer.",
+    "Christ, bringing the world to God by the doctrine of his cross, broke the power of sin, and cast out Satan as a deceiver.",
+    "The soul that was at a distance from Christ, is brought to love him and trust him.",
+    "Jesus was now going to heaven, and he would draw men's hearts to him thither.",
+    "There is power in the death of Christ to draw souls to him.",
+    "We have heard from the gospel that which exalts free grace, and we have heard also that which enjoins duty; we must from the heart embrace both, and not separate them."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "make his soul an offering",
+      "osis": "Isa.53.10",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Yet it pleased the LORD to bruise him; he hath put him to grief: when thou shalt make his soul an offering for sin, he shall see his seed, he shall prolong his days, and the pleasure of the LORD shall prosper in his hand.",
+      "bsb_text": "Yet it was the LORD’s will to crush Him and to cause Him to suffer; and when His soul is made a guilt offering, He will see His offspring, He will prolong His days, and the good pleasure of the LORD will prosper in His hand.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

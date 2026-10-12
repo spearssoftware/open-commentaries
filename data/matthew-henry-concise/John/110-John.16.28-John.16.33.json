@@ -1,0 +1,58 @@
+{
+  "id": "matthew-henry-concise:John.16.28-John.16.33",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 110,
+  "osis_start": "John.16.28",
+  "osis_end": "John.16.33",
+  "chapter": 16,
+  "heading": null,
+  "original_text": "Here is a plain declaration of Christ's coming from the Father, and his return to him. The Redeemer, in his entrance, was God manifest in the flesh, and in his departure was received up into glory. By this saying the disciples improved in knowledge. Also in faith; \"Now are we sure.\" Alas! they knew not their own weakness. The Divine nature did not desert the human nature, but supported it, and put comfort and value into Christ's sufferings. And while we have God's favourable presence, we are happy, and ought to be easy, though all the world forsake us. Peace in Christ is the only true peace, in him alone believers have it. Through him we have peace with God, and so in him we have peace in our own minds. We ought to be encouraged, because Christ has overcome the world before us. But while we think we stand, let us take heed lest we fall. We know not how we should act if brought into temptation; let us watch and pray without ceasing, that we may not be left to ourselves.",
+  "original_sentences": [
+    "Here is a plain declaration of Christ's coming from the Father, and his return to him.",
+    "The Redeemer, in his entrance, was God manifest in the flesh, and in his departure was received up into glory.",
+    "By this saying the disciples improved in knowledge.",
+    "Also in faith; \"Now are we sure.\"",
+    "Alas! they knew not their own weakness.",
+    "The Divine nature did not desert the human nature, but supported it, and put comfort and value into Christ's sufferings.",
+    "And while we have God's favourable presence, we are happy, and ought to be easy, though all the world forsake us.",
+    "Peace in Christ is the only true peace, in him alone believers have it.",
+    "Through him we have peace with God, and so in him we have peace in our own minds.",
+    "We ought to be encouraged, because Christ has overcome the world before us.",
+    "But while we think we stand, let us take heed lest we fall.",
+    "We know not how we should act if brought into temptation; let us watch and pray without ceasing, that we may not be left to ourselves."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "Now are we sure.",
+      "osis": null,
+      "source": "code",
+      "kjv_match": "none",
+      "kjv_text": null,
+      "bsb_text": null,
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

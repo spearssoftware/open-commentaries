@@ -1,0 +1,39 @@
+{
+  "id": "matthew-henry-concise:John.18-John.18",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 118,
+  "osis_start": "John.18",
+  "osis_end": "John.18",
+  "chapter": 18,
+  "heading": "Chapter Outline",
+  "original_text": "Christ taken in the garden. (1-12)\n\nChrist before Annas and Caiaphas. (13-27)\n\nChrist before Pilate. (28-40)",
+  "original_sentences": [
+    "Christ taken in the garden. (1-12)",
+    "Christ before Annas and Caiaphas. (13-27)",
+    "Christ before Pilate. (28-40)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

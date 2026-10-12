@@ -1,0 +1,42 @@
+{
+  "id": "matthew-henry-concise:John.8.37-John.8.40",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 53,
+  "osis_start": "John.8.37",
+  "osis_end": "John.8.40",
+  "chapter": 8,
+  "heading": null,
+  "original_text": "Our Lord opposed the proud and vain confidence of these Jews, showing that their descent from Abraham could not profit those of a contrary spirit to him. Where the word of God has no place, no good is to be expected; room is left there for all wickedness. A sick person who turns from his physician, and will take neither remedies nor food, is past hope of recovery. The truth both heals and nourishes the hearts of those who receive it. The truth taught by philosophers has not this power and effect, but only the truth of God. Those who claim the privileges of Abraham, must do Abraham's works; must be strangers and sojourners in this world; keep up the worship of God in their families, and always walk before God.",
+  "original_sentences": [
+    "Our Lord opposed the proud and vain confidence of these Jews, showing that their descent from Abraham could not profit those of a contrary spirit to him.",
+    "Where the word of God has no place, no good is to be expected; room is left there for all wickedness.",
+    "A sick person who turns from his physician, and will take neither remedies nor food, is past hope of recovery.",
+    "The truth both heals and nourishes the hearts of those who receive it.",
+    "The truth taught by philosophers has not this power and effect, but only the truth of God.",
+    "Those who claim the privileges of Abraham, must do Abraham's works; must be strangers and sojourners in this world; keep up the worship of God in their families, and always walk before God."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

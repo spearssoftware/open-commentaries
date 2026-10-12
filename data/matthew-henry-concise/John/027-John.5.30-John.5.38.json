@@ -1,0 +1,51 @@
+{
+  "id": "matthew-henry-concise:John.5.30-John.5.38",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 27,
+  "osis_start": "John.5.30",
+  "osis_end": "John.5.38",
+  "chapter": 5,
+  "heading": null,
+  "original_text": "Our Lord returns to his declaration of the entire agreement between the Father and the Son, and declared himself the Son of God. He had higher testimony than that of John; his works bore witness to all he had said. But the Divine word had no abiding-place in their hearts, as they refused to believe in Him whom the Father had sent, according to his ancient promises. The voice of God, accompanied by the power of the Holy Ghost, thus made effectual to the conversion of sinners, still proclaims that this is the beloved Son, in whom the Father is well pleased. But when the hearts of men are full of pride, ambition, and the love of the world, there is no room for the word of God to abide in them.",
+  "original_sentences": [
+    "Our Lord returns to his declaration of the entire agreement between the Father and the Son, and declared himself the Son of God.",
+    "He had higher testimony than that of John; his works bore witness to all he had said.",
+    "But the Divine word had no abiding-place in their hearts, as they refused to believe in Him whom the Father had sent, according to his ancient promises.",
+    "The voice of God, accompanied by the power of the Holy Ghost, thus made effectual to the conversion of sinners, still proclaims that this is the beloved Son, in whom the Father is well pleased.",
+    "But when the hearts of men are full of pride, ambition, and the love of the world, there is no room for the word of God to abide in them."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "power of the Holy Ghost",
+      "osis": "Rom.15.13",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost.",
+      "bsb_text": "Now may the God of hope fill you with all joy and peace as you believe in Him, so that you may overflow with hope by the power of the Holy Spirit.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

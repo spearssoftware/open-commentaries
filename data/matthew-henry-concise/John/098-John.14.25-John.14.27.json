@@ -1,0 +1,41 @@
+{
+  "id": "matthew-henry-concise:John.14.25-John.14.27",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 98,
+  "osis_start": "John.14.25",
+  "osis_end": "John.14.27",
+  "chapter": 14,
+  "heading": null,
+  "original_text": "Would we know these things for our good, we must pray for, and depend on the teaching of the Holy Ghost; thus the words of Jesus will be brought to our remembrance, and many difficulties be cleared up which are not plain to others. To all the saints, the Spirit of grace is given to be a remembrancer, and to him, by faith and prayer, we should commit the keeping of what we hear and know. Peace is put for all good, and Christ has left us all that is really and truly good, all the promised good; peace of mind from our justification before God. This Christ calls his peace, for he is himself our Peace. The peace of God widely differs from that of Pharisees or hypocrites, as is shown by its humbling and holy effects.",
+  "original_sentences": [
+    "Would we know these things for our good, we must pray for, and depend on the teaching of the Holy Ghost; thus the words of Jesus will be brought to our remembrance, and many difficulties be cleared up which are not plain to others.",
+    "To all the saints, the Spirit of grace is given to be a remembrancer, and to him, by faith and prayer, we should commit the keeping of what we hear and know.",
+    "Peace is put for all good, and Christ has left us all that is really and truly good, all the promised good; peace of mind from our justification before God.",
+    "This Christ calls his peace, for he is himself our Peace.",
+    "The peace of God widely differs from that of Pharisees or hypocrites, as is shown by its humbling and holy effects."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

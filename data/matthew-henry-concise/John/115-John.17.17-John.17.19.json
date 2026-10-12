@@ -1,0 +1,64 @@
+{
+  "id": "matthew-henry-concise:John.17.17-John.17.19",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 115,
+  "osis_start": "John.17.17",
+  "osis_end": "John.17.19",
+  "chapter": 17,
+  "heading": null,
+  "original_text": "Christ next prayed for the disciples, that they might not only be kept from evil, but made good. It is the prayer of Jesus for all that are his, that they may be made holy. Even disciples must pray for sanctifying grace. The means of giving this grace is, \"through thy truth, thy word is truth.\" Sanctify them, set them apart for thyself and thy service. Own them in the office; let thy hand go with them. Jesus entirely devoted himself to his undertaking, and all the parts of it, especially the offering up himself without spot unto God, by the eternal Spirit. The real holiness of all true Christians is the fruit of Christ's death, by which the gift of the Holy Ghost was purchased; he gave himself for his church, to sanctify it. If our views have not this effect on us, they are not Divine truth, or we do not receive them by a living and a working faith, but as mere notions.",
+  "original_sentences": [
+    "Christ next prayed for the disciples, that they might not only be kept from evil, but made good.",
+    "It is the prayer of Jesus for all that are his, that they may be made holy.",
+    "Even disciples must pray for sanctifying grace.",
+    "The means of giving this grace is, \"through thy truth, thy word is truth.\"",
+    "Sanctify them, set them apart for thyself and thy service.",
+    "Own them in the office; let thy hand go with them.",
+    "Jesus entirely devoted himself to his undertaking, and all the parts of it, especially the offering up himself without spot unto God, by the eternal Spirit.",
+    "The real holiness of all true Christians is the fruit of Christ's death, by which the gift of the Holy Ghost was purchased; he gave himself for his church, to sanctify it.",
+    "If our views have not this effect on us, they are not Divine truth, or we do not receive them by a living and a working faith, but as mere notions."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "through thy truth, thy word is truth",
+      "osis": "John.17.17",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Sanctify them through thy truth: thy word is truth.",
+      "bsb_text": "Sanctify them by the truth; Your word is truth.",
+      "bsb_note": null
+    },
+    {
+      "span": "gift of the Holy Ghost",
+      "osis": null,
+      "source": "code",
+      "kjv_match": "loose",
+      "kjv_text": null,
+      "bsb_text": null,
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

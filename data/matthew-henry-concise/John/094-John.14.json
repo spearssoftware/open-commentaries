@@ -1,0 +1,39 @@
+{
+  "id": "matthew-henry-concise:John.14-John.14",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 94,
+  "osis_start": "John.14",
+  "osis_end": "John.14",
+  "chapter": 14,
+  "heading": "Chapter Outline",
+  "original_text": "Christ comforts his disciples. (1-11)\n\nHe further comforts his disciples. (12-17)\n\nHe still further comforts his disciples. (18-31)",
+  "original_sentences": [
+    "Christ comforts his disciples. (1-11)",
+    "He further comforts his disciples. (12-17)",
+    "He still further comforts his disciples. (18-31)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "matthew-henry-concise:John.6.36-John.6.46",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 35,
+  "osis_start": "John.6.36",
+  "osis_end": "John.6.46",
+  "chapter": 6,
+  "heading": null,
+  "original_text": "The discovery of their guilt, danger, and remedy, by the teaching of the Holy Spirit, makes men willing and glad to come, and to give up every thing which hinders applying to him for salvation. The Father's will is, that not one of those who were given to the Son, should be rejected or lost by him. No one will come, till Divine grace has subdued, and in part changed his heart; therefore no one who comes will ever be cast out. The gospel finds none willing to be saved in the humbling, holy manner, made known therein; but God draws with his word and the Holy Ghost; and man's duty is to hear and learn; that is to say, to receive the grace offered, and consent to the promise. None had seen the Father but his beloved Son; and the Jews must expect to be taught by his inward power upon their minds, and by his word, and the ministers whom he sent among them.",
+  "original_sentences": [
+    "The discovery of their guilt, danger, and remedy, by the teaching of the Holy Spirit, makes men willing and glad to come, and to give up every thing which hinders applying to him for salvation.",
+    "The Father's will is, that not one of those who were given to the Son, should be rejected or lost by him.",
+    "No one will come, till Divine grace has subdued, and in part changed his heart; therefore no one who comes will ever be cast out.",
+    "The gospel finds none willing to be saved in the humbling, holy manner, made known therein; but God draws with his word and the Holy Ghost; and man's duty is to hear and learn; that is to say, to receive the grace offered, and consent to the promise.",
+    "None had seen the Father but his beloved Son; and the Jews must expect to be taught by his inward power upon their minds, and by his word, and the ministers whom he sent among them."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "word and the Holy Ghost",
+      "osis": "1John.5.7",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one.",
+      "bsb_text": "For there are three that testify:",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

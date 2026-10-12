@@ -1,0 +1,224 @@
+{
+  "approved": "2026-10-12",
+  "entries": [
+    {
+      "word": "shall",
+      "senses": {
+        "future": ["will"],
+        "obligation": ["must"]
+      },
+      "note": "Render by sense and record shall_sense on the modern sentence."
+    },
+    {
+      "word": "surely",
+      "equivalents": ["surely", "certainly"]
+    },
+    {
+      "word": "certainly",
+      "equivalents": ["certainly", "surely"]
+    },
+    {
+      "word": "doubtless",
+      "equivalents": ["doubtless", "no doubt", "without doubt"]
+    },
+    {
+      "word": "truly",
+      "equivalents": ["truly", "really", "indeed"]
+    },
+    {
+      "word": "indeed",
+      "equivalents": ["indeed", "truly"]
+    },
+    {
+      "word": "really",
+      "equivalents": ["really", "truly"]
+    },
+    {
+      "word": "must",
+      "equivalents": ["must"]
+    },
+    {
+      "word": "ought",
+      "equivalents": ["ought", "should"]
+    },
+    {
+      "word": "should",
+      "equivalents": ["should", "ought to"]
+    },
+    {
+      "word": "may",
+      "equivalents": ["may", "might"],
+      "note": "Keep possibility; never strengthen to 'will'."
+    },
+    {
+      "word": "might",
+      "equivalents": ["might", "may"]
+    },
+    {
+      "word": "perhaps",
+      "equivalents": ["perhaps", "possibly"]
+    },
+    {
+      "word": "probably",
+      "equivalents": ["probably", "likely"]
+    },
+    {
+      "word": "it seems",
+      "equivalents": ["it seems", "it appears", "seems"]
+    },
+    {
+      "word": "appears",
+      "equivalents": ["appears", "seems"]
+    },
+    {
+      "word": "it is thought",
+      "equivalents": ["it is thought", "it is believed"]
+    },
+    {
+      "word": "very",
+      "equivalents": ["very"]
+    },
+    {
+      "word": "exceedingly",
+      "equivalents": ["exceedingly", "extremely", "exceptionally"]
+    },
+    {
+      "word": "greatly",
+      "equivalents": ["greatly"]
+    },
+    {
+      "word": "much",
+      "equivalents": ["much"]
+    },
+    {
+      "word": "most",
+      "equivalents": ["most"]
+    },
+    {
+      "word": "all",
+      "equivalents": ["all"],
+      "note": "Quantifier: never weaken."
+    },
+    {
+      "word": "every",
+      "equivalents": ["every"]
+    },
+    {
+      "word": "none",
+      "equivalents": ["none", "no one"]
+    },
+    {
+      "word": "no one",
+      "equivalents": ["no one", "none"]
+    },
+    {
+      "word": "nothing",
+      "equivalents": ["nothing"]
+    },
+    {
+      "word": "never",
+      "equivalents": ["never"]
+    },
+    {
+      "word": "always",
+      "equivalents": ["always"]
+    },
+    {
+      "word": "ever",
+      "equivalents": ["ever", "always"]
+    },
+    {
+      "word": "for ever",
+      "equivalents": ["forever", "for ever"]
+    },
+    {
+      "word": "evermore",
+      "equivalents": ["forevermore", "always"]
+    },
+    {
+      "word": "only",
+      "equivalents": ["only"]
+    },
+    {
+      "word": "alone",
+      "equivalents": ["alone", "only"]
+    },
+    {
+      "word": "many",
+      "equivalents": ["many"]
+    },
+    {
+      "word": "some",
+      "equivalents": ["some"]
+    },
+    {
+      "word": "few",
+      "equivalents": ["few"]
+    },
+    {
+      "word": "often",
+      "equivalents": ["often"]
+    },
+    {
+      "word": "sometimes",
+      "equivalents": ["sometimes"]
+    },
+    {
+      "word": "seldom",
+      "equivalents": ["seldom", "rarely"]
+    },
+    {
+      "word": "commonly",
+      "equivalents": ["commonly", "usually"]
+    },
+    {
+      "word": "cannot",
+      "equivalents": ["cannot", "can't"]
+    },
+    {
+      "word": "by no means",
+      "equivalents": ["by no means", "in no way"]
+    },
+    {
+      "word": "in the least",
+      "equivalents": ["in the least", "at all"]
+    },
+    {
+      "word": "especially",
+      "equivalents": ["especially", "particularly"]
+    },
+    {
+      "word": "chiefly",
+      "equivalents": ["chiefly", "mainly"]
+    },
+    {
+      "word": "plainly",
+      "equivalents": ["plainly", "clearly"]
+    },
+    {
+      "word": "clearly",
+      "equivalents": ["clearly", "plainly"]
+    },
+    {
+      "word": "fully",
+      "equivalents": ["fully", "completely"]
+    },
+    {
+      "word": "entirely",
+      "equivalents": ["entirely", "completely"]
+    },
+    {
+      "word": "wholly",
+      "equivalents": ["wholly", "completely", "entirely"]
+    },
+    {
+      "word": "unspeakable",
+      "equivalents": ["unspeakable", "indescribable", "inexpressible"]
+    },
+    {
+      "word": "utmost",
+      "equivalents": ["utmost"]
+    }
+  ],
+  "approved_hash": "096f78d9d79dc9751d7d14f1b3b89f0c0428a564cd1e6f8e53ee1d3978f01412"
+}

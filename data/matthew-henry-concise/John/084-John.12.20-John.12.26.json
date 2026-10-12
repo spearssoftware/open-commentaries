@@ -1,0 +1,43 @@
+{
+  "id": "matthew-henry-concise:John.12.20-John.12.26",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 84,
+  "osis_start": "John.12.20",
+  "osis_end": "John.12.26",
+  "chapter": 12,
+  "heading": null,
+  "original_text": "In attendance upon holy ordinances, particularly the gospel passover, the great desire of our souls should be to see Jesus; to see him as ours, to keep up communion with him, and derive grace from him. The calling of the Gentiles magnified the Redeemer. A corn of wheat yields no increase unless it is cast into the ground. Thus Christ might have possessed his heavenly glory alone, without becoming man. Or, after he had taken man's nature, he might have entered heaven alone, by his own perfect righteousness, without suffering or death; but then no sinner of the human race could have been saved. The salvation of souls hitherto, and henceforward to the end of time, is owing to the dying of this Corn of wheat. Let us search whether Christ be in us the hope of glory; let us beg him to make us indifferent to the trifling concerns of this life, that we may serve the Lord Jesus with a willing mind, and follow his holy example.",
+  "original_sentences": [
+    "In attendance upon holy ordinances, particularly the gospel passover, the great desire of our souls should be to see Jesus; to see him as ours, to keep up communion with him, and derive grace from him.",
+    "The calling of the Gentiles magnified the Redeemer.",
+    "A corn of wheat yields no increase unless it is cast into the ground.",
+    "Thus Christ might have possessed his heavenly glory alone, without becoming man.",
+    "Or, after he had taken man's nature, he might have entered heaven alone, by his own perfect righteousness, without suffering or death; but then no sinner of the human race could have been saved.",
+    "The salvation of souls hitherto, and henceforward to the end of time, is owing to the dying of this Corn of wheat.",
+    "Let us search whether Christ be in us the hope of glory; let us beg him to make us indifferent to the trifling concerns of this life, that we may serve the Lord Jesus with a willing mind, and follow his holy example."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

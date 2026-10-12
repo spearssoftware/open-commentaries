@@ -1,0 +1,41 @@
+{
+  "id": "matthew-henry-concise:John.10.22-John.10.30",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 70,
+  "osis_start": "John.10.22",
+  "osis_end": "John.10.30",
+  "chapter": 10,
+  "heading": null,
+  "original_text": "All who have any thing to say to Christ, may find him in the temple. Christ would make us to believe; we make ourselves doubt. The Jews understood his meaning, but could not form his words into a full charge against him. He described the gracious disposition and happy state of his sheep; they heard and believed his word, followed him as his faithful disciples, and none of them should perish; for the Son and the Father were one. Thus he was able to defend his sheep against all their enemies, which proves that he claimed Divine power and perfection equally with the Father.",
+  "original_sentences": [
+    "All who have any thing to say to Christ, may find him in the temple.",
+    "Christ would make us to believe; we make ourselves doubt.",
+    "The Jews understood his meaning, but could not form his words into a full charge against him.",
+    "He described the gracious disposition and happy state of his sheep; they heard and believed his word, followed him as his faithful disciples, and none of them should perish; for the Son and the Father were one.",
+    "Thus he was able to defend his sheep against all their enemies, which proves that he claimed Divine power and perfection equally with the Father."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

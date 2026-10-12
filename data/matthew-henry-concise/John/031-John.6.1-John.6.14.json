@@ -1,0 +1,41 @@
+{
+  "id": "matthew-henry-concise:John.6.1-John.6.14",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 31,
+  "osis_start": "John.6.1",
+  "osis_end": "John.6.14",
+  "chapter": 6,
+  "heading": null,
+  "original_text": "John relates the miracle of feeding the multitude, for its reference to the following discourse. Observe the effect this miracle had upon the people. Even the common Jews expected the Messiah to come into the world, and to be a great Prophet. The Pharisees despised them as not knowing the law; but they knew most of Him who is the end of the law. Yet men may acknowledge Christ as that Prophet, and still turn a deaf ear to him.",
+  "original_sentences": [
+    "John relates the miracle of feeding the multitude, for its reference to the following discourse.",
+    "Observe the effect this miracle had upon the people.",
+    "Even the common Jews expected the Messiah to come into the world, and to be a great Prophet.",
+    "The Pharisees despised them as not knowing the law; but they knew most of Him who is the end of the law.",
+    "Yet men may acknowledge Christ as that Prophet, and still turn a deaf ear to him."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

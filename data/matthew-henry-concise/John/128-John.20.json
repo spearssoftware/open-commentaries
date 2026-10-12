@@ -1,0 +1,41 @@
+{
+  "id": "matthew-henry-concise:John.20-John.20",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 128,
+  "osis_start": "John.20",
+  "osis_end": "John.20",
+  "chapter": 20,
+  "heading": "Chapter Outline",
+  "original_text": "The sepulchre found to be empty. (1-10)\n\nChrist appears to Mary. (11-18)\n\nHe appears to the disciples. (19-25)\n\nThe unbelief of Thomas. (26-29)\n\nConclusion. (30-31)",
+  "original_sentences": [
+    "The sepulchre found to be empty. (1-10)",
+    "Christ appears to Mary. (11-18)",
+    "He appears to the disciples. (19-25)",
+    "The unbelief of Thomas. (26-29)",
+    "Conclusion. (30-31)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

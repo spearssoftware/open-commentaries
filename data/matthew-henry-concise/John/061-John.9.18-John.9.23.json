@@ -1,0 +1,55 @@
+{
+  "id": "matthew-henry-concise:John.9.18-John.9.23",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 61,
+  "osis_start": "John.9.18",
+  "osis_end": "John.9.23",
+  "chapter": 9,
+  "heading": null,
+  "original_text": "The Pharisees vainly hoped to disprove this notable miracle. They expected a Messiah, but could not bear to think that this Jesus should be he, because his precepts were all contrary to their traditions, and because they expected a Messiah in outward pomp and splendour. The fear of man brings a snare, Pr 29:25, and often makes people deny and disown Christ and his truths and ways, and act against their consciences. The unlearned and poor, who are simple-hearted, readily draw proper inferences from the evidences of the light of the gospel; but those whose desires are another way, though ever learning, never come to the knowledge of the truth.",
+  "original_sentences": [
+    "The Pharisees vainly hoped to disprove this notable miracle.",
+    "They expected a Messiah, but could not bear to think that this Jesus should be he, because his precepts were all contrary to their traditions, and because they expected a Messiah in outward pomp and splendour.",
+    "The fear of man brings a snare, Pr 29:25, and often makes people deny and disown Christ and his truths and ways, and act against their consciences.",
+    "The unlearned and poor, who are simple-hearted, readily draw proper inferences from the evidences of the light of the gospel; but those whose desires are another way, though ever learning, never come to the knowledge of the truth."
+  ],
+  "references": [
+    {
+      "osis": "Prov.29.25",
+      "inferred": false
+    }
+  ],
+  "quotes": [
+    {
+      "span": "come to the knowledge of the truth",
+      "osis": "2Tim.3.7",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Ever learning, and never able to come to the knowledge of the truth.",
+      "bsb_text": "who are always learning but never able to come to a knowledge of the truth.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

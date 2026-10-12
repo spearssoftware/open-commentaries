@@ -1,0 +1,38 @@
+{
+  "id": "matthew-henry-concise:John.6.47-John.6.51",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 36,
+  "osis_start": "John.6.47",
+  "osis_end": "John.6.51",
+  "chapter": 6,
+  "heading": null,
+  "original_text": "The advantage of the manna was small, it only referred to this life; but the living Bread is so excellent, that the man who feedeth on it shall never die. This bread is Christ's human nature, which he took to present to the Father, as a sacrifice for the sins of the world; to purchase all things pertaining to life and godliness, for sinners of every nation, who repent and believe in him.",
+  "original_sentences": [
+    "The advantage of the manna was small, it only referred to this life; but the living Bread is so excellent, that the man who feedeth on it shall never die.",
+    "This bread is Christ's human nature, which he took to present to the Father, as a sacrifice for the sins of the world; to purchase all things pertaining to life and godliness, for sinners of every nation, who repent and believe in him."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

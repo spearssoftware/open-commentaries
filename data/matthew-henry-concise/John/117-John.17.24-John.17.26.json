@@ -1,0 +1,49 @@
+{
+  "id": "matthew-henry-concise:John.17.24-John.17.26",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 117,
+  "osis_start": "John.17.24",
+  "osis_end": "John.17.26",
+  "chapter": 17,
+  "heading": null,
+  "original_text": "Christ, as one with the Father, claimed on behalf of all that had been given to him, and should in due time believe on him, that they should be brought to heaven; and that there the whole company of the redeemed might behold his glory as their beloved Friend and Brother, and therein find happiness. He had declared and would further declare the name or character of God, by his doctrine and his Spirit, that, being one with him, the love of the Father to him might abide with them also. Thus, being joined to Him by one Spirit, they might be filled with all the fulness of God, and enjoy a blessedness of which we can form no right idea in our present state.",
+  "original_sentences": [
+    "Christ, as one with the Father, claimed on behalf of all that had been given to him, and should in due time believe on him, that they should be brought to heaven; and that there the whole company of the redeemed might behold his glory as their beloved Friend and Brother, and therein find happiness.",
+    "He had declared and would further declare the name or character of God, by his doctrine and his Spirit, that, being one with him, the love of the Father to him might abide with them also.",
+    "Thus, being joined to Him by one Spirit, they might be filled with all the fulness of God, and enjoy a blessedness of which we can form no right idea in our present state."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "might be filled with all the fulness of God",
+      "osis": "Eph.3.19",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "And to know the love of Christ, which passeth knowledge, that ye might be filled with all the fulness of God.",
+      "bsb_text": "of the love of Christ, and to know this love that surpasses knowledge, that you may be filled with all the fullness of God.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

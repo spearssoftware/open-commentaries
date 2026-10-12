@@ -1,0 +1,61 @@
+{
+  "id": "matthew-henry-concise:John.20.11-John.20.18",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 130,
+  "osis_start": "John.20.11",
+  "osis_end": "John.20.18",
+  "chapter": 20,
+  "heading": null,
+  "original_text": "We are likely to seek and find, when we seek with affection, and seek in tears. But many believers complain of the clouds and darkness they are under, which are methods of grace for humbling their souls, mortifying their sins, and endearing Christ to them. A sight of angels and their smiles, will not suffice, without a sight of Jesus, and God's smiles in him. None know, but those who have tasted it, the sorrows of a deserted soul, which has had comfortable evidences of the love of God in Christ, and hopes of heaven, but has now lost them, and walks in darkness; such a wounded spirit who can bear? Christ, in manifesting himself to those that seek him, often outdoes their expectations. See how Mary's heart was in earnest to find Jesus. Christ's way of making himself known to his people is by his word; his word applied to their souls, speaking to them in particular. It might be read, Is it my Master? See with what pleasure those who love Jesus speak of his authority over them. He forbids her to expect that his bodily presence look further, than the present state of things. Observe the relation to God, from union with Christ. We, partaking of a Divine nature, Christ's Father is our Father; and he, partaking of the human nature, our God is his God. Christ's ascension into heaven, there to plead for us, is likewise an unspeakable comfort. Let them not think this earth is to be their home and rest; their eye and aim, and earnest desires, must be upon another world, and this ever upon their hearts, I ascend, therefore I must seek the things which are above. And let those who know the word of Christ, endeavour that others should get good from their knowledge.",
+  "original_sentences": [
+    "We are likely to seek and find, when we seek with affection, and seek in tears.",
+    "But many believers complain of the clouds and darkness they are under, which are methods of grace for humbling their souls, mortifying their sins, and endearing Christ to them.",
+    "A sight of angels and their smiles, will not suffice, without a sight of Jesus, and God's smiles in him.",
+    "None know, but those who have tasted it, the sorrows of a deserted soul, which has had comfortable evidences of the love of God in Christ, and hopes of heaven, but has now lost them, and walks in darkness; such a wounded spirit who can bear?",
+    "Christ, in manifesting himself to those that seek him, often outdoes their expectations.",
+    "See how Mary's heart was in earnest to find Jesus.",
+    "Christ's way of making himself known to his people is by his word; his word applied to their souls, speaking to them in particular.",
+    "It might be read, Is it my Master?",
+    "See with what pleasure those who love Jesus speak of his authority over them.",
+    "He forbids her to expect that his bodily presence look further, than the present state of things.",
+    "Observe the relation to God, from union with Christ.",
+    "We, partaking of a Divine nature, Christ's Father is our Father; and he, partaking of the human nature, our God is his God.",
+    "Christ's ascension into heaven, there to plead for us, is likewise an unspeakable comfort.",
+    "Let them not think this earth is to be their home and rest; their eye and aim, and earnest desires, must be upon another world, and this ever upon their hearts, I ascend, therefore I must seek the things which are above.",
+    "And let those who know the word of Christ, endeavour that others should get good from their knowledge."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "wounded spirit who can bear",
+      "osis": "Prov.18.14",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "The spirit of a man will sustain his infirmity; but a wounded spirit who can bear?",
+      "bsb_text": "The spirit of a man can endure his sickness, but who can survive a broken spirit?",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "matthew-henry-concise:John.18.1-John.18.12",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 119,
+  "osis_start": "John.18.1",
+  "osis_end": "John.18.12",
+  "chapter": 18,
+  "heading": null,
+  "original_text": "Sin began in the garden of Eden, there the curse was pronounced, there the Redeemer was promised; and in a garden that promised Seed entered into conflict with the old serpent. Christ was buried also in a garden. Let us, when we walk in our gardens, take occasion from thence to mediate on Christ's sufferings in a garden. Our Lord Jesus, knowing all things that should come upon him, went forth and asked, Whom seek ye? When the people would have forced him to a crown, he withdrew, ch. 6:15, but when they came to force him to a cross, he offered himself; for he came into this world to suffer, and went to the other world to reign. He showed plainly what he could have done; when he struck them down he could have struck them dead, but he would not do so. It must have been the effect of Divine power, that the officers and soldiers let the disciples go away quietly, after the resistance which had been offered. Christ set us an example of meekness in sufferings, and a pattern of submission to God's will in every thing that concerns us. It is but a cup, a small matter. It is a cup that is given us; sufferings are gifts. It is given us by a Father, who has a father's authority, and does us no wrong; a father's affection, and means us no hurt. From the example of our Saviour we should learn how to receive our lighter afflictions, and to ask ourselves whether we ought to oppose our Father's will, or to distrust his love. We were bound with the cords of our iniquities, with the yoke of our transgressions. Christ, being made a sin-offering for us, to free us from those bonds, himself submitted to be bound for us. To his bonds we owe our liberty; thus the Son makes us free.",
+  "original_sentences": [
+    "Sin began in the garden of Eden, there the curse was pronounced, there the Redeemer was promised; and in a garden that promised Seed entered into conflict with the old serpent.",
+    "Christ was buried also in a garden.",
+    "Let us, when we walk in our gardens, take occasion from thence to mediate on Christ's sufferings in a garden.",
+    "Our Lord Jesus, knowing all things that should come upon him, went forth and asked, Whom seek ye?",
+    "When the people would have forced him to a crown, he withdrew, ch. 6:15, but when they came to force him to a cross, he offered himself; for he came into this world to suffer, and went to the other world to reign.",
+    "He showed plainly what he could have done; when he struck them down he could have struck them dead, but he would not do so.",
+    "It must have been the effect of Divine power, that the officers and soldiers let the disciples go away quietly, after the resistance which had been offered.",
+    "Christ set us an example of meekness in sufferings, and a pattern of submission to God's will in every thing that concerns us.",
+    "It is but a cup, a small matter.",
+    "It is a cup that is given us; sufferings are gifts.",
+    "It is given us by a Father, who has a father's authority, and does us no wrong; a father's affection, and means us no hurt.",
+    "From the example of our Saviour we should learn how to receive our lighter afflictions, and to ask ourselves whether we ought to oppose our Father's will, or to distrust his love.",
+    "We were bound with the cords of our iniquities, with the yoke of our transgressions.",
+    "Christ, being made a sin-offering for us, to free us from those bonds, himself submitted to be bound for us.",
+    "To his bonds we owe our liberty; thus the Son makes us free."
+  ],
+  "references": [
+    {
+      "osis": "John.6.15",
+      "inferred": false
+    }
+  ],
+  "quotes": [
+    {
+      "span": "knowing all things that should come upon him, went forth",
+      "osis": "John.18.4",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Jesus therefore, knowing all things that should come upon him, went forth, and said unto them, Whom seek ye?",
+      "bsb_text": "Jesus, knowing all that was coming upon Him, stepped forward and asked them, “Whom are you seeking?”",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

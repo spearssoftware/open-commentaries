@@ -1,0 +1,38 @@
+{
+  "id": "matthew-henry-concise:John.5.45-John.5.47",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 29,
+  "osis_start": "John.5.45",
+  "osis_end": "John.5.47",
+  "chapter": 5,
+  "heading": null,
+  "original_text": "Many trust in some form of doctrines or some parties, who no more enter into the real meaning of those doctrines, or the views of the persons whose names they bear, than the Jews did into those of Moses. Let us search and pray over the Scriptures, as intent on finding eternal life; let us observe how Christ is the great subject of them, and daily apply to him for the life he bestows.",
+  "original_sentences": [
+    "Many trust in some form of doctrines or some parties, who no more enter into the real meaning of those doctrines, or the views of the persons whose names they bear, than the Jews did into those of Moses.",
+    "Let us search and pray over the Scriptures, as intent on finding eternal life; let us observe how Christ is the great subject of them, and daily apply to him for the life he bestows."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

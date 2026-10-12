@@ -1,0 +1,41 @@
+{
+  "id": "matthew-henry-concise:John.7.31-John.7.36",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 44,
+  "osis_start": "John.7.31",
+  "osis_end": "John.7.36",
+  "chapter": 7,
+  "heading": null,
+  "original_text": "The discourses of Jesus convinced many that he was the Messiah; but they had not courage to own it. It is comfort to those who are in the world, but not of it, and therefore are hated by it and weary of it, that they shall not be in it always, that they shall not be in it long. Our days being evil, it is well they are few. The days of life and of grace do not last long; and sinners, when in misery, will be glad of the help they now despise. Men dispute about such sayings, but the event will explain them.",
+  "original_sentences": [
+    "The discourses of Jesus convinced many that he was the Messiah; but they had not courage to own it.",
+    "It is comfort to those who are in the world, but not of it, and therefore are hated by it and weary of it, that they shall not be in it always, that they shall not be in it long.",
+    "Our days being evil, it is well they are few.",
+    "The days of life and of grace do not last long; and sinners, when in misery, will be glad of the help they now despise.",
+    "Men dispute about such sayings, but the event will explain them."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "matthew-henry-concise:John.7.1-John.7.13",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 41,
+  "osis_start": "John.7.1",
+  "osis_end": "John.7.13",
+  "chapter": 7,
+  "heading": null,
+  "original_text": "The brethren or kinsmen of Jesus were disgusted, when they found there was no prospect of worldly advantages from him. Ungodly men sometimes undertake to counsel those employed in the work of God; but they only advise what appears likely to promote present advantages. The people differed about his doctrine and miracles, while those who favoured him, dared not openly to avow their sentiments. Those who count the preachers of the gospel to be deceivers, speak out, while many who favour them, fear to get reproach by avowing regard for them.",
+  "original_sentences": [
+    "The brethren or kinsmen of Jesus were disgusted, when they found there was no prospect of worldly advantages from him.",
+    "Ungodly men sometimes undertake to counsel those employed in the work of God; but they only advise what appears likely to promote present advantages.",
+    "The people differed about his doctrine and miracles, while those who favoured him, dared not openly to avow their sentiments.",
+    "Those who count the preachers of the gospel to be deceivers, speak out, while many who favour them, fear to get reproach by avowing regard for them."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "glossary_hash": null,
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}
