@@ -28,3 +28,11 @@ typecheck:
 # Apply formatting and safe lint fixes.
 fmt:
     bunx biome check --write .
+
+# Download the pinned sources (first run) or report upstream drift (later runs).
+fetch-sources:
+    bun scripts/fetch-sources.ts
+
+# Re-hash the committed sources offline against sources/manifest.json.
+verify-sources:
+    bun test tests/sources.test.ts
