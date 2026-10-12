@@ -36,3 +36,7 @@ fetch-sources:
 # Re-hash the committed sources offline against sources/manifest.json.
 verify-sources:
     bun test tests/sources.test.ts
+
+# Parse the sources into section state files, e.g. `just ingest John`.
+ingest book:
+    bun scripts/ingest.ts "$1"

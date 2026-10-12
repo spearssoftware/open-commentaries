@@ -1,0 +1,69 @@
+{
+  "id": "matthew-henry-concise:John.1.6-John.1.14",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 4,
+  "osis_start": "John.1.6",
+  "osis_end": "John.1.14",
+  "chapter": 1,
+  "heading": null,
+  "original_text": "John the Baptist came to bear witness concerning Jesus. Nothing more fully shows the darkness of men's minds, than that when the Light had appeared, there needed a witness to call attention to it. Christ was the true Light; that great Light which deserves to be called so. By his Spirit and grace he enlightens all that are enlightened to salvation; and those that are not enlightened by him, perish in darkness. Christ was in the world when he took our nature upon him, and dwelt among us. The Son of the Highest was here in this lower world. He was in the world, but not of it. He came to save a lost world, because it was a world of his own making. Yet the world knew him not. When he comes as a Judge, the world shall know him. Many say that they are Christ's own, yet do not receive him, because they will not part with their sins, nor have him to reign over them. All the children of God are born again. This new birth is through the word of God as the means, 1Pe 1:23, and by the Spirit of God as the Author. By his Divine presence Christ always was in the world. But now that the fulness of time was come, he was, after another manner, God manifested in the flesh. But observe the beams of his Divine glory, which darted through this veil of flesh. Men discover their weaknesses to those most familiar with them, but it was not so with Christ; those most intimate with him saw most of his glory. Although he was in the form of a servant, as to outward circumstances, yet, in respect of graces, his form was like the Son of God His Divine glory appeared in the holiness of his doctrine, and in his miracles. He was full of grace, fully acceptable to his Father, therefore qualified to plead for us; and full of truth, fully aware of the things he was to reveal.",
+  "original_sentences": [
+    "John the Baptist came to bear witness concerning Jesus.",
+    "Nothing more fully shows the darkness of men's minds, than that when the Light had appeared, there needed a witness to call attention to it.",
+    "Christ was the true Light; that great Light which deserves to be called so.",
+    "By his Spirit and grace he enlightens all that are enlightened to salvation; and those that are not enlightened by him, perish in darkness.",
+    "Christ was in the world when he took our nature upon him, and dwelt among us.",
+    "The Son of the Highest was here in this lower world.",
+    "He was in the world, but not of it.",
+    "He came to save a lost world, because it was a world of his own making.",
+    "Yet the world knew him not.",
+    "When he comes as a Judge, the world shall know him.",
+    "Many say that they are Christ's own, yet do not receive him, because they will not part with their sins, nor have him to reign over them.",
+    "All the children of God are born again.",
+    "This new birth is through the word of God as the means, 1Pe 1:23, and by the Spirit of God as the Author.",
+    "By his Divine presence Christ always was in the world.",
+    "But now that the fulness of time was come, he was, after another manner, God manifested in the flesh.",
+    "But observe the beams of his Divine glory, which darted through this veil of flesh.",
+    "Men discover their weaknesses to those most familiar with them, but it was not so with Christ; those most intimate with him saw most of his glory.",
+    "Although he was in the form of a servant, as to outward circumstances, yet, in respect of graces, his form was like the Son of God His Divine glory appeared in the holiness of his doctrine, and in his miracles.",
+    "He was full of grace, fully acceptable to his Father, therefore qualified to plead for us; and full of truth, fully aware of the things he was to reveal."
+  ],
+  "references": [
+    {
+      "osis": "1Pet.1.23",
+      "inferred": false
+    }
+  ],
+  "quotes": [
+    {
+      "span": "world. He was in the world",
+      "osis": "John.1.9-John.1.10",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "That was the true Light, which lighteth every man that cometh into the world. He was in the world, and the world was made by him, and the world knew him not.",
+      "bsb_text": "The true Light, who gives light to everyone, was coming into the world. He was in the world, and though the world was made through Him, the world did not recognize Him.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

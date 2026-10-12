@@ -1,0 +1,37 @@
+{
+  "id": "matthew-henry-concise:John.3-John.3",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 14,
+  "osis_start": "John.3",
+  "osis_end": "John.3",
+  "chapter": 3,
+  "heading": "Chapter Outline",
+  "original_text": "Christ's discourse with Nicodemus. (1-21)\n\nThe baptism of John of Christ John's testimony. (22-36)",
+  "original_sentences": [
+    "Christ's discourse with Nicodemus. (1-21)",
+    "The baptism of John of Christ John's testimony. (22-36)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

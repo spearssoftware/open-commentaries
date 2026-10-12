@@ -1,0 +1,63 @@
+{
+  "id": "matthew-henry-concise:John.21.15-John.21.19",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 136,
+  "osis_start": "John.21.15",
+  "osis_end": "John.21.19",
+  "chapter": 21,
+  "heading": null,
+  "original_text": "Our Lord addressed Peter by his original name, as if he had forfeited that of Peter through his denying him. He now answered, Thou knowest that I love thee; but without professing to love Jesus more than others. We must not be surprised to have our sincerity called into question, when we ourselves have done that which makes it doubtful. Every remembrance of past sins, even pardoned sins, renews the sorrow of a true penitent. Conscious of integrity, Peter solemnly appealed to Christ, as knowing all things, even the secrets of his heart. It is well when our falls and mistakes make us more humble and watchful. The sincerity of our love to God must be brought to the test; and it behoves us to inquire with earnest, preserving prayer to the heart-searching God, to examine and prove us, whether we are able to stand this test. No one can be qualified to feed the sheep and lambs of Christ, who does not love the good Shepherd more than any earthly advantage or object. It is the great concern of every good man, whatever death he dies, to glorify God in it; for what is our chief end but this, to die to the Lord, at the word of the Lord?",
+  "original_sentences": [
+    "Our Lord addressed Peter by his original name, as if he had forfeited that of Peter through his denying him.",
+    "He now answered, Thou knowest that I love thee; but without professing to love Jesus more than others.",
+    "We must not be surprised to have our sincerity called into question, when we ourselves have done that which makes it doubtful.",
+    "Every remembrance of past sins, even pardoned sins, renews the sorrow of a true penitent.",
+    "Conscious of integrity, Peter solemnly appealed to Christ, as knowing all things, even the secrets of his heart.",
+    "It is well when our falls and mistakes make us more humble and watchful.",
+    "The sincerity of our love to God must be brought to the test; and it behoves us to inquire with earnest, preserving prayer to the heart-searching God, to examine and prove us, whether we are able to stand this test.",
+    "No one can be qualified to feed the sheep and lambs of Christ, who does not love the good Shepherd more than any earthly advantage or object.",
+    "It is the great concern of every good man, whatever death he dies, to glorify God in it; for what is our chief end but this, to die to the Lord, at the word of the Lord?"
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "Thou knowest that I love thee",
+      "osis": null,
+      "source": "code",
+      "kjv_match": "loose",
+      "kjv_text": null,
+      "bsb_text": null,
+      "bsb_note": null
+    },
+    {
+      "span": "at the word of the Lord",
+      "osis": "2Chr.18.4",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "And Jehoshaphat said unto the king of Israel, Enquire, I pray thee, at the word of the LORD to day.",
+      "bsb_text": "But Jehoshaphat also said to the king of Israel, “Please inquire first for the word of the LORD.”",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

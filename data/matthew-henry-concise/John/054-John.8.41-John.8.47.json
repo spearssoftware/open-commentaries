@@ -1,0 +1,41 @@
+{
+  "id": "matthew-henry-concise:John.8.41-John.8.47",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 54,
+  "osis_start": "John.8.41",
+  "osis_end": "John.8.47",
+  "chapter": 8,
+  "heading": null,
+  "original_text": "Satan prompts men to excesses by which they murder themselves and others, while what he puts into the mind tends to ruin men's souls. He is the great promoter of falsehood of every kind. He is a liar, all his temptations are carried on by his calling evil good, and good evil, and promising freedom in sin. He is the author of all lies; whom liars resemble and obey, with whom all liars shall have their portion for ever. The special lusts of the devil are spiritual wickedness, the lusts of the mind, and corrupt reasonings, pride and envy, wrath and malice, enmity to good, and enticing others to evil. By the truth, here understand the revealed will of God as to the salvation of men by Jesus Christ, the truth Christ was now preaching, and which the Jews opposed.",
+  "original_sentences": [
+    "Satan prompts men to excesses by which they murder themselves and others, while what he puts into the mind tends to ruin men's souls.",
+    "He is the great promoter of falsehood of every kind.",
+    "He is a liar, all his temptations are carried on by his calling evil good, and good evil, and promising freedom in sin.",
+    "He is the author of all lies; whom liars resemble and obey, with whom all liars shall have their portion for ever.",
+    "The special lusts of the devil are spiritual wickedness, the lusts of the mind, and corrupt reasonings, pride and envy, wrath and malice, enmity to good, and enticing others to evil.",
+    "By the truth, here understand the revealed will of God as to the salvation of men by Jesus Christ, the truth Christ was now preaching, and which the Jews opposed."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

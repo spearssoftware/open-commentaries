@@ -1,0 +1,39 @@
+{
+  "id": "matthew-henry-concise:John.5-John.5",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 22,
+  "osis_start": "John.5",
+  "osis_end": "John.5",
+  "chapter": 5,
+  "heading": "Chapter Outline",
+  "original_text": "The cure at the pool of Bethesda. (1-9)\n\nThe Jews' displeasure. (10-16)\n\nChrist reproves the Jews. (17-23)\n\nChrist's discourse. (24-47)",
+  "original_sentences": [
+    "The cure at the pool of Bethesda. (1-9)",
+    "The Jews' displeasure. (10-16)",
+    "Christ reproves the Jews. (17-23)",
+    "Christ's discourse. (24-47)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

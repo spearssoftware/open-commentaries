@@ -1,0 +1,60 @@
+{
+  "id": "matthew-henry-concise:John.11.47-John.11.53",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 79,
+  "osis_start": "John.11.47",
+  "osis_end": "John.11.53",
+  "chapter": 11,
+  "heading": null,
+  "original_text": "There can hardly be a more clear discovery of the madness that is in man's heart, and of its desperate enmity against God, than what is here recorded. Words of prophecy in the mouth, are not clear evidence of a principle of grace in the heart. The calamity we seek to escape by sin, we take the most effectual course to bring upon our own heads; as those do who think by opposing Christ's kingdom, to advance their own worldly interest. The fear of the wicked shall come upon them. The conversion of souls is the gathering of them to Christ as their ruler and refuge; and he died to effect this. By dying he purchased them to himself, and the gift of the Holy Ghost for them: his love in dying for believers should unite them closely together.",
+  "original_sentences": [
+    "There can hardly be a more clear discovery of the madness that is in man's heart, and of its desperate enmity against God, than what is here recorded.",
+    "Words of prophecy in the mouth, are not clear evidence of a principle of grace in the heart.",
+    "The calamity we seek to escape by sin, we take the most effectual course to bring upon our own heads; as those do who think by opposing Christ's kingdom, to advance their own worldly interest.",
+    "The fear of the wicked shall come upon them.",
+    "The conversion of souls is the gathering of them to Christ as their ruler and refuge; and he died to effect this.",
+    "By dying he purchased them to himself, and the gift of the Holy Ghost for them: his love in dying for believers should unite them closely together."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "of the wicked shall come upon",
+      "osis": "Job.20.22",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "In the fulness of his sufficiency he shall be in straits: every hand of the wicked shall come upon him.",
+      "bsb_text": "In the midst of his plenty, he will be distressed; the full force of misery will come upon him.",
+      "bsb_note": null
+    },
+    {
+      "span": "the gift of the Holy Ghost for",
+      "osis": null,
+      "source": "code",
+      "kjv_match": "loose",
+      "kjv_text": null,
+      "bsb_text": null,
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

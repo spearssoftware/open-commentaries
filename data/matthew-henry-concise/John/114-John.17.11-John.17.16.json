@@ -1,0 +1,53 @@
+{
+  "id": "matthew-henry-concise:John.17.11-John.17.16",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 114,
+  "osis_start": "John.17.11",
+  "osis_end": "John.17.16",
+  "chapter": 17,
+  "heading": null,
+  "original_text": "Christ does not pray that they might be rich and great in the world, but that they might be kept from sin, strengthened for their duty, and brought safe to heaven. The prosperity of the soul is the best prosperity. He pleaded with his holy Father, that he would keep them by his power and for his glory, that they might be united in affection and labours, even according to the union of the Father and the Son. He did not pray that his disciples should be removed out of the world, that they might escape the rage of men, for they had a great work to do for the glory of God, and the benefit of mankind. But he prayed that the Father would keep them from the evil, from being corrupted by the world, the remains of sin in their hearts, and from the power and craft of Satan. So that they might pass through the world as through an enemy's country, as he had done. They are not left here to pursue the same objects as the men around them, but to glorify God, and to serve their generation. The Spirit of God in true Christians is opposed to the spirit of the world.",
+  "original_sentences": [
+    "Christ does not pray that they might be rich and great in the world, but that they might be kept from sin, strengthened for their duty, and brought safe to heaven.",
+    "The prosperity of the soul is the best prosperity.",
+    "He pleaded with his holy Father, that he would keep them by his power and for his glory, that they might be united in affection and labours, even according to the union of the Father and the Son.",
+    "He did not pray that his disciples should be removed out of the world, that they might escape the rage of men, for they had a great work to do for the glory of God, and the benefit of mankind.",
+    "But he prayed that the Father would keep them from the evil, from being corrupted by the world, the remains of sin in their hearts, and from the power and craft of Satan.",
+    "So that they might pass through the world as through an enemy's country, as he had done.",
+    "They are not left here to pursue the same objects as the men around them, but to glorify God, and to serve their generation.",
+    "The Spirit of God in true Christians is opposed to the spirit of the world."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "the glory of God, and the",
+      "osis": "Ps.19.1",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "The heavens declare the glory of God; and the firmament sheweth his handywork.",
+      "bsb_text": null,
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

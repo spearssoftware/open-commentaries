@@ -1,0 +1,79 @@
+{
+  "id": "matthew-henry-concise:John.20.19-John.20.25",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 131,
+  "osis_start": "John.20.19",
+  "osis_end": "John.20.25",
+  "chapter": 20,
+  "heading": null,
+  "original_text": "This was the first day of the week, and this day is afterwards often mentioned by the sacred writers; for it was evidently set apart as the Christian sabbath, in remembrance of Christ's resurrection. The disciples had shut the doors for fear of the Jews; and when they had no such expectation, Jesus himself came and stood in the midst of them, having miraculously, though silently, opened the doors. It is a comfort to Christ's disciples, when their assemblies can only be held in private, that no doors can shut out Christ's presence. When He manifests his love to believers by the comforts of his Spirit, he assures them that because he lives, they shall live also. A sight of Christ will gladden the heart of a disciple at any time; and the more we see of Jesus, the more we shall rejoice. He said, Receive ye the Holy Ghost, thus showing that their spiritual life, as well as all their ability for their work, would be derived from him, and depended upon him. Every word of Christ which is received in the heart by faith, comes accompanied by this Divine breathing; and without this there is neither light nor life. Nothing is seen, known, discerned, or felt of God, but through this. After this, Christ directed the apostles to declare the only method by which sin would be forgiven. This power did not exist at all in the apostles as a power to give judgment, but only as a power to declare the character of those whom God would accept or reject in the day of judgment. They have clearly laid down the marks whereby a child of God may be discerned and be distinguished from a false professor; and according to what they have declared shall every case be decided in the day of judgment. When we assemble in Christ's name, especially on his holy day, he will meet with us, and speak peace to us. The disciples of Christ should endeavour to build up one another in their most holy faith, both by repeating what they have heard to those that were absent, and by making known what they have experienced. Thomas limited the Holy One of Israel, when he would be convinced by his own method or not at all. He might justly have been left in his unbelief, after rejecting such abundant proofs. The fears and sorrows of the disciples are often lengthened, to punish their negligence.",
+  "original_sentences": [
+    "This was the first day of the week, and this day is afterwards often mentioned by the sacred writers; for it was evidently set apart as the Christian sabbath, in remembrance of Christ's resurrection.",
+    "The disciples had shut the doors for fear of the Jews; and when they had no such expectation, Jesus himself came and stood in the midst of them, having miraculously, though silently, opened the doors.",
+    "It is a comfort to Christ's disciples, when their assemblies can only be held in private, that no doors can shut out Christ's presence.",
+    "When He manifests his love to believers by the comforts of his Spirit, he assures them that because he lives, they shall live also.",
+    "A sight of Christ will gladden the heart of a disciple at any time; and the more we see of Jesus, the more we shall rejoice.",
+    "He said, Receive ye the Holy Ghost, thus showing that their spiritual life, as well as all their ability for their work, would be derived from him, and depended upon him.",
+    "Every word of Christ which is received in the heart by faith, comes accompanied by this Divine breathing; and without this there is neither light nor life.",
+    "Nothing is seen, known, discerned, or felt of God, but through this.",
+    "After this, Christ directed the apostles to declare the only method by which sin would be forgiven.",
+    "This power did not exist at all in the apostles as a power to give judgment, but only as a power to declare the character of those whom God would accept or reject in the day of judgment.",
+    "They have clearly laid down the marks whereby a child of God may be discerned and be distinguished from a false professor; and according to what they have declared shall every case be decided in the day of judgment.",
+    "When we assemble in Christ's name, especially on his holy day, he will meet with us, and speak peace to us.",
+    "The disciples of Christ should endeavour to build up one another in their most holy faith, both by repeating what they have heard to those that were absent, and by making known what they have experienced.",
+    "Thomas limited the Holy One of Israel, when he would be convinced by his own method or not at all.",
+    "He might justly have been left in his unbelief, after rejecting such abundant proofs.",
+    "The fears and sorrows of the disciples are often lengthened, to punish their negligence."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "the first day of the week",
+      "osis": null,
+      "source": "code",
+      "kjv_match": "loose",
+      "kjv_text": null,
+      "bsb_text": null,
+      "bsb_note": null
+    },
+    {
+      "span": "stood in the midst of them",
+      "osis": "Luke.24.36",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "And as they thus spake, Jesus himself stood in the midst of them, and saith unto them, Peace be unto you.",
+      "bsb_text": "While they were describing these events, Jesus Himself stood among them and said, “Peace be with you.”",
+      "bsb_note": null
+    },
+    {
+      "span": "limited the Holy One of Israel",
+      "osis": "Ps.78.41",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Yea, they turned back and tempted God, and limited the Holy One of Israel.",
+      "bsb_text": "Again and again they tested God and provoked the Holy One of Israel.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

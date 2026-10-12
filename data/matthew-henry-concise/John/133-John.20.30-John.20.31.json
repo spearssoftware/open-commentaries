@@ -1,0 +1,47 @@
+{
+  "id": "matthew-henry-concise:John.20.30-John.20.31",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 133,
+  "osis_start": "John.20.30",
+  "osis_end": "John.20.31",
+  "chapter": 20,
+  "heading": null,
+  "original_text": "There were other signs and proofs of our Lord's resurrection, but these were committed to writing, that all might believe that Jesus was the promised Messiah, the Saviour of sinners, and the Son of God; that, by this faith, they might obtain eternal life, by his mercy, truth, and power. May we believe that Jesus is the Christ, and believing may we have life through his name.",
+  "original_sentences": [
+    "There were other signs and proofs of our Lord's resurrection, but these were committed to writing, that all might believe that Jesus was the promised Messiah, the Saviour of sinners, and the Son of God; that, by this faith, they might obtain eternal life, by his mercy, truth, and power.",
+    "May we believe that Jesus is the Christ, and believing may we have life through his name."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "believe that Jesus is the Christ",
+      "osis": "John.20.31",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "But these are written, that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name.",
+      "bsb_text": "But these are written so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in His name.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

@@ -1,0 +1,84 @@
+{
+  "id": "matthew-henry-concise:John.2.1-John.2.11",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 11,
+  "osis_start": "John.2.1",
+  "osis_end": "John.2.11",
+  "chapter": 2,
+  "heading": null,
+  "original_text": "It is very desirable when there is a marriage, to have Christ own and bless it. Those that would have Christ with them at their marriage, must invite him by prayer, and he will come. While in this world we sometimes find ourselves in straits, even when we think ourselves in fulness. There was want at a marriage feast. Those who are come to care for the things of the world, must look for trouble, and count upon disappointment. In our addresses to Christ, we must humbly spread our case before him, and then refer ourselves to him to do as he pleases. In Christ's reply to his mother there was no disrespect. He used the same word when speaking to her with affection from the cross; yet it is a standing testimony against the idolatry of after-ages, in giving undue honours to his mother. His hour is come when we know not what to do. Delays of mercy are not denials of prayer. Those that expect Christ's favours, must observe his orders with ready obedience. The way of duty is the way to mercy; and Christ's methods must not be objected against. The beginning of Moses' miracles was turning water into blood, Ex 7:20; the beginning of Christ's miracles was turning water into wine; which may remind us of the difference between the law of Moses and the gospel of Christ. He showed that he improves creature-comforts to all true believers, and make them comforts indeed. And Christ's works are all for use. Has he turned thy water into wine, given thee knowledge and grace? it is to profit withal; therefore draw out now, and use it. It was the best wine. Christ's works commend themselves even to those who know not their Author. What was produced by miracles, always was the best in its kind. Though Christ hereby allows a right use of wine, he does not in the least do away his own caution, which is, that our hearts be not at any time overcharged with surfeiting and drunkenness, Lu 21:34. Though we need not scruple to feast with our friends on proper occasions, yet every social interview should be so conducted, that we might invite the Redeemer to join with us, if he were now on earth; and all levity, luxury, and excess offend him.",
+  "original_sentences": [
+    "It is very desirable when there is a marriage, to have Christ own and bless it.",
+    "Those that would have Christ with them at their marriage, must invite him by prayer, and he will come.",
+    "While in this world we sometimes find ourselves in straits, even when we think ourselves in fulness.",
+    "There was want at a marriage feast.",
+    "Those who are come to care for the things of the world, must look for trouble, and count upon disappointment.",
+    "In our addresses to Christ, we must humbly spread our case before him, and then refer ourselves to him to do as he pleases.",
+    "In Christ's reply to his mother there was no disrespect.",
+    "He used the same word when speaking to her with affection from the cross; yet it is a standing testimony against the idolatry of after-ages, in giving undue honours to his mother.",
+    "His hour is come when we know not what to do.",
+    "Delays of mercy are not denials of prayer.",
+    "Those that expect Christ's favours, must observe his orders with ready obedience.",
+    "The way of duty is the way to mercy; and Christ's methods must not be objected against.",
+    "The beginning of Moses' miracles was turning water into blood, Ex 7:20; the beginning of Christ's miracles was turning water into wine; which may remind us of the difference between the law of Moses and the gospel of Christ.",
+    "He showed that he improves creature-comforts to all true believers, and make them comforts indeed.",
+    "And Christ's works are all for use.",
+    "Has he turned thy water into wine, given thee knowledge and grace? it is to profit withal; therefore draw out now, and use it.",
+    "It was the best wine.",
+    "Christ's works commend themselves even to those who know not their Author.",
+    "What was produced by miracles, always was the best in its kind.",
+    "Though Christ hereby allows a right use of wine, he does not in the least do away his own caution, which is, that our hearts be not at any time overcharged with surfeiting and drunkenness, Lu 21:34.",
+    "Though we need not scruple to feast with our friends on proper occasions, yet every social interview should be so conducted, that we might invite the Redeemer to join with us, if he were now on earth; and all levity, luxury, and excess offend him."
+  ],
+  "references": [
+    {
+      "osis": "Exod.7.20",
+      "inferred": false
+    },
+    {
+      "osis": "Luke.21.34",
+      "inferred": false
+    }
+  ],
+  "quotes": [
+    {
+      "span": "for the things of the world",
+      "osis": "1Cor.7.34",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "There is difference also between a wife and a virgin. The unmarried woman careth for the things of the Lord, that she may be holy both in body and in spirit: but she that is married careth for the things of the world, how she may please her husband.",
+      "bsb_text": "and his interests are divided. The unmarried woman or virgin is concerned about the work of the Lord, how she can be holy in both body and spirit. But the married woman is concerned about the affairs of this world, how she can please her husband.",
+      "bsb_note": null
+    },
+    {
+      "span": "the law of Moses and the",
+      "osis": "Acts.15.5-Acts.15.6",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "But there rose up certain of the sect of the Pharisees which believed, saying, That it was needful to circumcise them, and to command them to keep the law of Moses. And the apostles and elders came together for to consider of this matter.",
+      "bsb_text": "But some believers from the party of the Pharisees stood up and declared, “The Gentiles must be circumcised and required to obey the law of Moses.” So the apostles and elders met to look into this matter.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

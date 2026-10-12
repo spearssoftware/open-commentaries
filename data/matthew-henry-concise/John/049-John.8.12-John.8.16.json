@@ -1,0 +1,52 @@
+{
+  "id": "matthew-henry-concise:John.8.12-John.8.16",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 49,
+  "osis_start": "John.8.12",
+  "osis_end": "John.8.16",
+  "chapter": 8,
+  "heading": null,
+  "original_text": "Christ is the Light of the world. God is light, and Christ is the image of the invisible God. One sun enlightens the whole world; so does one Christ, and there needs no more. What a dark dungeon would the world be without the sun! So would it be without Jesus, by whom light came into the world. Those who follow Christ shall not walk in darkness. They shall not be left without the truths which are necessary to keep them from destroying error, and the directions in the way of duty, necessary to keep them from condemning sin.",
+  "original_sentences": [
+    "Christ is the Light of the world.",
+    "God is light, and Christ is the image of the invisible God.",
+    "One sun enlightens the whole world; so does one Christ, and there needs no more.",
+    "What a dark dungeon would the world be without the sun!",
+    "So would it be without Jesus, by whom light came into the world.",
+    "Those who follow Christ shall not walk in darkness.",
+    "They shall not be left without the truths which are necessary to keep them from destroying error, and the directions in the way of duty, necessary to keep them from condemning sin."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "is the image of the invisible God",
+      "osis": "Col.1.15",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Who is the image of the invisible God, the firstborn of every creature:",
+      "bsb_text": "The Son is the image of the invisible God, the firstborn over all creation.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

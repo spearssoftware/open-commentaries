@@ -1,0 +1,41 @@
+{
+  "id": "matthew-henry-concise:John.9.35-John.9.38",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 63,
+  "osis_start": "John.9.35",
+  "osis_end": "John.9.38",
+  "chapter": 9,
+  "heading": null,
+  "original_text": "Christ owns those who own him and his truth and ways. There is particular notice taken of such a suffer in the cause of Christ, and for the testimony of a good conscience. Our Lord Jesus graciously reveals himself to the man. Now he was made sensible what an unspeakable mercy it was, to be cured of his blindness, that he might see the Son of God. None but God is to be worshipped; so that in worshipping Jesus, he owned him to be God. All who believe in him, will worship him.",
+  "original_sentences": [
+    "Christ owns those who own him and his truth and ways.",
+    "There is particular notice taken of such a suffer in the cause of Christ, and for the testimony of a good conscience.",
+    "Our Lord Jesus graciously reveals himself to the man.",
+    "Now he was made sensible what an unspeakable mercy it was, to be cured of his blindness, that he might see the Son of God.",
+    "None but God is to be worshipped; so that in worshipping Jesus, he owned him to be God.",
+    "All who believe in him, will worship him."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

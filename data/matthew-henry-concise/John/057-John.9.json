@@ -1,0 +1,42 @@
+{
+  "id": "matthew-henry-concise:John.9-John.9",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 57,
+  "osis_start": "John.9",
+  "osis_end": "John.9",
+  "chapter": 9,
+  "heading": "Chapter Outline",
+  "original_text": "Christ give sight to one born blind. (1-7)\n\nThe account given by the blind man. (8-12)\n\nThe Pharisees question the man that had been blind. (13-17)\n\nThey ask concerning him. (18-23)\n\nThey cast him out. (24-34)\n\nChrist's words to the man that had been blind. (35-38)\n\nHe reproves the Pharisees. (39-41)",
+  "original_sentences": [
+    "Christ give sight to one born blind. (1-7)",
+    "The account given by the blind man. (8-12)",
+    "The Pharisees question the man that had been blind. (13-17)",
+    "They ask concerning him. (18-23)",
+    "They cast him out. (24-34)",
+    "Christ's words to the man that had been blind. (35-38)",
+    "He reproves the Pharisees. (39-41)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

@@ -1,0 +1,61 @@
+{
+  "id": "matthew-henry-concise:John.9.24-John.9.34",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 62,
+  "osis_start": "John.9.24",
+  "osis_end": "John.9.34",
+  "chapter": 9,
+  "heading": null,
+  "original_text": "As Christ's mercies are most valued by those who have felt the want of them, that have been blind, and now see; so the most powerful and lasting affections to Christ, arise from actual knowledge of him. In the work of grace in the soul, though we cannot tell when, and how, and by what steps the blessed change was wrought, yet we may take the comfort, if we can say, through grace, Whereas I was blind, now I see. I did live a worldly, sensual life, but, thanks be to God, it is now otherwise with me, Ep 5:8. The unbelief of those who enjoy the means of knowledge and conviction, is indeed marvellous. All who have felt the power and grace of the Lord Jesus, wonder at the wilfulness of others who reject him. He argues strongly against them, not only that Jesus was not a sinner, but that he was of God. We may each of us know by this, whether we are of God or not. What do we? What do we for God? What do we for our souls? What do we more than others?",
+  "original_sentences": [
+    "As Christ's mercies are most valued by those who have felt the want of them, that have been blind, and now see; so the most powerful and lasting affections to Christ, arise from actual knowledge of him.",
+    "In the work of grace in the soul, though we cannot tell when, and how, and by what steps the blessed change was wrought, yet we may take the comfort, if we can say, through grace, Whereas I was blind, now I see.",
+    "I did live a worldly, sensual life, but, thanks be to God, it is now otherwise with me, Ep 5:8.",
+    "The unbelief of those who enjoy the means of knowledge and conviction, is indeed marvellous.",
+    "All who have felt the power and grace of the Lord Jesus, wonder at the wilfulness of others who reject him.",
+    "He argues strongly against them, not only that Jesus was not a sinner, but that he was of God.",
+    "We may each of us know by this, whether we are of God or not.",
+    "What do we?",
+    "What do we for God?",
+    "What do we for our souls?",
+    "What do we more than others?"
+  ],
+  "references": [
+    {
+      "osis": "Eph.5.8",
+      "inferred": false
+    }
+  ],
+  "quotes": [
+    {
+      "span": "Whereas I was blind, now I see",
+      "osis": "John.9.25",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "He answered and said, Whether he be a sinner or no, I know not: one thing I know, that, whereas I was blind, now I see.",
+      "bsb_text": "He answered, “Whether He is a sinner I do not know. There is one thing I do know: I was blind, but now I see!”",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

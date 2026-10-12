@@ -1,0 +1,54 @@
+{
+  "id": "matthew-henry-concise:John.11.11-John.11.16",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 76,
+  "osis_start": "John.11.11",
+  "osis_end": "John.11.16",
+  "chapter": 11,
+  "heading": null,
+  "original_text": "Since we are sure to rise again at the last, why should not the believing hope of that resurrection to eternal life, make it as easy for us to put off the body and die, as it is to put off our clothes and go to sleep? A true Christian, when he dies, does but sleep; he rests from the labours of the past day. Nay, herein death is better than sleep, that sleep is only a short rest, but death is the end of earthly cares and toils. The disciples thought that it was now needless for Christ to go to Lazarus, and expose himself and them. Thus we often hope that the good work we are called to do, will be done by some other hand, if there be peril in the doing of it. But when Christ raised Lazarus from the dead, many were brought to believe on him; and there was much done to make perfect the faith of those that believed. Let us go to him; death cannot separate from the love of Christ, nor put us out of the reach of his call. Like Thomas, in difficult times Christians should encourage one another. The dying of the Lord Jesus should make us willing to die whenever God calls us.",
+  "original_sentences": [
+    "Since we are sure to rise again at the last, why should not the believing hope of that resurrection to eternal life, make it as easy for us to put off the body and die, as it is to put off our clothes and go to sleep?",
+    "A true Christian, when he dies, does but sleep; he rests from the labours of the past day.",
+    "Nay, herein death is better than sleep, that sleep is only a short rest, but death is the end of earthly cares and toils.",
+    "The disciples thought that it was now needless for Christ to go to Lazarus, and expose himself and them.",
+    "Thus we often hope that the good work we are called to do, will be done by some other hand, if there be peril in the doing of it.",
+    "But when Christ raised Lazarus from the dead, many were brought to believe on him; and there was much done to make perfect the faith of those that believed.",
+    "Let us go to him; death cannot separate from the love of Christ, nor put us out of the reach of his call.",
+    "Like Thomas, in difficult times Christians should encourage one another.",
+    "The dying of the Lord Jesus should make us willing to die whenever God calls us."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "The dying of the Lord Jesus",
+      "osis": "2Cor.4.10",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Always bearing about in the body the dying of the Lord Jesus, that the life also of Jesus might be made manifest in our body.",
+      "bsb_text": "We always carry around in our body the death of Jesus, so that the life of Jesus may also be revealed in our body.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

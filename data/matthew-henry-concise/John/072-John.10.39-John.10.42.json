@@ -1,0 +1,40 @@
+{
+  "id": "matthew-henry-concise:John.10.39-John.10.42",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 72,
+  "osis_start": "John.10.39",
+  "osis_end": "John.10.42",
+  "chapter": 10,
+  "heading": null,
+  "original_text": "No weapon formed against our Lord Jesus shall prosper. He escaped, not because he was afraid to suffer, but because his hour was not come. And He who knew how to deliver himself, knows how to deliver the godly our of their temptations, and to make a way for them to escape. Persecutors may drive Christ and his gospel our of their own city or country, but they cannot drive him or it out of the world. When we know Christ by faith in our hearts, we find all that the Scripture saith of him is true.",
+  "original_sentences": [
+    "No weapon formed against our Lord Jesus shall prosper.",
+    "He escaped, not because he was afraid to suffer, but because his hour was not come.",
+    "And He who knew how to deliver himself, knows how to deliver the godly our of their temptations, and to make a way for them to escape.",
+    "Persecutors may drive Christ and his gospel our of their own city or country, but they cannot drive him or it out of the world.",
+    "When we know Christ by faith in our hearts, we find all that the Scripture saith of him is true."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

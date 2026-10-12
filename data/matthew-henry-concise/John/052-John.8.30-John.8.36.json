@@ -1,0 +1,43 @@
+{
+  "id": "matthew-henry-concise:John.8.30-John.8.36",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 52,
+  "osis_start": "John.8.30",
+  "osis_end": "John.8.36",
+  "chapter": 8,
+  "heading": null,
+  "original_text": "Such power attended our Lord's words, that many were convinced, and professed to believe in him. He encouraged them to attend his teaching, rely on his promises, and obey his commands, notwithstanding all temptations to evil. Thus doing, they would be his disciples truly; and by the teaching of his word and Spirit, they would learn where their hope and strength lay. Christ spoke of spiritual liberty; but carnal hearts feel no other grievances than those that molest the body, and distress their worldly affairs. Talk to them of their liberty and property, tell them of waste committed upon their lands, or damage done to their houses, and they understand you very well; but speak of the bondage of sin, captivity to Satan, and liberty by Christ; tell of wrong done to their precious souls, and the hazard of their eternal welfare, then you bring strange things to their ears. Jesus plainly reminded them, that the man who practised any sin, was, in fact, a slave to that sin, which was the case with most of them. Christ in the gospel offers us freedom, he has power to do this, and those whom Christ makes free are really so. But often we see persons disputing about liberty of every kind, while they are slaves to some sinful lust.",
+  "original_sentences": [
+    "Such power attended our Lord's words, that many were convinced, and professed to believe in him.",
+    "He encouraged them to attend his teaching, rely on his promises, and obey his commands, notwithstanding all temptations to evil.",
+    "Thus doing, they would be his disciples truly; and by the teaching of his word and Spirit, they would learn where their hope and strength lay.",
+    "Christ spoke of spiritual liberty; but carnal hearts feel no other grievances than those that molest the body, and distress their worldly affairs.",
+    "Talk to them of their liberty and property, tell them of waste committed upon their lands, or damage done to their houses, and they understand you very well; but speak of the bondage of sin, captivity to Satan, and liberty by Christ; tell of wrong done to their precious souls, and the hazard of their eternal welfare, then you bring strange things to their ears.",
+    "Jesus plainly reminded them, that the man who practised any sin, was, in fact, a slave to that sin, which was the case with most of them.",
+    "Christ in the gospel offers us freedom, he has power to do this, and those whom Christ makes free are really so.",
+    "But often we see persons disputing about liberty of every kind, while they are slaves to some sinful lust."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

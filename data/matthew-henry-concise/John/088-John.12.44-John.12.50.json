@@ -1,0 +1,39 @@
+{
+  "id": "matthew-henry-concise:John.12.44-John.12.50",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 88,
+  "osis_start": "John.12.44",
+  "osis_end": "John.12.50",
+  "chapter": 12,
+  "heading": null,
+  "original_text": "Our Lord publicly proclaimed, that every one who believed on him, as his true disciple, did not believe on him only, but on the Father who sent him. Beholding in Jesus the glory of the Father, we learn to obey, love, and trust in him. By daily looking to Him, who came a Light into the world, we are more and more freed from the darkness of ignorance, error, sin, and misery; we learn that the command of God our Saviour is everlasting life. But the same word will seal the condemnation of all who despise it, or neglect it.",
+  "original_sentences": [
+    "Our Lord publicly proclaimed, that every one who believed on him, as his true disciple, did not believe on him only, but on the Father who sent him.",
+    "Beholding in Jesus the glory of the Father, we learn to obey, love, and trust in him.",
+    "By daily looking to Him, who came a Light into the world, we are more and more freed from the darkness of ignorance, error, sin, and misery; we learn that the command of God our Saviour is everlasting life.",
+    "But the same word will seal the condemnation of all who despise it, or neglect it."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

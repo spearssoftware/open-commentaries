@@ -1,0 +1,41 @@
+{
+  "id": "matthew-henry-concise:John.12.37-John.12.43",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 87,
+  "osis_start": "John.12.37",
+  "osis_end": "John.12.43",
+  "chapter": 12,
+  "heading": null,
+  "original_text": "Observe the method of conversion implied here. Sinners are brought to see the reality of Divine things, and to have some knowledge of them. To be converted, and truly turned from sin to Christ, as their Happiness and Portion. God will heal them, will justify and sanctify them; will pardon their sins, which are as bleeding wounds, and mortify their corruptions, which are as lurking diseases. See the power of the world in smothering convictions, from regard to the applause or censure of men. Love of the praise of men, as a by-end in that which is good, will make a man a hypocrite when religion is in fashion, and credit is to be got by it; and love of the praise of men, as a base principle in that which is evil, will make a man an apostate, when religion is in disgrace, and credit is to be lost for it.",
+  "original_sentences": [
+    "Observe the method of conversion implied here.",
+    "Sinners are brought to see the reality of Divine things, and to have some knowledge of them.",
+    "To be converted, and truly turned from sin to Christ, as their Happiness and Portion.",
+    "God will heal them, will justify and sanctify them; will pardon their sins, which are as bleeding wounds, and mortify their corruptions, which are as lurking diseases.",
+    "See the power of the world in smothering convictions, from regard to the applause or censure of men.",
+    "Love of the praise of men, as a by-end in that which is good, will make a man a hypocrite when religion is in fashion, and credit is to be got by it; and love of the praise of men, as a base principle in that which is evil, will make a man an apostate, when religion is in disgrace, and credit is to be lost for it."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

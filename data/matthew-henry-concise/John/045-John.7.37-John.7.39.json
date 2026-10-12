@@ -1,0 +1,55 @@
+{
+  "id": "matthew-henry-concise:John.7.37-John.7.39",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 45,
+  "osis_start": "John.7.37",
+  "osis_end": "John.7.39",
+  "chapter": 7,
+  "heading": null,
+  "original_text": "On the last day of the feast of tabernacles, the Jews drew water and poured it out before the Lord. It is supposed that Christ alluded to this. If any man desires to be truly and for ever happy, let him apply to Christ, and be ruled by him. This thirst means strong desires after spiritual blessings, which nothing else can satisfy; so the sanctifying and comforting influences of the Holy Spirit, were intended by the waters which Jesus called on them to come to Him and drink. The comfort flows plentifully and constantly as a river; strong as a stream to bear down the opposition of doubts and fears. There is a fulness in Christ, of grace for grace. The Spirit dwelling and working in believers, is as a fountain of living, running water, out of which plentiful streams flow, cooling and cleansing as water. The miraculous gifts of the Holy Spirit we do not expect, but for his more common and more valuable influences we may apply. These streams have flowed from our glorified Redeemer, down to this age, and to the remote corners of the earth. May we be anxious to make them known to others.",
+  "original_sentences": [
+    "On the last day of the feast of tabernacles, the Jews drew water and poured it out before the Lord.",
+    "It is supposed that Christ alluded to this.",
+    "If any man desires to be truly and for ever happy, let him apply to Christ, and be ruled by him.",
+    "This thirst means strong desires after spiritual blessings, which nothing else can satisfy; so the sanctifying and comforting influences of the Holy Spirit, were intended by the waters which Jesus called on them to come to Him and drink.",
+    "The comfort flows plentifully and constantly as a river; strong as a stream to bear down the opposition of doubts and fears.",
+    "There is a fulness in Christ, of grace for grace.",
+    "The Spirit dwelling and working in believers, is as a fountain of living, running water, out of which plentiful streams flow, cooling and cleansing as water.",
+    "The miraculous gifts of the Holy Spirit we do not expect, but for his more common and more valuable influences we may apply.",
+    "These streams have flowed from our glorified Redeemer, down to this age, and to the remote corners of the earth.",
+    "May we be anxious to make them known to others."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "drew water and poured it out before the Lord",
+      "osis": "1Sam.7.6",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "And they gathered together to Mizpeh, and drew water, and poured it out before the LORD, and fasted on that day, and said there, We have sinned against the LORD. And Samuel judged the children of Israel in Mizpeh.",
+      "bsb_text": "When they had gathered at Mizpah, they drew water and poured it out before the LORD. On that day they fasted, and there they confessed, “We have sinned against the LORD.” And Samuel judged the Israelites at Mizpah.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "matthew-henry-concise:John.1.19-John.1.28",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 6,
+  "osis_start": "John.1.19",
+  "osis_end": "John.1.28",
+  "chapter": 1,
+  "heading": null,
+  "original_text": "John disowns himself to be the Christ, who was now expected and waited for. He came in the spirit and power of Elias, but he was not the person of Elias. John was not that Prophet whom Moses said the Lord would raise up to them of their brethren, like unto him. He was not such a prophet as they expected, who would rescue them from the Romans. He gave such an account of himself, as might excite and awaken them to hearken to him. He baptized the people with water as a profession of repentance, and as an outward sign of the spiritual blessings to be conferred on them by the Messiah, who was in the midst of them, though they knew him not, and to whom he was unworthy to render the meanest service.",
+  "original_sentences": [
+    "John disowns himself to be the Christ, who was now expected and waited for.",
+    "He came in the spirit and power of Elias, but he was not the person of Elias.",
+    "John was not that Prophet whom Moses said the Lord would raise up to them of their brethren, like unto him.",
+    "He was not such a prophet as they expected, who would rescue them from the Romans.",
+    "He gave such an account of himself, as might excite and awaken them to hearken to him.",
+    "He baptized the people with water as a profession of repentance, and as an outward sign of the spiritual blessings to be conferred on them by the Messiah, who was in the midst of them, though they knew him not, and to whom he was unworthy to render the meanest service."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "in the spirit and power of Elias",
+      "osis": "Luke.1.17",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "And he shall go before him in the spirit and power of Elias, to turn the hearts of the fathers to the children, and the disobedient to the wisdom of the just; to make ready a people prepared for the Lord.",
+      "bsb_text": "And he will go on before the Lord in the spirit and power of Elijah, to turn the hearts of the fathers to their children and the disobedient to the wisdom of the righteous — to make ready a people prepared for the Lord.”",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": "matthew-henry-concise:John.4.43-John.4.54",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 21,
+  "osis_start": "John.4.43",
+  "osis_end": "John.4.54",
+  "chapter": 4,
+  "heading": null,
+  "original_text": "The father was a nobleman, yet the son was sick. Honours and titles are no security from sickness and death. The greatest men must go themselves to God, must become beggars. The nobleman did not stop from his request till he prevailed. But at first he discovered the weakness of his faith in the power of Christ. It is hard to persuade ourselves that distance of time and place, are no hinderance to the knowledge, mercy, and power of our Lord Jesus. Christ gave an answer of peace. Christ's saying that the soul lives, makes it alive. The father went his way, which showed the sincerity of his faith. Being satisfied, he did not hurry home that night, but returned as one easy in his own mind. His servants met him with the news of the child's recovery. Good news will meet those that hope in God's word. Diligent comparing the works of Jesus with his word, will confirm our faith. And the bringing the cure to the family brought salvation to it. Thus an experience of the power of one word of Christ, may settle the authority of Christ in the soul. The whole family believed likewise. The miracle made Jesus dear to them. The knowledge of Christ still spreads through families, and men find health and salvation to their souls.",
+  "original_sentences": [
+    "The father was a nobleman, yet the son was sick.",
+    "Honours and titles are no security from sickness and death.",
+    "The greatest men must go themselves to God, must become beggars.",
+    "The nobleman did not stop from his request till he prevailed.",
+    "But at first he discovered the weakness of his faith in the power of Christ.",
+    "It is hard to persuade ourselves that distance of time and place, are no hinderance to the knowledge, mercy, and power of our Lord Jesus.",
+    "Christ gave an answer of peace.",
+    "Christ's saying that the soul lives, makes it alive.",
+    "The father went his way, which showed the sincerity of his faith.",
+    "Being satisfied, he did not hurry home that night, but returned as one easy in his own mind.",
+    "His servants met him with the news of the child's recovery.",
+    "Good news will meet those that hope in God's word.",
+    "Diligent comparing the works of Jesus with his word, will confirm our faith.",
+    "And the bringing the cure to the family brought salvation to it.",
+    "Thus an experience of the power of one word of Christ, may settle the authority of Christ in the soul.",
+    "The whole family believed likewise.",
+    "The miracle made Jesus dear to them.",
+    "The knowledge of Christ still spreads through families, and men find health and salvation to their souls."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "power of our Lord Jesus. Christ",
+      "osis": "1Cor.5.4",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "In the name of our Lord Jesus Christ, when ye are gathered together, and my spirit, with the power of our Lord Jesus Christ,",
+      "bsb_text": "When you are assembled in the name of our Lord Jesus and I am with you in spirit, along with the power of the Lord Jesus,",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

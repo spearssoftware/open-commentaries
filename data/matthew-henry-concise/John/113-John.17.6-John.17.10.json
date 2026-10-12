@@ -1,0 +1,75 @@
+{
+  "id": "matthew-henry-concise:John.17.6-John.17.10",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 113,
+  "osis_start": "John.17.6",
+  "osis_end": "John.17.10",
+  "chapter": 17,
+  "heading": null,
+  "original_text": "Christ prays for those that are his. Thou gavest them me, as sheep to the shepherd, to be kept; as a patient to the physician, to be cured; as children to a tutor, to be taught: thus he will deliver up his charge. It is a great satisfaction to us, in our reliance upon Christ, that he, all he is and has, and all he said and did, all he is doing and will do, are of God. Christ offered this prayer for his people alone as believers; not for the world at large. Yet no one who desires to come to the Father, and is conscious that he is unworthy to come in his own name, need be discouraged by the Saviour's declaration, for he is both able and willing to save to the uttermost, all that come unto God by him. Earnest convictions and desires, are hopeful tokens of a work already wrought in a man; they begin to evidence that he has been chosen unto salvation, through sanctification of the Spirit and belief of the truth. They are thine; wilt thou not provide for thine own? Wilt thou not secure them? Observe the foundation on which this plea is grounded, All mine are thine, and thine are mine. This speaks the Father and Son to be one. All mine are thine. The Son owns none for his, that are not devoted to the service of the Father.",
+  "original_sentences": [
+    "Christ prays for those that are his.",
+    "Thou gavest them me, as sheep to the shepherd, to be kept; as a patient to the physician, to be cured; as children to a tutor, to be taught: thus he will deliver up his charge.",
+    "It is a great satisfaction to us, in our reliance upon Christ, that he, all he is and has, and all he said and did, all he is doing and will do, are of God.",
+    "Christ offered this prayer for his people alone as believers; not for the world at large.",
+    "Yet no one who desires to come to the Father, and is conscious that he is unworthy to come in his own name, need be discouraged by the Saviour's declaration, for he is both able and willing to save to the uttermost, all that come unto God by him.",
+    "Earnest convictions and desires, are hopeful tokens of a work already wrought in a man; they begin to evidence that he has been chosen unto salvation, through sanctification of the Spirit and belief of the truth.",
+    "They are thine; wilt thou not provide for thine own?",
+    "Wilt thou not secure them?",
+    "Observe the foundation on which this plea is grounded, All mine are thine, and thine are mine.",
+    "This speaks the Father and Son to be one.",
+    "All mine are thine.",
+    "The Son owns none for his, that are not devoted to the service of the Father."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "that come unto God by him",
+      "osis": "Heb.7.25",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them.",
+      "bsb_text": "Therefore He is able to save completely those who draw near to God through Him, since He always lives to intercede for them.",
+      "bsb_note": null
+    },
+    {
+      "span": "salvation, through sanctification of the Spirit and belief of the truth",
+      "osis": "2Thess.2.13",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "But we are bound to give thanks alway to God for you, brethren beloved of the Lord, because God hath from the beginning chosen you to salvation through sanctification of the Spirit and belief of the truth:",
+      "bsb_text": "But we should always thank God for you, brothers who are loved by the Lord, because God chose you from the beginning to be saved by the sanctification of the Spirit and by faith in the truth.",
+      "bsb_note": null
+    },
+    {
+      "span": "All mine are thine, and thine are mine",
+      "osis": "John.17.10",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "And all mine are thine, and thine are mine; and I am glorified in them.",
+      "bsb_text": "All I have is Yours, and all You have is Mine; and in them I have been glorified.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

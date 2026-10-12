@@ -1,0 +1,41 @@
+{
+  "id": "matthew-henry-concise:John.16.16-John.16.22",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 108,
+  "osis_start": "John.16.16",
+  "osis_end": "John.16.22",
+  "chapter": 16,
+  "heading": null,
+  "original_text": "It is good to consider how near our seasons of grace are to an end, that we may be quickened to improve them. But the sorrows of the disciples would soon be turned into joy; as those of a mother, at the sight of her infant. The Holy Spirit would be their Comforter, and neither men nor devils, neither sufferings in life nor in death, would ever deprive them of their joy. Believers have joy or sorrow, according to their sight of Christ, and the tokens of his presence. Sorrow is coming on the ungodly, which nothing can lessen; the believer is an heir to joy which no one can take away. Where now is the joy of the murderers of our Lord, and the sorrow of his friends?",
+  "original_sentences": [
+    "It is good to consider how near our seasons of grace are to an end, that we may be quickened to improve them.",
+    "But the sorrows of the disciples would soon be turned into joy; as those of a mother, at the sight of her infant.",
+    "The Holy Spirit would be their Comforter, and neither men nor devils, neither sufferings in life nor in death, would ever deprive them of their joy.",
+    "Believers have joy or sorrow, according to their sight of Christ, and the tokens of his presence.",
+    "Sorrow is coming on the ungodly, which nothing can lessen; the believer is an heir to joy which no one can take away.",
+    "Where now is the joy of the murderers of our Lord, and the sorrow of his friends?"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "matthew-henry-concise:John.6.15-John.6.21",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 32,
+  "osis_start": "John.6.15",
+  "osis_end": "John.6.21",
+  "chapter": 6,
+  "heading": null,
+  "original_text": "Here were Christ's disciples in the way of duty, and Christ was praying for them; yet they were in distress. There may be perils and afflictions of this present time, where there is an interest in Christ. Clouds and darkness often surround the children of the light and of the day. They see Jesus walking on the sea. Even the approaches of comfort and deliverance often are so mistaken, as to become the occasions of fear. Nothing is more powerful to convince sinners than that word, \"I am Jesus whom thou persecutest;\" nothing more powerful to comfort saints than this, \"I am Jesus whom thou lovest.\" If we have received Christ Jesus the Lord, though the night be dark, and the wind high, yet we may comfort ourselves, we shall be at the shore before long.",
+  "original_sentences": [
+    "Here were Christ's disciples in the way of duty, and Christ was praying for them; yet they were in distress.",
+    "There may be perils and afflictions of this present time, where there is an interest in Christ.",
+    "Clouds and darkness often surround the children of the light and of the day.",
+    "They see Jesus walking on the sea.",
+    "Even the approaches of comfort and deliverance often are so mistaken, as to become the occasions of fear.",
+    "Nothing is more powerful to convince sinners than that word, \"I am Jesus whom thou persecutest;\" nothing more powerful to comfort saints than this, \"I am Jesus whom thou lovest.\"",
+    "If we have received Christ Jesus the Lord, though the night be dark, and the wind high, yet we may comfort ourselves, we shall be at the shore before long."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "They see Jesus walking on the sea",
+      "osis": "John.6.19",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "So when they had rowed about five and twenty or thirty furlongs, they see Jesus walking on the sea, and drawing nigh unto the ship: and they were afraid.",
+      "bsb_text": "When they had rowed about three or four miles, they saw Jesus approaching the boat, walking on the sea — and they were terrified.",
+      "bsb_note": null
+    },
+    {
+      "span": "I am Jesus whom thou persecutest",
+      "osis": null,
+      "source": "code",
+      "kjv_match": "loose",
+      "kjv_text": null,
+      "bsb_text": null,
+      "bsb_note": null
+    },
+    {
+      "span": "I am Jesus whom thou lovest.",
+      "osis": null,
+      "source": "code",
+      "kjv_match": "none",
+      "kjv_text": null,
+      "bsb_text": null,
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

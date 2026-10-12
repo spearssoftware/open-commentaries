@@ -1,0 +1,50 @@
+{
+  "id": "matthew-henry-concise:John.10.31-John.10.38",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 71,
+  "osis_start": "John.10.31",
+  "osis_end": "John.10.38",
+  "chapter": 10,
+  "heading": null,
+  "original_text": "Christ's works of power and mercy proclaim him to be over all, God blessed for evermore, that all may know and believe He is in the Father, and the Father in Him. Whom the Father sends, he sanctifies. The holy God will reward, and therefore will employ, none but such as he makes holy. The Father was in the Son, so that by Divine power he wrought his miracles; the Son was so in the Father, that he knew the whole of His mind. This we cannot by searching find out to perfection, but we may know and believe these declarations of Christ.",
+  "original_sentences": [
+    "Christ's works of power and mercy proclaim him to be over all, God blessed for evermore, that all may know and believe He is in the Father, and the Father in Him.",
+    "Whom the Father sends, he sanctifies.",
+    "The holy God will reward, and therefore will employ, none but such as he makes holy.",
+    "The Father was in the Son, so that by Divine power he wrought his miracles; the Son was so in the Father, that he knew the whole of His mind.",
+    "This we cannot by searching find out to perfection, but we may know and believe these declarations of Christ."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "in the Father, and the Father in",
+      "osis": null,
+      "source": "code",
+      "kjv_match": "loose",
+      "kjv_text": null,
+      "bsb_text": null,
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

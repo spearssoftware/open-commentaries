@@ -1,0 +1,43 @@
+{
+  "id": "matthew-henry-concise:John.14.28-John.14.31",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 99,
+  "osis_start": "John.14.28",
+  "osis_end": "John.14.31",
+  "chapter": 14,
+  "heading": null,
+  "original_text": "Christ raises the expectations of his disciples to something beyond what they thought was their greatest happiness. His time was now short, he therefore spake largely to them. When we come to be sick, and to die, we may not be capable of talking much to those about us; such good counsel as we have to give, let us give while in health. Observe the prospect Christ had of an approaching conflict, not only with men, but with the powers of darkness. Satan has something in us to perplex us with, for we have all sinned; but when he would disturb Christ, he found nothing sinful to help him. The best evidence of our love to the Father is, our doing as he has commanded us. Let us rejoice in the Saviour's victories over Satan the prince of this world. Let us copy the example of his love and obedience.",
+  "original_sentences": [
+    "Christ raises the expectations of his disciples to something beyond what they thought was their greatest happiness.",
+    "His time was now short, he therefore spake largely to them.",
+    "When we come to be sick, and to die, we may not be capable of talking much to those about us; such good counsel as we have to give, let us give while in health.",
+    "Observe the prospect Christ had of an approaching conflict, not only with men, but with the powers of darkness.",
+    "Satan has something in us to perplex us with, for we have all sinned; but when he would disturb Christ, he found nothing sinful to help him.",
+    "The best evidence of our love to the Father is, our doing as he has commanded us.",
+    "Let us rejoice in the Saviour's victories over Satan the prince of this world.",
+    "Let us copy the example of his love and obedience."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

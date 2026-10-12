@@ -1,0 +1,56 @@
+{
+  "id": "matthew-henry-concise:John.19.31-John.19.37",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 126,
+  "osis_start": "John.19.31",
+  "osis_end": "John.19.37",
+  "chapter": 19,
+  "heading": null,
+  "original_text": "A trial was made whether Jesus was dead. He died in less time than persons crucified commonly did. It showed that he had laid down his life of himself. The spear broke up the very fountains of life; no human body could survive such a wound. But its being so solemnly attested, shows there was something peculiar in it. The blood and water that flowed out, signified those two great benefits which all believers partake of through Christ, justification and sanctification; blood for atonement, water for purification. They both flow from the pierced side of our Redeemer. To Christ crucified we owe merit for our justification, and Spirit and grace for our sanctification. Let this silence the fears of weak Christians, and encourage their hopes; there came both water and blood out of Jesus' pierced side, both to justify and sanctify them. The Scripture was fulfilled, in Pilate's not allowing his legs to be broken, Psa 34:20. There was a type of this in the paschal lamb, Ex 12:46. May we ever look to Him, whom, by our sins, we have ignorantly and heedlessly pierced, nay, sometimes against convictions and mercies; and who shed from his wounded side both water and blood, that we might be justified and sanctified in his name.",
+  "original_sentences": [
+    "A trial was made whether Jesus was dead.",
+    "He died in less time than persons crucified commonly did.",
+    "It showed that he had laid down his life of himself.",
+    "The spear broke up the very fountains of life; no human body could survive such a wound.",
+    "But its being so solemnly attested, shows there was something peculiar in it.",
+    "The blood and water that flowed out, signified those two great benefits which all believers partake of through Christ, justification and sanctification; blood for atonement, water for purification.",
+    "They both flow from the pierced side of our Redeemer.",
+    "To Christ crucified we owe merit for our justification, and Spirit and grace for our sanctification.",
+    "Let this silence the fears of weak Christians, and encourage their hopes; there came both water and blood out of Jesus' pierced side, both to justify and sanctify them.",
+    "The Scripture was fulfilled, in Pilate's not allowing his legs to be broken, Psa 34:20.",
+    "There was a type of this in the paschal lamb, Ex 12:46.",
+    "May we ever look to Him, whom, by our sins, we have ignorantly and heedlessly pierced, nay, sometimes against convictions and mercies; and who shed from his wounded side both water and blood, that we might be justified and sanctified in his name."
+  ],
+  "references": [
+    {
+      "osis": "Ps.34.20",
+      "inferred": false
+    },
+    {
+      "osis": "Exod.12.46",
+      "inferred": false
+    }
+  ],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

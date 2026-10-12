@@ -1,0 +1,54 @@
+{
+  "id": "matthew-henry-concise:John.14.12-John.14.17",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 96,
+  "osis_start": "John.14.12",
+  "osis_end": "John.14.17",
+  "chapter": 14,
+  "heading": null,
+  "original_text": "Whatever we ask in Christ's name, that shall be for our good, and suitable to our state, he shall give it to us. To ask in Christ's name, is to plead his merit and intercession, and to depend upon that plea. The gift of the Spirit is a fruit of Christ's mediation, bought by his merit, and received by his intercession. The word used here, signifies an advocate, counsellor, monitor, and comforter. He would abide with the disciples to the end of time; his gifts and graces would encourage their hearts. The expressions used here and elsewhere, plainly denote a person, and the office itself includes all the Divine perfections. The gift of the Holy Ghost is bestowed upon the disciples of Christ, and not on the world. This is the favour God bears to his chosen. As the source of holiness and happiness, the Holy Spirit will abide with every believer for ever.",
+  "original_sentences": [
+    "Whatever we ask in Christ's name, that shall be for our good, and suitable to our state, he shall give it to us.",
+    "To ask in Christ's name, is to plead his merit and intercession, and to depend upon that plea.",
+    "The gift of the Spirit is a fruit of Christ's mediation, bought by his merit, and received by his intercession.",
+    "The word used here, signifies an advocate, counsellor, monitor, and comforter.",
+    "He would abide with the disciples to the end of time; his gifts and graces would encourage their hearts.",
+    "The expressions used here and elsewhere, plainly denote a person, and the office itself includes all the Divine perfections.",
+    "The gift of the Holy Ghost is bestowed upon the disciples of Christ, and not on the world.",
+    "This is the favour God bears to his chosen.",
+    "As the source of holiness and happiness, the Holy Spirit will abide with every believer for ever."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "The gift of the Holy Ghost",
+      "osis": null,
+      "source": "code",
+      "kjv_match": "loose",
+      "kjv_text": null,
+      "bsb_text": null,
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

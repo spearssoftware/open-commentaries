@@ -1,0 +1,42 @@
+{
+  "id": "matthew-henry-concise:John.12-John.12",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 81,
+  "osis_start": "John.12",
+  "osis_end": "John.12",
+  "chapter": 12,
+  "heading": "Chapter Outline",
+  "original_text": "Christ anointed by Mary. (1-11)\n\nHe enters Jerusalem. (12-19)\n\nGreeks apply to see Jesus. (20-26)\n\nA voice from heaven bears testimony to Christ. (27-33)\n\nHis discourse with the people. (34-36)\n\nUnbelief of the Jews. (37-43)\n\nChrist's address to them. (44-50)",
+  "original_sentences": [
+    "Christ anointed by Mary. (1-11)",
+    "He enters Jerusalem. (12-19)",
+    "Greeks apply to see Jesus. (20-26)",
+    "A voice from heaven bears testimony to Christ. (27-33)",
+    "His discourse with the people. (34-36)",
+    "Unbelief of the Jews. (37-43)",
+    "Christ's address to them. (44-50)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

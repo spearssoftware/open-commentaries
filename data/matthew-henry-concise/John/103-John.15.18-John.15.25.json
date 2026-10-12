@@ -1,0 +1,40 @@
+{
+  "id": "matthew-henry-concise:John.15.18-John.15.25",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 103,
+  "osis_start": "John.15.18",
+  "osis_end": "John.15.25",
+  "chapter": 15,
+  "heading": null,
+  "original_text": "How little do many persons think, that in opposing the doctrine of Christ as our Prophet, Priest, and King, they prove themselves ignorant of the one living and true God, whom they profess to worship! The name into which Christ's disciples were baptized, is that which they will live and die by. It is a comfort to the greatest sufferers, if they suffer for Christ's name's sake. The world's ignorance is the true cause of its hatred to the disciples of Jesus. The clearer and fuller the discoveries of the grace and truth of Christ, the greater is our sin if we do not love him and believe in him.",
+  "original_sentences": [
+    "How little do many persons think, that in opposing the doctrine of Christ as our Prophet, Priest, and King, they prove themselves ignorant of the one living and true God, whom they profess to worship!",
+    "The name into which Christ's disciples were baptized, is that which they will live and die by.",
+    "It is a comfort to the greatest sufferers, if they suffer for Christ's name's sake.",
+    "The world's ignorance is the true cause of its hatred to the disciples of Jesus.",
+    "The clearer and fuller the discoveries of the grace and truth of Christ, the greater is our sin if we do not love him and believe in him."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

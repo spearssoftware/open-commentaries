@@ -1,0 +1,38 @@
+{
+  "id": "matthew-henry-concise:John.2-John.2",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 10,
+  "osis_start": "John.2",
+  "osis_end": "John.2",
+  "chapter": 2,
+  "heading": "Chapter Outline",
+  "original_text": "The miracle at Cana. (1-11)\n\nChrist casts the buyers and sellers out of the temple. (12-22)\n\nMany believe in Christ. (23-25)",
+  "original_sentences": [
+    "The miracle at Cana. (1-11)",
+    "Christ casts the buyers and sellers out of the temple. (12-22)",
+    "Many believe in Christ. (23-25)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

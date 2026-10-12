@@ -1,0 +1,40 @@
+{
+  "id": "matthew-henry-concise:John.15-John.15",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 100,
+  "osis_start": "John.15",
+  "osis_end": "John.15",
+  "chapter": 15,
+  "heading": "Chapter Outline",
+  "original_text": "Christ the true Vine. (1-8)\n\nHis love to his disciples. (9-17)\n\nforetold.\n\n(18-25)\n\nThe Comforter promised. (26-27)",
+  "original_sentences": [
+    "Christ the true Vine. (1-8)",
+    "His love to his disciples. (9-17)",
+    "foretold.",
+    "(18-25)",
+    "The Comforter promised. (26-27)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

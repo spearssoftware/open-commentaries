@@ -1,0 +1,42 @@
+{
+  "id": "matthew-henry-concise:John.18.28-John.18.32",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 121,
+  "osis_start": "John.18.28",
+  "osis_end": "John.18.32",
+  "chapter": 18,
+  "heading": null,
+  "original_text": "It was unjust to put one to death who had done so much good, therefore the Jews were willing to save themselves from reproach. Many fear the scandal of an ill thing, more than the sin of it. Christ had said he should be delivered to the Gentiles, and they should put him to death; hereby that saying was fulfilled. He had said that he should be crucified, lifted up. If the Jews had judged him by their law, he had been stoned; crucifying never was used among the Jews. It is determined concerning us, though not discovered to us, what death we shall die: this should free us from disquiet about that matter. Lord, what, when, and how, thou hast appointed.",
+  "original_sentences": [
+    "It was unjust to put one to death who had done so much good, therefore the Jews were willing to save themselves from reproach.",
+    "Many fear the scandal of an ill thing, more than the sin of it.",
+    "Christ had said he should be delivered to the Gentiles, and they should put him to death; hereby that saying was fulfilled.",
+    "He had said that he should be crucified, lifted up.",
+    "If the Jews had judged him by their law, he had been stoned; crucifying never was used among the Jews.",
+    "It is determined concerning us, though not discovered to us, what death we shall die: this should free us from disquiet about that matter.",
+    "Lord, what, when, and how, thou hast appointed."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

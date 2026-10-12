@@ -1,0 +1,38 @@
+{
+  "id": "matthew-henry-concise:John.10.19-John.10.21",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 69,
+  "osis_start": "John.10.19",
+  "osis_end": "John.10.21",
+  "chapter": 10,
+  "heading": null,
+  "original_text": "Satan ruins many, by putting them out of conceit with the word and ordinances. Men would not be laughed out of their necessary food, yet suffer themselves thus to be laughed out of what is far more necessary. If our zeal and earnestness in the cause of Christ, especially in the blessed work of bringing his sheep into his fold, bring upon us evil names, let us not heed it, but remember our Master was thus reproached before us.",
+  "original_sentences": [
+    "Satan ruins many, by putting them out of conceit with the word and ordinances.",
+    "Men would not be laughed out of their necessary food, yet suffer themselves thus to be laughed out of what is far more necessary.",
+    "If our zeal and earnestness in the cause of Christ, especially in the blessed work of bringing his sheep into his fold, bring upon us evil names, let us not heed it, but remember our Master was thus reproached before us."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

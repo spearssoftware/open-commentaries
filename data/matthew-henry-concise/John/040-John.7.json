@@ -1,0 +1,38 @@
+{
+  "id": "matthew-henry-concise:John.7-John.7",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 40,
+  "osis_start": "John.7",
+  "osis_end": "John.7",
+  "chapter": 7,
+  "heading": "Chapter Outline",
+  "original_text": "Christ goes to the feast of tabernacles. (1-13)\n\nHis discourse at the feast. (14-39)\n\nThe people dispute concerning Christ. (40-53)",
+  "original_sentences": [
+    "Christ goes to the feast of tabernacles. (1-13)",
+    "His discourse at the feast. (14-39)",
+    "The people dispute concerning Christ. (40-53)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

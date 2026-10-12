@@ -1,0 +1,42 @@
+{
+  "id": "matthew-henry-concise:John.1-John.1",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 2,
+  "osis_start": "John.1",
+  "osis_end": "John.1",
+  "chapter": 1,
+  "heading": "Chapter Outline",
+  "original_text": "The Divinity of Christ. (1-5)\n\nHis Divine and human nature. (6-14)\n\nJohn the Baptist's testimony to Christ. (15-18)\n\nJohn's public testimony concerning Christ. (19-28)\n\nOther testimonies of John concerning Christ. (29-36)\n\nAndrew and another disciple follow Jesus. (37-42)\n\nPhilip and Nathanael called. (43-51)",
+  "original_sentences": [
+    "The Divinity of Christ. (1-5)",
+    "His Divine and human nature. (6-14)",
+    "John the Baptist's testimony to Christ. (15-18)",
+    "John's public testimony concerning Christ. (19-28)",
+    "Other testimonies of John concerning Christ. (29-36)",
+    "Andrew and another disciple follow Jesus. (37-42)",
+    "Philip and Nathanael called. (43-51)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

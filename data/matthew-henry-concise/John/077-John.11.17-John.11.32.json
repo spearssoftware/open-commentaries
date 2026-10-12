@@ -1,0 +1,68 @@
+{
+  "id": "matthew-henry-concise:John.11.17-John.11.32",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 77,
+  "osis_start": "John.11.17",
+  "osis_end": "John.11.32",
+  "chapter": 11,
+  "heading": null,
+  "original_text": "Here was a house where the fear of God was, and on which his blessing rested; yet it was made a house of mourning. Grace will keep sorrow from the heart, but not from the house. When God, by his grace and providence, is coming towards us in ways of mercy and comfort, we should, like Martha, go forth by faith, hope, and prayer, to meet him. When Martha went to meet Jesus, Mary sat still in the house; this temper formerly had been an advantage to her, when it put her at Christ's feet to hear his word; but in the day of affliction, the same temper disposed her to melancholy. It is our wisdom to watch against the temptations, and to make use of the advantages of our natural tempers. When we know not what in particular to ask or expect, let us refer ourselves to God; let him do as seemeth him good. To enlarge Martha's expectations, our Lord declared himself to be the Resurrection and the Life. In every sense he is the Resurrection; the source, the substance, the first-fruits, the cause of it. The redeemed soul lives after death in happiness; and after the resurrection, both body and soul are kept from all evil for ever. When we have read or heard the word of Christ, about the great things of the other world, we should put it to ourselves, Do we believe this truth? The crosses and comforts of this present time would not make such a deep impression upon us as they do, if we believed the things of eternity as we ought. When Christ our Master comes, he calls for us. He comes in his word and ordinances, and calls us to them, calls us by them, calls us to himself. Those who, in a day of peace, set themselves at Christ's feet to be taught by him, may with comfort, in a day of trouble, cast themselves at his feet, to find favour with him.",
+  "original_sentences": [
+    "Here was a house where the fear of God was, and on which his blessing rested; yet it was made a house of mourning.",
+    "Grace will keep sorrow from the heart, but not from the house.",
+    "When God, by his grace and providence, is coming towards us in ways of mercy and comfort, we should, like Martha, go forth by faith, hope, and prayer, to meet him.",
+    "When Martha went to meet Jesus, Mary sat still in the house; this temper formerly had been an advantage to her, when it put her at Christ's feet to hear his word; but in the day of affliction, the same temper disposed her to melancholy.",
+    "It is our wisdom to watch against the temptations, and to make use of the advantages of our natural tempers.",
+    "When we know not what in particular to ask or expect, let us refer ourselves to God; let him do as seemeth him good.",
+    "To enlarge Martha's expectations, our Lord declared himself to be the Resurrection and the Life.",
+    "In every sense he is the Resurrection; the source, the substance, the first-fruits, the cause of it.",
+    "The redeemed soul lives after death in happiness; and after the resurrection, both body and soul are kept from all evil for ever.",
+    "When we have read or heard the word of Christ, about the great things of the other world, we should put it to ourselves, Do we believe this truth?",
+    "The crosses and comforts of this present time would not make such a deep impression upon us as they do, if we believed the things of eternity as we ought.",
+    "When Christ our Master comes, he calls for us.",
+    "He comes in his word and ordinances, and calls us to them, calls us by them, calls us to himself.",
+    "Those who, in a day of peace, set themselves at Christ's feet to be taught by him, may with comfort, in a day of trouble, cast themselves at his feet, to find favour with him."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "Mary sat still in the house",
+      "osis": "John.11.20",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Then Martha, as soon as she heard that Jesus was coming, went and met him: but Mary sat still in the house.",
+      "bsb_text": "So when Martha heard that Jesus was coming, she went out to meet Him, but Mary stayed at home.",
+      "bsb_note": null
+    },
+    {
+      "span": "in the day of affliction, the",
+      "osis": "Jer.16.19",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "O LORD, my strength, and my fortress, and my refuge in the day of affliction, the Gentiles shall come unto thee from the ends of the earth, and shall say, Surely our fathers have inherited lies, vanity, and things wherein there is no profit.",
+      "bsb_text": "O LORD, my strength and my fortress, my refuge in the day of distress, the nations will come to You from the ends of the earth, and they will say, “Our fathers inherited nothing but lies, worthless idols of no benefit at all.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

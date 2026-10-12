@@ -1,0 +1,50 @@
+{
+  "id": "matthew-henry-concise:John.3.22-John.3.36",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 16,
+  "osis_start": "John.3.22",
+  "osis_end": "John.3.36",
+  "chapter": 3,
+  "heading": null,
+  "original_text": "John was fully satisfied with the place and work assigned him; but Jesus came on a more important work. He also knew that Jesus would increase in honour and influence, for of his government and peace there would be no end, while he himself would be less followed. John knew that Jesus came from heaven as the Son of God, while he was a sinful, mortal man, who could only speak about the more plain subjects of religion. The words of Jesus were the words of God; he had the Spirit, not by measure, as the prophets, but in all fulness. Everlasting life could only be had by faith in Him, and might be thus obtained; whereas all those, who believe not in the Son of God, cannot partake of salvation, but the wrath of God for ever rests upon them.",
+  "original_sentences": [
+    "John was fully satisfied with the place and work assigned him; but Jesus came on a more important work.",
+    "He also knew that Jesus would increase in honour and influence, for of his government and peace there would be no end, while he himself would be less followed.",
+    "John knew that Jesus came from heaven as the Son of God, while he was a sinful, mortal man, who could only speak about the more plain subjects of religion.",
+    "The words of Jesus were the words of God; he had the Spirit, not by measure, as the prophets, but in all fulness.",
+    "Everlasting life could only be had by faith in Him, and might be thus obtained; whereas all those, who believe not in the Son of God, cannot partake of salvation, but the wrath of God for ever rests upon them."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "of his government and peace there",
+      "osis": "Isa.9.7",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Of the increase of his government and peace there shall be no end, upon the throne of David, and upon his kingdom, to order it, and to establish it with judgment and with justice from henceforth even for ever. The zeal of the LORD of hosts will perform this.",
+      "bsb_text": "Of the increase of His government and peace there will be no end. He will reign on the throne of David and over his kingdom, to establish and sustain it with justice and righteousness from that time and forevermore. The zeal of the LORD of Hosts will accomplish this.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

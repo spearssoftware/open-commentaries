@@ -1,0 +1,82 @@
+{
+  "id": "matthew-henry-concise:John.5.39-John.5.44",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 28,
+  "osis_start": "John.5.39",
+  "osis_end": "John.5.44",
+  "chapter": 5,
+  "heading": null,
+  "original_text": "The Jews considered that eternal life was revealed to them in their Scriptures, and that they had it, because they had the word of God in their hands. Jesus urged them to search those Scriptures with more diligence and attention. \"Ye do search the Scriptures,\" and ye do well to do so. They did indeed search the Scriptures, but it was with a view to their own glory. It is possible for men to be very studious in the letter of the Scriptures, yet to be strangers to its power. Or, \"Search the Scriptures,\" and so it was spoken to them in the nature of an appeal. Ye profess to receive and believe the Scripture, let that be the judge. It is spoken to us as advising or commanding all Christians to search the Scriptures. Not only read them, and hear them, but search them; which denotes diligence in examining and studying them. We must search the Scriptures for heaven as our great end; For in them ye think ye have eternal life. We must search the Scriptures for Christ, as the new and living Way, that leads to this end. To this testimony Christ adds reproofs of their unbelief and wickedness; their neglect of him and his doctrine. Also he reproves their want of the love of God. But there is life with Jesus Christ for poor souls. Many who make a great profession of religion, yet show they want the love of God, by their neglect of Christ and contempt of his commandments. It is the love of God in us, the love that is a living, active principle in the heart, which God will accept. They slighted and undervalued Christ, because they admired and overvalued themselves. How can those believe, who make the praise and applause of men their idol! When Christ and his followers are men wondered at, how can those believe, the utmost of whose ambition is to make a fair show in the flesh!",
+  "original_sentences": [
+    "The Jews considered that eternal life was revealed to them in their Scriptures, and that they had it, because they had the word of God in their hands.",
+    "Jesus urged them to search those Scriptures with more diligence and attention.",
+    "\"Ye do search the Scriptures,\" and ye do well to do so.",
+    "They did indeed search the Scriptures, but it was with a view to their own glory.",
+    "It is possible for men to be very studious in the letter of the Scriptures, yet to be strangers to its power.",
+    "Or, \"Search the Scriptures,\" and so it was spoken to them in the nature of an appeal.",
+    "Ye profess to receive and believe the Scripture, let that be the judge.",
+    "It is spoken to us as advising or commanding all Christians to search the Scriptures.",
+    "Not only read them, and hear them, but search them; which denotes diligence in examining and studying them.",
+    "We must search the Scriptures for heaven as our great end; For in them ye think ye have eternal life.",
+    "We must search the Scriptures for Christ, as the new and living Way, that leads to this end.",
+    "To this testimony Christ adds reproofs of their unbelief and wickedness; their neglect of him and his doctrine.",
+    "Also he reproves their want of the love of God.",
+    "But there is life with Jesus Christ for poor souls.",
+    "Many who make a great profession of religion, yet show they want the love of God, by their neglect of Christ and contempt of his commandments.",
+    "It is the love of God in us, the love that is a living, active principle in the heart, which God will accept.",
+    "They slighted and undervalued Christ, because they admired and overvalued themselves.",
+    "How can those believe, who make the praise and applause of men their idol!",
+    "When Christ and his followers are men wondered at, how can those believe, the utmost of whose ambition is to make a fair show in the flesh!"
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "Ye do search the Scriptures,",
+      "osis": null,
+      "source": "code",
+      "kjv_match": "none",
+      "kjv_text": null,
+      "bsb_text": null,
+      "bsb_note": null
+    },
+    {
+      "span": "Search the Scriptures,",
+      "osis": null,
+      "source": "code",
+      "kjv_match": "none",
+      "kjv_text": null,
+      "bsb_text": null,
+      "bsb_note": null
+    },
+    {
+      "span": "For in them ye think ye have eternal life",
+      "osis": "John.5.39",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Search the scriptures; for in them ye think ye have eternal life: and they are they which testify of me.",
+      "bsb_text": "You pore over the Scriptures because you presume that by them you possess eternal life. These are the very words that testify about Me,",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

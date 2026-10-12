@@ -1,0 +1,46 @@
+{
+  "id": "matthew-henry-concise:John.8.48-John.8.53",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 55,
+  "osis_start": "John.8.48",
+  "osis_end": "John.8.53",
+  "chapter": 8,
+  "heading": null,
+  "original_text": "Observe Christ's disregard of the applause of men. those who are dead to the praises of men can bear their contempt. God will seek the honour of all who do not seek their own. In these verses we have the doctrine of the everlasting happiness of believers. We have the character of a believer; he is one that keeps the sayings of the Lord Jesus. And the privilege of a believer; he shall by no means see death for ever. Though now they cannot avoid seeing death, and tasting it also, yet they shall shortly be where it will be no more forever, Ex 14:13.",
+  "original_sentences": [
+    "Observe Christ's disregard of the applause of men. those who are dead to the praises of men can bear their contempt.",
+    "God will seek the honour of all who do not seek their own.",
+    "In these verses we have the doctrine of the everlasting happiness of believers.",
+    "We have the character of a believer; he is one that keeps the sayings of the Lord Jesus.",
+    "And the privilege of a believer; he shall by no means see death for ever.",
+    "Though now they cannot avoid seeing death, and tasting it also, yet they shall shortly be where it will be no more forever, Ex 14:13."
+  ],
+  "references": [
+    {
+      "osis": "Exod.14.13",
+      "inferred": false
+    }
+  ],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

@@ -1,0 +1,62 @@
+{
+  "id": "matthew-henry-concise:John.19.38-John.19.42",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 127,
+  "osis_start": "John.19.38",
+  "osis_end": "John.19.42",
+  "chapter": 19,
+  "heading": null,
+  "original_text": "Joseph of Arimathea was a disciple of Christ in secret. Disciples should openly own themselves; yet some, who in lesser trials have been fearful, in greater have been courageous. When God has work to do, he can find out such as are proper to do it. The embalming was done by Nicodemus, a secret friend to Christ, though not his constant follower. That grace which at first is like a bruised reed, may afterward resemble a strong cedar. Hereby these two rich men showed the value they had for Christ's person and doctrine, and that it was not lessened by the reproach of the cross. We must do our duty as the present day and opportunity are, and leave it to God to fulfil his promises in his own way and his own time. The grave of Jesus was appointed with the wicked, as was the case of those who suffered as criminals; but he was with the rich in his death, as prophesied, Is 53:9; these two circumstances it was very unlikely should ever be united in the same person. He was buried in a new sepulchre; therefore it could not be said that it was not he, but some other that rose. We also are here taught not to be particular as to the place of our burial. He was buried in the sepulchre next at hand. Here is the Sun of Righteousness set for a while, to rise again in greater glory, and then to set no more.",
+  "original_sentences": [
+    "Joseph of Arimathea was a disciple of Christ in secret.",
+    "Disciples should openly own themselves; yet some, who in lesser trials have been fearful, in greater have been courageous.",
+    "When God has work to do, he can find out such as are proper to do it.",
+    "The embalming was done by Nicodemus, a secret friend to Christ, though not his constant follower.",
+    "That grace which at first is like a bruised reed, may afterward resemble a strong cedar.",
+    "Hereby these two rich men showed the value they had for Christ's person and doctrine, and that it was not lessened by the reproach of the cross.",
+    "We must do our duty as the present day and opportunity are, and leave it to God to fulfil his promises in his own way and his own time.",
+    "The grave of Jesus was appointed with the wicked, as was the case of those who suffered as criminals; but he was with the rich in his death, as prophesied, Is 53:9; these two circumstances it was very unlikely should ever be united in the same person.",
+    "He was buried in a new sepulchre; therefore it could not be said that it was not he, but some other that rose.",
+    "We also are here taught not to be particular as to the place of our burial.",
+    "He was buried in the sepulchre next at hand.",
+    "Here is the Sun of Righteousness set for a while, to rise again in greater glory, and then to set no more."
+  ],
+  "references": [
+    {
+      "osis": "Isa.53.9",
+      "inferred": false
+    }
+  ],
+  "quotes": [
+    {
+      "span": "with the rich in his death",
+      "osis": "Isa.53.9",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "And he made his grave with the wicked, and with the rich in his death; because he had done no violence, neither was any deceit in his mouth.",
+      "bsb_text": "He was assigned a grave with the wicked, and with a rich man in His death, although He had done no violence, nor was any deceit in His mouth.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

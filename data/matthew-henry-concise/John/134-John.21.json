@@ -1,0 +1,39 @@
+{
+  "id": "matthew-henry-concise:John.21-John.21",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 134,
+  "osis_start": "John.21",
+  "osis_end": "John.21",
+  "chapter": 21,
+  "heading": "Chapter Outline",
+  "original_text": "Christ appears to his disciples. (1-14)\n\nHis discourse with Peter. (15-19)\n\nChrist's declaration concerning John. (20-24)\n\nThe conclusion. (25)",
+  "original_sentences": [
+    "Christ appears to his disciples. (1-14)",
+    "His discourse with Peter. (15-19)",
+    "Christ's declaration concerning John. (20-24)",
+    "The conclusion. (25)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

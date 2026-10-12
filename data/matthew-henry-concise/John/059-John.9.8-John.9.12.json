@@ -1,0 +1,49 @@
+{
+  "id": "matthew-henry-concise:John.9.8-John.9.12",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 59,
+  "osis_start": "John.9.8",
+  "osis_end": "John.9.12",
+  "chapter": 9,
+  "heading": null,
+  "original_text": "Those whose eyes are opened, and whose hearts are cleansed by grace, being known to be the same person, but widely different in character, live as monuments to the Redeemer's glory, and recommend his grace to all who desire the same precious salvation. It is good to observe the way and method of God's works, and they will appear the more wonderful. Apply this spiritually. In the work of grace wrought upon the soul we see the change, but we see not the hand that makes it: the way of the Spirit is like that of the wind, which thou hearest the sound of, but canst not tell whence it comes, nor whither it goes.",
+  "original_sentences": [
+    "Those whose eyes are opened, and whose hearts are cleansed by grace, being known to be the same person, but widely different in character, live as monuments to the Redeemer's glory, and recommend his grace to all who desire the same precious salvation.",
+    "It is good to observe the way and method of God's works, and they will appear the more wonderful.",
+    "Apply this spiritually.",
+    "In the work of grace wrought upon the soul we see the change, but we see not the hand that makes it: the way of the Spirit is like that of the wind, which thou hearest the sound of, but canst not tell whence it comes, nor whither it goes."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "but canst not tell whence it",
+      "osis": "John.3.8",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "The wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh, and whither it goeth: so is every one that is born of the Spirit.",
+      "bsb_text": "The wind blows where it wishes. You hear its sound, but you do not know where it comes from or where it is going. So it is with everyone born of the Spirit.”",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

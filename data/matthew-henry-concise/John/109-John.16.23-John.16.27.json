@@ -1,0 +1,50 @@
+{
+  "id": "matthew-henry-concise:John.16.23-John.16.27",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 109,
+  "osis_start": "John.16.23",
+  "osis_end": "John.16.27",
+  "chapter": 16,
+  "heading": null,
+  "original_text": "Asking of the Father shows a sense of spiritual wants, and a desire of spiritual blessings, with conviction that they are to be had from God only. Asking in Christ's name, is acknowledging our unworthiness to receive any favours from God, and shows full dependence upon Christ as the Lord our Righteousness. Our Lord had hitherto spoken in short and weighty sentences, or in parables, the import of which the disciples did not fully understand, but after his resurrection he intended plainly to teach them such things as related to the Father and the way to him, through his intercession. And the frequency with which our Lord enforces offering up petitions in his name, shows that the great end of the mediation of Christ is to impress us with a deep sense of our sinfulness, and of the merit and power of his death, whereby we have access to God. And let us ever remember, that to address the Father in the name of Christ, or to address the Son as God dwelling in human nature, and reconciling the world to himself, are the same, as the Father and Son are one.",
+  "original_sentences": [
+    "Asking of the Father shows a sense of spiritual wants, and a desire of spiritual blessings, with conviction that they are to be had from God only.",
+    "Asking in Christ's name, is acknowledging our unworthiness to receive any favours from God, and shows full dependence upon Christ as the Lord our Righteousness.",
+    "Our Lord had hitherto spoken in short and weighty sentences, or in parables, the import of which the disciples did not fully understand, but after his resurrection he intended plainly to teach them such things as related to the Father and the way to him, through his intercession.",
+    "And the frequency with which our Lord enforces offering up petitions in his name, shows that the great end of the mediation of Christ is to impress us with a deep sense of our sinfulness, and of the merit and power of his death, whereby we have access to God.",
+    "And let us ever remember, that to address the Father in the name of Christ, or to address the Son as God dwelling in human nature, and reconciling the world to himself, are the same, as the Father and Son are one."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "the Father in the name of",
+      "osis": "Eph.5.20",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "Giving thanks always for all things unto God and the Father in the name of our Lord Jesus Christ;",
+      "bsb_text": "always giving thanks to God the Father for everything in the name of our Lord Jesus Christ.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

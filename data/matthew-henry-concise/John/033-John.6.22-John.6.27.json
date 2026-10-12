@@ -1,0 +1,49 @@
+{
+  "id": "matthew-henry-concise:John.6.22-John.6.27",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 33,
+  "osis_start": "John.6.22",
+  "osis_end": "John.6.27",
+  "chapter": 6,
+  "heading": null,
+  "original_text": "Instead of answering the inquiry how he came there, Jesus blamed their asking. The utmost earnestness should be employed in seeking salvation, in the use of appointed means; yet it is to be sought only as the gift of the Son of man. Him the Father has sealed, proved to be God. He declared the Son of man to be the Son of God with power.",
+  "original_sentences": [
+    "Instead of answering the inquiry how he came there, Jesus blamed their asking.",
+    "The utmost earnestness should be employed in seeking salvation, in the use of appointed means; yet it is to be sought only as the gift of the Son of man.",
+    "Him the Father has sealed, proved to be God.",
+    "He declared the Son of man to be the Son of God with power."
+  ],
+  "references": [],
+  "quotes": [
+    {
+      "span": "to be the Son of God with power",
+      "osis": "Rom.1.4",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "And declared to be the Son of God with power, according to the spirit of holiness, by the resurrection from the dead:",
+      "bsb_text": "and who through the Spirit of holiness was declared with power to be the Son of God by His resurrection from the dead: Jesus Christ our Lord.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "matthew-henry-concise:John.12.34-John.12.36",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 86,
+  "osis_start": "John.12.34",
+  "osis_end": "John.12.36",
+  "chapter": 12,
+  "heading": null,
+  "original_text": "The people drew false notions from the Scriptures, because they overlooked the prophecies that spoke of Christ's sufferings and death. Our Lord warned them that the light would not long continue with them, and exhorted them to walk in it, before the darkness overtook them. Those who would walk in the light must believe in it, and follow Christ's directions. But those who have not faith, cannot behold what is set forth in Jesus, lifted up on the cross, and must be strangers to its influence as made known by the Holy Spirit; they find a thousand objections to excuse their unbelief.",
+  "original_sentences": [
+    "The people drew false notions from the Scriptures, because they overlooked the prophecies that spoke of Christ's sufferings and death.",
+    "Our Lord warned them that the light would not long continue with them, and exhorted them to walk in it, before the darkness overtook them.",
+    "Those who would walk in the light must believe in it, and follow Christ's directions.",
+    "But those who have not faith, cannot behold what is set forth in Jesus, lifted up on the cross, and must be strangers to its influence as made known by the Holy Spirit; they find a thousand objections to excuse their unbelief."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

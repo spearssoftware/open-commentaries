@@ -1,0 +1,37 @@
+{
+  "id": "matthew-henry-concise:John.8-John.8",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 47,
+  "osis_start": "John.8",
+  "osis_end": "John.8",
+  "chapter": 8,
+  "heading": "Chapter Outline",
+  "original_text": "The Pharisees and the adulteress. (1-11)\n\nChrist's discourse with the Pharisees. (12-59)",
+  "original_sentences": [
+    "The Pharisees and the adulteress. (1-11)",
+    "Christ's discourse with the Pharisees. (12-59)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

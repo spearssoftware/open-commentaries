@@ -1,0 +1,66 @@
+{
+  "id": "matthew-henry-concise:John.21.25-John.21.25",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 138,
+  "osis_start": "John.21.25",
+  "osis_end": "John.21.25",
+  "chapter": 21,
+  "heading": null,
+  "original_text": "Only a small part of the actions of Jesus had been written. But let us bless God for all that is in the Scriptures, and be thankful that there is so much in so small a space. Enough is recorded to direct our faith, and regulate our practice; more would have been unnecessary. Much of what is written is overlooked, much forgotten, and much made the matter of doubtful disputes. We may, however, look forward to the joy we shall receive in heaven, from a more complete knowledge of all Jesus did and said, as well as of the conduct of his providence and grace in his dealings with each of us. May this be our happiness. These are written that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name, ch. 20:31.",
+  "original_sentences": [
+    "Only a small part of the actions of Jesus had been written.",
+    "But let us bless God for all that is in the Scriptures, and be thankful that there is so much in so small a space.",
+    "Enough is recorded to direct our faith, and regulate our practice; more would have been unnecessary.",
+    "Much of what is written is overlooked, much forgotten, and much made the matter of doubtful disputes.",
+    "We may, however, look forward to the joy we shall receive in heaven, from a more complete knowledge of all Jesus did and said, as well as of the conduct of his providence and grace in his dealings with each of us.",
+    "May this be our happiness.",
+    "These are written that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name, ch. 20:31."
+  ],
+  "references": [
+    {
+      "osis": "John.20.31",
+      "inferred": false
+    }
+  ],
+  "quotes": [
+    {
+      "span": "for all that is in the",
+      "osis": "1John.2.16",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "For all that is in the world, the lust of the flesh, and the lust of the eyes, and the pride of life, is not of the Father, but is of the world.",
+      "bsb_text": "For all that is in the world — the desires of the flesh, the desires of the eyes, and the pride of life — is not from the Father but from the world.",
+      "bsb_note": null
+    },
+    {
+      "span": "These are written that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name",
+      "osis": "John.20.31",
+      "source": "code",
+      "kjv_match": "exact",
+      "kjv_text": "But these are written, that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name.",
+      "bsb_text": "But these are written so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in His name.",
+      "bsb_note": null
+    }
+  ],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

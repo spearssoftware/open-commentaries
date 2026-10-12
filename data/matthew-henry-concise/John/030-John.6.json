@@ -1,0 +1,40 @@
+{
+  "id": "matthew-henry-concise:John.6-John.6",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "intro",
+  "seq": 30,
+  "osis_start": "John.6",
+  "osis_end": "John.6",
+  "chapter": 6,
+  "heading": "Chapter Outline",
+  "original_text": "Five thousand miraculously fed. (1-14)\n\nJesus walks on the sea. (15-21)\n\nHe directs to spiritual food. (22-27)\n\nHis discourse with the multitude. (28-65)\n\nMany of disciples go back. (66-71)",
+  "original_sentences": [
+    "Five thousand miraculously fed. (1-14)",
+    "Jesus walks on the sea. (15-21)",
+    "He directs to spiritual food. (22-27)",
+    "His discourse with the multitude. (28-65)",
+    "Many of disciples go back. (66-71)"
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

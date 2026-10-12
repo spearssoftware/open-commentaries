@@ -1,0 +1,40 @@
+{
+  "id": "matthew-henry-concise:John.17.1-John.17.5",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 112,
+  "osis_start": "John.17.1",
+  "osis_end": "John.17.5",
+  "chapter": 17,
+  "heading": null,
+  "original_text": "Our Lord prayed as a man, and as the Mediator of his people; yet he spoke with majesty and authority, as one with and equal to the Father. Eternal life could not be given to believers, unless Christ, their Surety, both glorified the Father, and was glorified of him. This is the sinner's way to eternal life, and when this knowledge shall be made perfect, holiness and happiness will be fully enjoyed. The holiness and happiness of the redeemed, are especially that glory of Christ, and of his Father, which was the joy set before him, for which he endured the cross and despised the shame; this glory was the end of the sorrow of his soul, and in obtaining it he was fully satisfied. Thus we are taught that our glorifying God is needed as an evidence of our interest in Christ, through whom eternal life is God's free gift.",
+  "original_sentences": [
+    "Our Lord prayed as a man, and as the Mediator of his people; yet he spoke with majesty and authority, as one with and equal to the Father.",
+    "Eternal life could not be given to believers, unless Christ, their Surety, both glorified the Father, and was glorified of him.",
+    "This is the sinner's way to eternal life, and when this knowledge shall be made perfect, holiness and happiness will be fully enjoyed.",
+    "The holiness and happiness of the redeemed, are especially that glory of Christ, and of his Father, which was the joy set before him, for which he endured the cross and despised the shame; this glory was the end of the sorrow of his soul, and in obtaining it he was fully satisfied.",
+    "Thus we are taught that our glorifying God is needed as an evidence of our interest in Christ, through whom eternal life is God's free gift."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}

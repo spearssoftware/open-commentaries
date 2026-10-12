@@ -1,0 +1,41 @@
+{
+  "id": "matthew-henry-concise:John.9.39-John.9.41",
+  "commentary_id": "matthew-henry-concise",
+  "kind": "comment",
+  "seq": 64,
+  "osis_start": "John.9.39",
+  "osis_end": "John.9.41",
+  "chapter": 9,
+  "heading": null,
+  "original_text": "Christ came into the world to give sight to those who were spiritually blind. Also, that those who see might be made blind; that those who have a high conceit of their own wisdom, might be sealed up in ignorance. The preaching of the cross was thought to be folly by such as by carnal wisdom knew not God. Nothing fortifies men's corrupt hearts against the convictions of the word, more than the high opinion which others have of them; as if all that gained applause with men, must obtain acceptance with God. Christ silenced them. But the sin of the self-conceited and self-confident remains; they reject the gospel of grace, therefore the guilt of their sin remains unpardoned, and the power of their sin remains unbroken.",
+  "original_sentences": [
+    "Christ came into the world to give sight to those who were spiritually blind.",
+    "Also, that those who see might be made blind; that those who have a high conceit of their own wisdom, might be sealed up in ignorance.",
+    "The preaching of the cross was thought to be folly by such as by carnal wisdom knew not God.",
+    "Nothing fortifies men's corrupt hearts against the convictions of the word, more than the high opinion which others have of them; as if all that gained applause with men, must obtain acceptance with God.",
+    "Christ silenced them.",
+    "But the sin of the self-conceited and self-confident remains; they reject the gospel of grace, therefore the guilt of their sin remains unpardoned, and the power of their sin remains unbroken."
+  ],
+  "references": [],
+  "quotes": [],
+  "claims": [],
+  "modern_heading": null,
+  "modern_sentences": [],
+  "modern_text": null,
+  "text_hash": null,
+  "rule_checks": [],
+  "rounds": [],
+  "review_status": "unreviewed",
+  "ai_modernized": false,
+  "human_edited": false,
+  "tags": [],
+  "editorial_note": null,
+  "provenance": {
+    "prompt_versions": {},
+    "modernizer_model": null,
+    "verifier_model": null,
+    "source_edition": "SWORD MHCC 2.0 (2021-02-14), Moody Press 28th printing",
+    "generated_at": null
+  },
+  "reviews": []
+}
