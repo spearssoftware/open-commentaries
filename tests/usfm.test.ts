@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
 import { BOOKS, NT_START } from "../src/bible/books";
-import { kjvVersification, loadBsb, loadKjv, parseUsfm } from "../src/sources/usfm";
+import { kjvVersification, loadBsb, loadBsbNotes, loadKjv, parseUsfm } from "../src/sources/usfm";
 
 const kjv = loadKjv();
 const bsb = loadBsb();
@@ -86,4 +86,13 @@ describe.each([
       }
     }
   });
+});
+
+test("BSB notes cover every omitted verse through its \\fv footnote, plus John 7:53-8:11", () => {
+  const notes = loadBsbNotes();
+  for (const v of ["John.5.4", "Matt.17.21", "Mark.9.44", "Acts.8.37", "Rom.16.24"]) {
+    expect([v, loadBsb().has(v), notes.has(v)]).toEqual([v, false, true]);
+  }
+  expect(notes.get("John.5.4")).toContain("awaiting the moving of the waters");
+  expect(notes.get("John.8.7")).toContain("do not include");
 });

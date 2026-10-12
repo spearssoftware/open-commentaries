@@ -13,6 +13,8 @@ export interface UsfmVerse {
 export interface UsfmBook {
   usfm: string;
   verses: UsfmVerse[];
+  /** Footnotes that quote a verse (`\fv N\fv*`) the text itself omits, e.g. BSB John 5:4. */
+  omissions: { chapter: number; verse: number; note: string }[];
 }
 
 export interface VerseText {
@@ -57,6 +59,7 @@ export function parseUsfm(source: string): UsfmBook {
   let chapter = 0;
   let current: { verse: UsfmVerse; raw: string } | undefined;
   const raws = new Map<UsfmVerse, string>();
+  const quoted: UsfmBook["omissions"] = [];
 
   const append = (text: string): void => {
     if (current) current.raw += text;
@@ -92,7 +95,13 @@ export function parseUsfm(source: string): UsfmBook {
       last = m.index + m[0].length;
       const num = m[1];
       if (num === undefined) {
-        if (m[0].startsWith("\\f")) current?.verse.notes.push(footnoteText(m[0]));
+        if (m[0].startsWith("\\f")) {
+          const note = footnoteText(m[0]);
+          current?.verse.notes.push(note);
+          for (const fv of m[0].matchAll(/\\fv\s+(\d+)\\fv\*/g)) {
+            quoted.push({ chapter, verse: Number(fv[1]), note });
+          }
+        }
         continue;
       }
       if (!/^\d+$/.test(num)) {
@@ -108,7 +117,9 @@ export function parseUsfm(source: string): UsfmBook {
   close();
 
   for (const v of verses) v.text = stripMarkers(raws.get(v) ?? "");
-  return { usfm, verses };
+  const present = new Set(verses.map((v) => `${v.chapter}:${v.verse}`));
+  const omissions = quoted.filter((q) => !present.has(`${q.chapter}:${q.verse}`));
+  return { usfm, verses, omissions };
 }
 
 function usfmFiles(dir: string): string[] {
@@ -139,19 +150,59 @@ function toVerseMap(books: Map<string, UsfmBook>): Map<string, VerseText> {
   return map;
 }
 
-let kjvBooks: Map<string, UsfmBook> | undefined;
-const kjv = (): Map<string, UsfmBook> => {
-  kjvBooks ??= loadCanonicalBooks("kjv");
-  return kjvBooks;
+const cache = new Map<string, Map<string, UsfmBook>>();
+const books = (dir: "kjv" | "bsb"): Map<string, UsfmBook> => {
+  let loaded = cache.get(dir);
+  if (!loaded) {
+    loaded = loadCanonicalBooks(dir);
+    cache.set(dir, loaded);
+  }
+  return loaded;
 };
+const kjv = () => books("kjv");
 
-/** Keyed by OSIS verse id, e.g. "John.3.16". Canonical 66 books only. */
+let kjvMap: Map<string, VerseText> | undefined;
+let bsbMap: Map<string, VerseText> | undefined;
+
+/** Keyed by OSIS verse id, e.g. "John.3.16". Canonical 66 books only. Shared; do not mutate. */
 export function loadKjv(): Map<string, VerseText> {
-  return toVerseMap(kjv());
+  kjvMap ??= toVerseMap(kjv());
+  return kjvMap;
 }
 
+/** Keyed by OSIS verse id. Verses the BSB omits are absent. Shared; do not mutate. */
 export function loadBsb(): Map<string, VerseText> {
-  return toVerseMap(loadCanonicalBooks("bsb"));
+  bsbMap ??= toVerseMap(books("bsb"));
+  return bsbMap;
+}
+
+/**
+ * Passages the BSB prints but footnotes as text-critical, with the verse whose footnote explains
+ * them. Omitted verses need no entry: their footnote is found through `\fv`.
+ */
+const BSB_PASSAGE_NOTES: { verses: string[]; noteFrom: string; match: string }[] = [
+  {
+    verses: ["John.7.53", ...Array.from({ length: 11 }, (_, i) => `John.8.${i + 1}`)],
+    noteFrom: "John.7.52",
+    match: "do not include",
+  },
+];
+
+/** Text-critical BSB notes keyed by OSIS verse id: omitted verses and footnoted passages. */
+export function loadBsbNotes(): Map<string, string> {
+  const notes = new Map<string, string>();
+  for (const book of BOOKS) {
+    for (const o of books("bsb").get(book.usfm)?.omissions ?? []) {
+      notes.set(`${book.osis}.${o.chapter}.${o.verse}`, o.note);
+    }
+  }
+  const bsb = loadBsb();
+  for (const { verses, noteFrom, match } of BSB_PASSAGE_NOTES) {
+    const note = bsb.get(noteFrom)?.notes.find((n) => n.includes(match));
+    if (!note) throw new Error(`BSB ${noteFrom} has no footnote containing "${match}"`);
+    for (const v of verses) notes.set(v, note);
+  }
+  return notes;
 }
 
 /** Verse count per chapter for each canonical book, derived from the KJV USFM, in BOOKS order. */

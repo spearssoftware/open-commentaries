@@ -3,9 +3,8 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { join } from "node:path";
 import { MHCC_EDITION, openMhccNt } from "../sources/mhcc.ts";
 import { type ParsedEntry, parseEntry, parseLabel, type TextBlock } from "../sources/osis.ts";
-import { loadBsb, loadKjv } from "../sources/usfm.ts";
 import type { SectionKind, SectionState } from "../types.ts";
-import { buildKjvIndex, detectQuotes, type KjvIndex } from "./kjvSpans.ts";
+import { detectQuotes, loadQuoteSources } from "./kjvSpans.ts";
 import { collectReferences } from "./references.ts";
 import { splitSentences } from "./sentences.ts";
 
@@ -107,20 +106,8 @@ export function draftSections(book: string): Draft[] {
   return drafts;
 }
 
-let sources:
-  | { index: KjvIndex; kjv: ReturnType<typeof loadKjv>; bsb: ReturnType<typeof loadBsb> }
-  | undefined;
-
-function loadSources() {
-  if (!sources) {
-    const kjv = loadKjv();
-    sources = { kjv, bsb: loadBsb(), index: buildKjvIndex(kjv) };
-  }
-  return sources;
-}
-
 export function buildSections(book: string): SectionState[] {
-  const { index, kjv, bsb } = loadSources();
+  const sources = loadQuoteSources();
   return draftSections(book).map((d, i): SectionState => {
     const references = collectReferences(d.block.text, book, d.chapter, d.block.refs);
     const near = [
@@ -142,7 +129,7 @@ export function buildSections(book: string): SectionState[] {
       original_text: d.block.text,
       original_sentences: splitSentences(d.block.text),
       references,
-      quotes: detectQuotes(d.block.text, index, kjv, bsb, near),
+      quotes: detectQuotes(d.block.text, sources, near),
       claims: [],
       modern_heading: null,
       modern_sentences: [],

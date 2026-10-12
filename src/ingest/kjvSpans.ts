@@ -6,8 +6,9 @@
 // "loose" span (Henry's wording differs slightly). Ambiguous runs resolve to the location nearest
 // the section's own references; a tie that remains is recorded without an OSIS reference.
 import { BOOKS } from "../bible/books.ts";
-import type { VerseText } from "../sources/usfm.ts";
+import { loadBsb, loadBsbNotes, loadKjv, type VerseText } from "../sources/usfm.ts";
 import type { KjvMatch, Quote } from "../types.ts";
+import { splitSentences } from "./sentences.ts";
 
 export const SHINGLE = 6;
 const MAX_GAP = 3;
@@ -20,16 +21,27 @@ interface Word {
   sentence: number;
 }
 
+/** Start offset of each sentence, as the sentence splitter divides the text. */
+function sentenceStarts(text: string): number[] {
+  const starts: number[] = [];
+  let from = 0;
+  for (const sentence of splitSentences(text)) {
+    const at = text.indexOf(sentence, from);
+    starts.push(at);
+    from = at + sentence.length;
+  }
+  return starts;
+}
+
 export function words(text: string): Word[] {
+  const starts = sentenceStarts(text);
   let sentence = 0;
-  let last = 0;
   return [...text.matchAll(/[A-Za-z0-9]+(?:['’][A-Za-z]+)*/g)].map((m) => {
-    if (/[.?!]/.test(text.slice(last, m.index))) sentence++;
-    last = m.index + m[0].length;
+    while ((starts[sentence + 1] ?? Number.POSITIVE_INFINITY) <= m.index) sentence++;
     return {
       norm: m[0].toLowerCase().replace(/['’]/g, ""),
       start: m.index,
-      end: last,
+      end: m.index + m[0].length,
       sentence,
     };
   });
@@ -164,8 +176,9 @@ function findRuns(
     });
     const longest = Math.max(...candidates.map((c) => c.to - c.from));
     candidates = candidates.filter((c) => c.to - c.from === longest);
-    const nearest = Math.min(...candidates.map((c) => distance(index, c, near)));
-    candidates = candidates.filter((c) => distance(index, c, near) === nearest);
+    const distances = candidates.map((c) => distance(index, c, near));
+    const nearest = Math.min(...distances);
+    candidates = candidates.filter((_, n) => distances[n] === nearest);
     const run = candidates[0] as Run;
     run.ambiguous = candidates.length > 1;
     runs.push(run);
@@ -220,33 +233,32 @@ function osisFor(c: Chapter, kFrom: number, kTo: number): { osis: string; verses
   return { osis: first === last ? start : `${start}-${verses.at(-1)}`, verses };
 }
 
-/**
- * BSB verses that are absent or text-critical, with the footnote that explains them: the note on
- * `noteFrom` that contains `match`.
- */
-export const BSB_TEXT_CRITICAL: Record<string, { noteFrom: string; match: string }> = {
-  "John.5.4": { noteFrom: "John.5.3", match: "include" },
-  ...Object.fromEntries(
-    ["John.7.53", ...Array.from({ length: 11 }, (_, i) => `John.8.${i + 1}`)].map((v) => [
-      v,
-      { noteFrom: "John.7.52", match: "do not include" },
-    ]),
-  ),
-};
+export interface QuoteSources {
+  index: KjvIndex;
+  kjv: Map<string, VerseText>;
+  bsb: Map<string, VerseText>;
+  /** Text-critical BSB notes by verse (omitted verses and footnoted passages). */
+  bsbNotes: Map<string, string>;
+}
+
+let sources: QuoteSources | undefined;
+
+/** KJV and BSB text plus the shingle index, built once per process. */
+export function loadQuoteSources(): QuoteSources {
+  if (!sources) {
+    const kjv = loadKjv();
+    sources = { index: buildKjvIndex(kjv), kjv, bsb: loadBsb(), bsbNotes: loadBsbNotes() };
+  }
+  return sources;
+}
 
 /** BSB text of the verses present (null when none are), and any text-critical note. */
 function bsbFor(
   verses: string[],
-  bsb: Map<string, VerseText>,
+  { bsb, bsbNotes }: QuoteSources,
 ): { text: string | null; note: string | null } {
   const texts = verses.flatMap((v) => bsb.get(v)?.text ?? []);
-  const notes = new Set(
-    verses.flatMap((v) => {
-      const critical = BSB_TEXT_CRITICAL[v];
-      if (!critical) return [];
-      return (bsb.get(critical.noteFrom)?.notes ?? []).filter((n) => n.includes(critical.match));
-    }),
-  );
+  const notes = new Set(verses.flatMap((v) => bsbNotes.get(v) ?? []));
   return {
     text: texts.length ? texts.join(" ") : null,
     note: notes.size ? [...notes].join(" ") : null,
@@ -259,11 +271,10 @@ function bsbFor(
  */
 export function detectQuotes(
   text: string,
-  index: KjvIndex,
-  kjv: Map<string, VerseText>,
-  bsb: Map<string, VerseText>,
+  sources: QuoteSources,
   near: { book: string; chapter: number }[],
 ): Quote[] {
+  const { index, kjv } = sources;
   const henry = words(text);
   const found: { start: number; end: number; quote: Quote }[] = [];
   for (const run of findRuns(index, henry, near)) {
@@ -272,18 +283,29 @@ export function detectQuotes(
     const c = index.chapters[run.chapter] as Chapter;
     const { osis, verses } = osisFor(c, run.kFrom, run.kTo);
     const match: KjvMatch = run.loose || run.ambiguous ? "loose" : "exact";
-    const b = bsbFor(verses, bsb);
+    // An ambiguous run matches several places equally well, so it gets no reference or verse text.
+    const located = run.ambiguous
+      ? { osis: null, kjv_text: null, bsb_text: null, bsb_note: null }
+      : (() => {
+          const b = bsbFor(verses, sources);
+          return {
+            osis,
+            kjv_text: verses.map((v) => kjv.get(v)?.text ?? "").join(" "),
+            bsb_text: b.text,
+            bsb_note: b.note,
+          };
+        })();
     found.push({
       start,
       end,
       quote: {
         span: text.slice(start, end),
-        osis: run.ambiguous ? null : osis,
+        osis: located.osis,
         source: "code",
         kjv_match: match,
-        kjv_text: run.ambiguous ? null : verses.map((v) => kjv.get(v)?.text ?? "").join(" "),
-        bsb_text: run.ambiguous ? null : b.text,
-        bsb_note: run.ambiguous ? null : b.note,
+        kjv_text: located.kjv_text,
+        bsb_text: located.bsb_text,
+        bsb_note: located.bsb_note,
       },
     });
   }

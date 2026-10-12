@@ -3,7 +3,10 @@
 // A boundary is a run of . ? or ! (plus any closing quotes or brackets) followed by whitespace,
 // where the next word starts a sentence: an uppercase letter, an opening quote or bracket, or a
 // digit. A paragraph break always ends a sentence. Periods after protected abbreviations never end
-// one, except "&c." and "etc.", which do when a capitalized word follows.
+// one, except "&c." and "etc.", which do when a capitalized word follows. A book abbreviation
+// followed by a chapter number ("Ps. 23") does not end one either.
+
+import { BOOKS } from "../bible/books.ts";
 
 const NEVER_FINAL = new Set([
   "ver",
@@ -21,18 +24,10 @@ const NEVER_FINAL = new Set([
   "Dr",
   "ib",
   "ibid",
-  // Book abbreviations Henry writes with a period before a chapter number.
-  "Ps",
-  "Psa",
-  "Joh",
-  "Gen",
-  "Ex",
-  "Isa",
-  "Matt",
-  "Rom",
-  "Heb",
-  "Rev",
 ]);
+
+/** Book abbreviations ("Ps.", "Joh.") never end a sentence when a chapter number follows. */
+const BOOK_ABBREVIATIONS = new Set(BOOKS.flatMap((b) => b.abbreviations));
 
 const SOMETIMES_FINAL = new Set(["&c", "etc"]);
 
@@ -61,6 +56,7 @@ function splitParagraph(text: string): string[] {
     if (m[0].startsWith(".")) {
       const word = wordBefore(text, m.index);
       if (NEVER_FINAL.has(word)) continue;
+      if (BOOK_ABBREVIATIONS.has(word) && /^\d/.test(next)) continue;
       // Single-letter initials such as "A. D. 97".
       if (/^[A-HJ-Z]$/.test(word)) continue;
       if (SOMETIMES_FINAL.has(word) && !/^[A-Z“"‘']/.test(next)) continue;
