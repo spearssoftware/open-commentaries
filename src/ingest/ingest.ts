@@ -157,6 +157,7 @@ export function buildSections(book: string): SectionState[] {
       editorial_note: null,
       provenance: {
         prompt_versions: {},
+        glossary_hash: null,
         modernizer_model: null,
         verifier_model: null,
         source_edition: MHCC_EDITION,

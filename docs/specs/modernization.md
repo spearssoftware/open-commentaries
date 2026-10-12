@@ -292,7 +292,8 @@ One JSON file per section, with these fields:
 - `human_edited`: true when Kevin edited `modern_text`
 - `tags`: an array that may include `dated_view`, `contested_withdrawn`, `pipeline_error`
 - `editorial_note`: always null in this phase
-- `provenance`: `{ prompt_versions, modernizer_model, verifier_model, source_edition, generated_at }`
+- `provenance`: `{ prompt_versions, glossary_hash, modernizer_model, verifier_model, source_edition, generated_at }`
+  - `glossary_hash` is the SHA-256 of the three glossary files the run used, or null before modernization.
 - `reviews`: an array of `{ reviewer, phase: blind | amended, decision: approve | flag, type?, dated_view, text_hash, status_at_review, round, date, adjudication?: { result: confirmed | rejected, reason } }`
   - `reviewer` is a role label: `maintainer`, `study-leader`, or `pastor`.
   - Comment text is not stored here.
@@ -426,8 +427,9 @@ The pipeline never commits. Kevin commits state changes.
   - If it still fails, the section is tagged `pipeline_error` and set to `needs_human`, and the
     run continues.
   - A rerun retries `pipeline_error` sections first.
-- **Prompt versions change.**
-  - `just run` regenerates sections in the selected range whose prompt versions differ.
+- **Prompt versions or glossaries change.**
+  - `just run` regenerates sections in the selected range whose prompt versions or `glossary_hash`
+    differ, so glossary edits made after reviewing a sample take effect on rerun.
   - `human_reviewed` sections are skipped unless `--reopen <id>` is given.
   - Regenerated text gets a new `text_hash`, so earlier reviews stop counting toward sign-off.
 - **A reviewer flags a `human_reviewed` section later.** The section leaves `human_reviewed`, and

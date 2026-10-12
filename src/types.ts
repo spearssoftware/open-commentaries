@@ -101,6 +101,8 @@ export interface Round {
 
 export interface Provenance {
   prompt_versions: Record<string, string>;
+  /** SHA-256 of the glossary files the run used; null before modernization. */
+  glossary_hash: string | null;
   modernizer_model: string | null;
   verifier_model: string | null;
   source_edition: string;

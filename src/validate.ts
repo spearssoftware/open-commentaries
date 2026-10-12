@@ -168,6 +168,7 @@ const section = shape({
   editorial_note: nul,
   provenance: shape({
     prompt_versions: record(str),
+    glossary_hash: nullable(str),
     modernizer_model: nullable(str),
     verifier_model: nullable(str),
     source_edition: str,
