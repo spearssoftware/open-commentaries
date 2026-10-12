@@ -6,6 +6,7 @@ import {
   MalformedOutputError,
   type ModelCall,
   type ModelResult,
+  parseJsonLines,
   runIsolated,
   spawnCli,
   summarize,
@@ -14,7 +15,7 @@ import {
 /** --json-schema adds this one tool; nothing else may be present. */
 const STRUCTURED_OUTPUT_TOOL = "StructuredOutput";
 
-export function claudeArgs(call: ModelCall): string[] {
+function claudeArgs(call: ModelCall): string[] {
   return [
     "-p",
     "--safe-mode",
@@ -43,19 +44,6 @@ export function claudeArgs(call: ModelCall): string[] {
 }
 
 type Event = Record<string, unknown>;
-
-function parseEvents(stdout: string): Event[] {
-  return stdout
-    .split("\n")
-    .filter((line) => line.trim())
-    .map((line) => {
-      try {
-        return JSON.parse(line) as Event;
-      } catch {
-        throw new CliError(`claude printed a non-JSON line: ${summarize(line)}`);
-      }
-    });
-}
 
 const listed = (init: Event, key: string): unknown[] => {
   const value = init[key];
@@ -97,13 +85,13 @@ function checkToolUse(events: Event[]): void {
 export async function runClaude<T = unknown>(call: ModelCall): Promise<ModelResult<T>> {
   const bin = process.env.CLAUDE_BIN ?? "claude";
   const env = childEnv();
-  const result = await runIsolated("claude", bin, env, async ({ work }) => {
+  return runIsolated<T>("claude", bin, env, async ({ work }) => {
     const { stdout, stderr, exitCode } = await spawnCli([bin, ...claudeArgs(call)], {
       stdin: call.prompt,
       cwd: work,
       env,
     });
-    const events = parseEvents(stdout);
+    const events = parseJsonLines("claude", stdout);
     const final = events.find((e) => e.type === "result");
     if (exitCode !== 0 && !final) {
       throw new CliError(`claude exited ${exitCode}: ${summarize(stderr || stdout)}`);
@@ -123,7 +111,7 @@ export async function runClaude<T = unknown>(call: ModelCall): Promise<ModelResu
     }
     const usage = (final.usage as Record<string, number> | undefined) ?? {};
     return {
-      output: checkOutput(final.structured_output, call.schema),
+      output: checkOutput<T>(final.structured_output, call.schema),
       model,
       usage: {
         inputTokens: usage.input_tokens ?? null,
@@ -132,5 +120,4 @@ export async function runClaude<T = unknown>(call: ModelCall): Promise<ModelResu
       },
     };
   });
-  return result as ModelResult<T>;
 }

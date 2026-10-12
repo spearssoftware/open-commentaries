@@ -30,7 +30,7 @@ interface SectionRow {
 
 type AppEnv = { Bindings: Env; Variables: { token: TokenRow } };
 
-export const REVIEWERS = ["maintainer", "study-leader", "pastor"];
+const REVIEWERS = ["maintainer", "study-leader", "pastor"];
 
 const app = new Hono<AppEnv>();
 
@@ -75,38 +75,62 @@ const inRange = (t: TokenRow, s: { book: string; chapter: number }) =>
   s.book === t.book &&
   ((s.chapter >= t.chapter_from && s.chapter <= t.chapter_to) || (s.chapter === 0 && t.chapter_from === 1));
 
+async function hasBlind(c: Context<AppEnv>, section: SectionRow): Promise<boolean> {
+  const row = await c.env.DB.prepare(
+    "SELECT 1 FROM decisions WHERE token_id = ? AND section_id = ? AND text_hash = ? AND phase = 'blind'",
+  )
+    .bind(c.get("token").id, section.id, section.text_hash)
+    .first();
+  return row !== null;
+}
+
 async function sectionFor(c: Context<AppEnv>, id: string): Promise<SectionRow | null> {
   const row = await c.env.DB.prepare("SELECT * FROM sections WHERE id = ?").bind(id).first<SectionRow>();
   return row && inRange(c.get("token"), row) ? row : null;
 }
 
+interface MyDecision {
+  section_id: string;
+  text_hash: string;
+  phase: string;
+  decision: string;
+  type: string | null;
+  dated_view: number;
+  comment: string | null;
+}
+
 app.get("/api/sections", async (c) => {
   const t = c.get("token");
-  const { results: sections } = await c.env.DB.prepare(
-    "SELECT * FROM sections WHERE book = ? AND (chapter BETWEEN ? AND ? OR (chapter = 0 AND ? = 1)) ORDER BY seq",
-  )
-    .bind(t.book, t.chapter_from, t.chapter_to, t.chapter_from)
-    .all<SectionRow>();
-  const { results: mine } = await c.env.DB.prepare(
-    "SELECT section_id, text_hash, phase, decision, type, dated_view, comment FROM decisions WHERE token_id = ?",
-  )
-    .bind(t.id)
-    .all<{ section_id: string; text_hash: string; phase: string; decision: string; type: string | null; dated_view: number; comment: string | null }>();
+  const [sections, mine] = await c.env.DB.batch([
+    c.env.DB.prepare(
+      `SELECT id, text_hash, public_payload FROM sections
+       WHERE book = ? AND (chapter BETWEEN ? AND ? OR (chapter = 0 AND ? = 1)) ORDER BY seq`,
+    ).bind(t.book, t.chapter_from, t.chapter_to, t.chapter_from),
+    c.env.DB.prepare(
+      "SELECT section_id, text_hash, phase, decision, type, dated_view, comment FROM decisions WHERE token_id = ?",
+    ).bind(t.id),
+  ]);
+  const decisionsBy = new Map<string, MyDecision[]>();
+  for (const d of (mine?.results ?? []) as MyDecision[]) {
+    const key = `${d.section_id}\u0000${d.text_hash}`;
+    decisionsBy.set(key, [...(decisionsBy.get(key) ?? []), d]);
+  }
+  const rows = (sections?.results ?? []) as Pick<SectionRow, "id" | "text_hash" | "public_payload">[];
   return c.json({
     reviewer: t.reviewer,
     book: t.book,
     chapters: [t.chapter_from, t.chapter_to],
-    sections: sections.map((s) => ({
+    sections: rows.map((s) => ({
       ...JSON.parse(s.public_payload),
-      decisions: mine
-        .filter((d) => d.section_id === s.id && d.text_hash === s.text_hash)
-        .map(({ phase, decision, type, dated_view, comment }) => ({
+      decisions: (decisionsBy.get(`${s.id}\u0000${s.text_hash}`) ?? []).map(
+        ({ phase, decision, type, dated_view, comment }) => ({
           phase,
           decision,
           type,
           dated_view: dated_view === 1,
           comment,
-        })),
+        }),
+      ),
     })),
   });
 });
@@ -133,12 +157,7 @@ app.post("/api/decisions", async (c) => {
     return c.json({ error: "this section changed since you loaded it; reload the page" }, 409);
   }
   if (phase === "amended") {
-    const blind = await c.env.DB.prepare(
-      "SELECT 1 FROM decisions WHERE token_id = ? AND section_id = ? AND text_hash = ? AND phase = 'blind'",
-    )
-      .bind(t.id, section.id, section.text_hash)
-      .first();
-    if (!blind) return c.json({ error: "record a blind decision first" }, 409);
+    if (!(await hasBlind(c, section))) return c.json({ error: "record a blind decision first" }, 409);
   }
   const id = crypto.randomUUID();
   const result = await c.env.DB.prepare(
@@ -173,12 +192,7 @@ app.post("/api/decisions", async (c) => {
 app.get("/api/sections/:id/reveal", async (c) => {
   const section = await sectionFor(c, c.req.param("id"));
   if (!section) return forbidden(c);
-  const blind = await c.env.DB.prepare(
-    "SELECT 1 FROM decisions WHERE token_id = ? AND section_id = ? AND text_hash = ? AND phase = 'blind'",
-  )
-    .bind(c.get("token").id, section.id, section.text_hash)
-    .first();
-  if (!blind) return c.json({ error: "record a blind decision first" }, 409);
+  if (!(await hasBlind(c, section))) return c.json({ error: "record a blind decision first" }, 409);
   return c.json(JSON.parse(section.reveal_payload));
 });
 
@@ -246,7 +260,15 @@ app.post("/admin/tokens/:id/revoke", async (c) => {
 });
 
 app.get("/admin/export", async (c) => {
-  const { results } = await c.env.DB.prepare("SELECT * FROM decisions ORDER BY created_at, id").all();
+  // The unmodernized sentinel exists only because a NULL text_hash cannot take part in the
+  // UNIQUE constraint; exports carry null like the section state does.
+  const { results } = await c.env.DB.prepare(
+    `SELECT id, token_id, section_id, reviewer, phase, decision, type, dated_view, comment,
+       NULLIF(text_hash, ?) AS text_hash, status_at_review, round, created_at
+     FROM decisions ORDER BY created_at, id`,
+  )
+    .bind(UNMODERNIZED)
+    .all();
   return c.json({ decisions: results });
 });
 

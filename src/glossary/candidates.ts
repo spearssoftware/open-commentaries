@@ -8,6 +8,7 @@ import { MODELS } from "../models/models.ts";
 import type { ModelCall, ModelResult } from "../models/runner.ts";
 import type { JsonSchema } from "../models/schema.ts";
 import type { ModelFamily, SectionState } from "../types.ts";
+import { termKey } from "./keys.ts";
 
 export const PROMPT_VERSION = "glossary-candidates.v1";
 const ROOT = join(import.meta.dir, "../..");
@@ -55,21 +56,21 @@ export interface CandidatesFile {
   candidates: Candidate[];
 }
 
+/** The committed candidates file; throws with the command to run when it does not exist. */
+export function loadCandidates(): CandidatesFile {
+  if (!existsSync(CANDIDATES_PATH)) {
+    throw new Error(`${CANDIDATES_PATH} is missing; run \`just glossary-candidates <book>\``);
+  }
+  return JSON.parse(readFileSync(CANDIDATES_PATH, "utf8")) as CandidatesFile;
+}
+
+/** The candidates collected so far for this book and prompt version, or an empty file to start one. */
 export function readCandidates(book: string): CandidatesFile {
   if (existsSync(CANDIDATES_PATH)) {
     const file = JSON.parse(readFileSync(CANDIDATES_PATH, "utf8")) as CandidatesFile;
     if (file.book === book && file.prompt_version === PROMPT_VERSION) return file;
   }
   return { book, prompt_version: PROMPT_VERSION, models: {}, calls: [], candidates: [] };
-}
-
-/** Lowercase key used to merge the same term reported by different calls. */
-export function termKey(term: string): string {
-  return term
-    .toLowerCase()
-    .replace(/[“”"'’]/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
 }
 
 export function mergeReply(

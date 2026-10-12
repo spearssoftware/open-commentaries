@@ -12,7 +12,8 @@ export interface ExportedDecision {
   type: "meaning" | "wording" | null;
   dated_view: 0 | 1;
   comment: string | null;
-  text_hash: string;
+  /** null when the section had no modern text. */
+  text_hash: string | null;
   status_at_review: SectionState["review_status"];
   round: number | null;
   created_at: string;

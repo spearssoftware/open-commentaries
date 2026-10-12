@@ -75,10 +75,10 @@ describe("mergeReviews", () => {
     ]);
   });
 
-  test("approvals omit type, and unmodernized hashes become null", () => {
+  test("approvals omit type, and a null hash stays null", () => {
     const r = mergeReviews(
       [section("s1")],
-      [decision({ decision: "approve", type: null, comment: null, text_hash: "unmodernized" })],
+      [decision({ decision: "approve", type: null, comment: null, text_hash: null })],
     );
     const review = r.sections[0]?.reviews[0];
     expect(review).toBeDefined();

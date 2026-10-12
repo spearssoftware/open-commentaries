@@ -1,13 +1,10 @@
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { DATA_DIR } from "../ingest/ingest.ts";
+import { DATA_DIR, readSections, sectionFileName } from "../ingest/ingest.ts";
 import type { Review, SectionState } from "../types.ts";
 import type { ExportedDecision } from "./client.ts";
 
-/** Server-side text_hash for sections that had no modern text when reviewed. */
-const UNMODERNIZED = "unmodernized";
-
-export interface PrivateComment {
+interface PrivateComment {
   id: string;
   section_id: string;
   reviewer: string;
@@ -17,7 +14,7 @@ export interface PrivateComment {
   created_at: string;
 }
 
-export interface MergeResult {
+interface MergeResult {
   sections: SectionState[];
   comments: PrivateComment[];
   added: number;
@@ -25,14 +22,14 @@ export interface MergeResult {
   unknownSections: number;
 }
 
-export function toReview(d: ExportedDecision): Review {
+function toReview(d: ExportedDecision): Review {
   return {
     reviewer: d.reviewer,
     phase: d.phase,
     decision: d.decision,
     ...(d.decision === "flag" && d.type ? { type: d.type } : {}),
     dated_view: d.dated_view === 1,
-    text_hash: d.text_hash === UNMODERNIZED ? null : d.text_hash,
+    text_hash: d.text_hash,
     status_at_review: d.status_at_review,
     round: d.round,
     date: d.created_at,
@@ -48,7 +45,6 @@ const reviewKey = (r: Review) =>
  * returned separately and never enter section state.
  */
 export function mergeReviews(sections: SectionState[], decisions: ExportedDecision[]): MergeResult {
-  const byId = new Map(sections.map((s) => [s.id, s]));
   const keys = new Map(sections.map((s) => [s.id, new Set(s.reviews.map(reviewKey))]));
   const added = new Map<string, Review[]>();
   const comments: PrivateComment[] = [];
@@ -57,7 +53,7 @@ export function mergeReviews(sections: SectionState[], decisions: ExportedDecisi
 
   for (const d of decisions) {
     const seen = keys.get(d.section_id);
-    if (!byId.has(d.section_id) || !seen) {
+    if (!seen) {
       unknownSections++;
       continue;
     }
@@ -90,32 +86,24 @@ export function mergeReviews(sections: SectionState[], decisions: ExportedDecisi
   return { sections: merged, comments, added: count, alreadyImported, unknownSections };
 }
 
-export interface ImportSummary {
+interface ImportSummary {
   added: number;
   alreadyImported: number;
   commentsWritten: number;
   unknownSections: number;
 }
 
-interface LoadedFile {
-  path: string;
-  section: SectionState;
-}
-
-function loadAll(dataDir: string): LoadedFile[] {
+function loadAll(dataDir: string): { path: string; section: SectionState }[] {
   if (!existsSync(dataDir)) return [];
-  const files: LoadedFile[] = [];
-  for (const book of readdirSync(dataDir, { withFileTypes: true })) {
-    if (!book.isDirectory()) continue;
-    const dir = join(dataDir, book.name);
-    for (const f of readdirSync(dir)
-      .filter((n) => n.endsWith(".json"))
-      .sort()) {
-      const path = join(dir, f);
-      files.push({ path, section: JSON.parse(readFileSync(path, "utf8")) });
-    }
-  }
-  return files;
+  return readdirSync(dataDir, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .flatMap((d) => {
+      const dir = join(dataDir, d.name);
+      return readSections(d.name, dir).map((section) => ({
+        path: join(dir, sectionFileName(section)),
+        section,
+      }));
+    });
 }
 
 /** Merges decisions into the state files under `dataDir` and writes comments to `privateDir`. */
@@ -139,10 +127,6 @@ export function importDecisions(
   for (const c of result.comments) {
     writeFileSync(join(privateDir, `${c.id}.json`), `${JSON.stringify(c, null, 2)}\n`);
   }
-  return {
-    added: result.added,
-    alreadyImported: result.alreadyImported,
-    commentsWritten: result.comments.length,
-    unknownSections: result.unknownSections,
-  };
+  const { added, alreadyImported, unknownSections } = result;
+  return { added, alreadyImported, commentsWritten: result.comments.length, unknownSections };
 }

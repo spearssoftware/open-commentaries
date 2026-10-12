@@ -9,13 +9,14 @@ import {
   MalformedOutputError,
   type ModelCall,
   type ModelResult,
+  parseJsonLines,
   runIsolated,
   spawnCli,
   summarize,
 } from "./runner.ts";
 
 /** Features that may stay enabled: transport and auth plumbing, none of which gives the model a capability. */
-export const FEATURE_ALLOWLIST = new Set([
+const FEATURE_ALLOWLIST = new Set([
   "auth_elicitation",
   "compaction_image_budget",
   "content_item_kinds",
@@ -42,8 +43,12 @@ const MUST_BE_LISTED = [
   "browser_use",
 ];
 
+const disabled = new Map<string, string[]>();
+
 /** Every enabled feature outside the allowlist, read from `codex features list` so new ones are caught. */
 export function featuresToDisable(bin: string, env: Record<string, string>): string[] {
+  const cached = disabled.get(bin);
+  if (cached) return cached;
   const result = Bun.spawnSync([bin, "features", "list"], { env, cwd: tmpdir() });
   if (result.exitCode !== 0) {
     throw new CliError(`${bin} features list failed: ${summarize(result.stderr.toString())}`);
@@ -60,13 +65,15 @@ export function featuresToDisable(bin: string, env: Record<string, string>): str
       `\`${bin} features list\` did not list ${missing.join(", ")}; its format may have changed, so features cannot be disabled reliably`,
     );
   }
-  return rows
+  const names = rows
     .filter(([, stage, enabled]) => enabled === "true" && stage !== "removed")
     .map(([name]) => name as string)
     .filter((name) => !FEATURE_ALLOWLIST.has(name));
+  disabled.set(bin, names);
+  return names;
 }
 
-export function codexArgs(call: ModelCall, work: string, io: string, disable: string[]): string[] {
+function codexArgs(call: ModelCall, work: string, io: string, disable: string[]): string[] {
   return [
     "exec",
     "-",
@@ -103,7 +110,7 @@ export async function runCodex<T = unknown>(call: ModelCall): Promise<ModelResul
   const bin = process.env.CODEX_BIN ?? "codex";
   const env = childEnv({ CODEX_HOME });
   const disable = featuresToDisable(bin, env);
-  const result = await runIsolated("codex", bin, env, async ({ work, io }) => {
+  return runIsolated<T>("codex", bin, env, async ({ work, io }) => {
     writeFileSync(join(io, "schema.json"), JSON.stringify(call.schema));
     const { stdout, stderr, exitCode } = await spawnCli(
       [bin, ...codexArgs(call, work, io, disable)],
@@ -113,14 +120,7 @@ export async function runCodex<T = unknown>(call: ModelCall): Promise<ModelResul
         env,
       },
     );
-    const events: Event[] = [];
-    for (const line of stdout.split("\n").filter((l) => l.trim())) {
-      try {
-        events.push(JSON.parse(line) as Event);
-      } catch {
-        throw new CliError(`codex printed a non-JSON line: ${summarize(line)}`);
-      }
-    }
+    const events = parseJsonLines("codex", stdout);
     for (const e of events) {
       const item = e.item as Event | undefined;
       if (item && !ALLOWED_ITEMS.has(String(item.type))) {
@@ -143,7 +143,7 @@ export async function runCodex<T = unknown>(call: ModelCall): Promise<ModelResul
     }
     const usage = (completed.usage as Record<string, number> | undefined) ?? {};
     return {
-      output: checkOutput(output, call.schema),
+      output: checkOutput<T>(output, call.schema),
       model: call.model,
       usage: {
         inputTokens: usage.input_tokens ?? null,
@@ -152,5 +152,4 @@ export async function runCodex<T = unknown>(call: ModelCall): Promise<ModelResul
       },
     };
   });
-  return result as ModelResult<T>;
 }

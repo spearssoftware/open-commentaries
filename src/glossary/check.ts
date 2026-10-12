@@ -1,7 +1,8 @@
 // Structure and coverage checks for the three glossaries.
-import { readFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { type CandidatesFile, termKey } from "./candidates.ts";
+import type { CandidatesFile } from "./candidates.ts";
+import { coverKey, termKey } from "./keys.ts";
 
 /** Protected words from the spec's fidelity rules. */
 export const PROTECTED = ["man", "men", "mankind", "the Jews", "Christ", "Lord"];
@@ -49,7 +50,8 @@ export interface Glossaries {
   strength: Strength;
 }
 
-const GLOSSARY_DIR = join(import.meta.dir, "../../glossary");
+export const GLOSSARY_DIR = join(import.meta.dir, "../../glossary");
+export const GLOSSARY_FILES = ["locked", "drift", "strength"] as const;
 
 export function readGlossaries(dir = GLOSSARY_DIR): Glossaries {
   const read = <T>(name: string) =>
@@ -101,11 +103,6 @@ function checkShapes({ locked, drift, strength }: Glossaries): string[] {
   return problems;
 }
 
-/** Coverage key: termKey without a leading article or possessive, so "the gospel" matches "gospel". */
-export function coverKey(term: string): string {
-  return termKey(term).replace(/^(the|a|an|our|his|their) /, "");
-}
-
 function lockedKeys(locked: Locked): Set<string> {
   return new Set(locked.entries.flatMap((e) => [e.term, ...e.forms].map(coverKey)));
 }
@@ -153,4 +150,21 @@ export function candidateStatuses(g: Glossaries, candidates: CandidatesFile): Ca
     if (strength.has(key)) return "strength";
     return "open";
   });
+}
+
+export function writeGlossary(
+  name: (typeof GLOSSARY_FILES)[number],
+  file: { approved: string | null },
+  dir = GLOSSARY_DIR,
+): void {
+  writeFileSync(join(dir, `${name}.json`), `${JSON.stringify(file, null, 2)}\n`);
+}
+
+/** Stamps today's date into every glossary, unless the checks report problems (returned instead). */
+export function approveGlossaries(g: Glossaries, candidates: CandidatesFile): string[] {
+  const problems = checkGlossaries(g, candidates);
+  if (problems.length) return problems;
+  const today = new Date().toISOString().slice(0, 10);
+  for (const name of GLOSSARY_FILES) writeGlossary(name, { ...g[name], approved: today });
+  return [];
 }

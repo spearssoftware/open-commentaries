@@ -1,11 +1,5 @@
 import { expect, test } from "bun:test";
-import { readFileSync } from "node:fs";
-import {
-  CANDIDATES_PATH,
-  type CandidatesFile,
-  mergeReply,
-  readCandidates,
-} from "../src/glossary/candidates.ts";
+import { loadCandidates, mergeReply, readCandidates } from "../src/glossary/candidates.ts";
 import {
   checkGlossaries,
   type Glossaries,
@@ -13,7 +7,7 @@ import {
   readGlossaries,
 } from "../src/glossary/check.ts";
 
-const candidates = JSON.parse(readFileSync(CANDIDATES_PATH, "utf8")) as CandidatesFile;
+const candidates = loadCandidates();
 
 test("committed glossaries are well-formed, lock every protected word, and cover every theological candidate", () => {
   expect(checkGlossaries(readGlossaries(), candidates)).toEqual([]);

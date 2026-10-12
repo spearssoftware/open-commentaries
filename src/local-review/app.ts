@@ -1,6 +1,7 @@
 /// <reference lib="dom" />
 import type { Candidate } from "../glossary/candidates.ts";
 import type { CandidateStatus, Glossaries, LockedEntry } from "../glossary/check.ts";
+import { coverKey } from "../glossary/keys.ts";
 import type { Quote, SectionState } from "../types.ts";
 import { diffWords } from "./diff.ts";
 import type { SectionNote } from "./server.ts";
@@ -320,15 +321,6 @@ const filter = { category: "theological_terms", status: "all", search: "", both:
 let selected = 0;
 let expanded = -1;
 
-function coverKey(term: string): string {
-  return term
-    .toLowerCase()
-    .replace(/[“”"'’]/g, "")
-    .replace(/\s+/g, " ")
-    .trim()
-    .replace(/^(the|a|an|our|his|their) /, "");
-}
-
 async function saveGlossaries(next: Glossaries, message: string): Promise<void> {
   gstate = await api<GlossaryState>("/api/glossary", "PUT", next);
   toast(message);
@@ -398,11 +390,18 @@ const splitList = (s: string) =>
     .map((x) => x.trim())
     .filter(Boolean);
 
-function filteredCandidates(): { c: Candidate; i: number }[] {
+type Row = { c: Candidate; i: number };
+let rowsCache: { state: GlossaryState; filter: string; rows: Row[] } | null = null;
+let protectedCache: { state: GlossaryState; keys: Set<string> } | null = null;
+
+/** Candidates matching the filter, sorted; recomputed only when the filter or saved state changes. */
+function filteredCandidates(): Row[] {
   if (!gstate) return [];
+  const key = JSON.stringify(filter);
+  if (rowsCache?.state === gstate && rowsCache.filter === key) return rowsCache.rows;
   const statuses = gstate.statuses;
   const q = filter.search.toLowerCase();
-  return candidates
+  const rows = candidates
     .map((c, i) => ({ c, i }))
     .filter(({ c, i }) => {
       if (filter.category !== "all" && c.category !== filter.category) return false;
@@ -411,16 +410,26 @@ function filteredCandidates(): { c: Candidate; i: number }[] {
       return !q || c.term.toLowerCase().includes(q);
     })
     .sort((a, b) => total(b.c) - total(a.c) || a.c.term.localeCompare(b.c.term));
+  rowsCache = { state: gstate, filter: key, rows };
+  return rows;
+}
+
+function protectedKeys(state: GlossaryState): Set<string> {
+  if (protectedCache?.state === state) return protectedCache.keys;
+  const keys = new Set(
+    state.glossaries.locked.entries
+      .filter((e) => e.kind === "protected")
+      .flatMap((e) => [e.term, ...e.forms].map(coverKey)),
+  );
+  protectedCache = { state, keys };
+  return keys;
 }
 
 const total = (c: Candidate) => (c.found_by.claude ?? 0) + (c.found_by.gpt ?? 0);
 
 function candidateActions(c: Candidate, status: CandidateStatus): HTMLElement {
   const td = el("td", { class: "actions" });
-  const key = coverKey(c.term);
-  const isProtected = gstate?.glossaries.locked.entries.some(
-    (e) => e.kind === "protected" && [e.term, ...e.forms].some((f) => coverKey(f) === key),
-  );
+  const isProtected = gstate ? protectedKeys(gstate).has(coverKey(c.term)) : false;
   if (isProtected) {
     td.append(el("span", { class: "muted" }, "protected"));
     return td;

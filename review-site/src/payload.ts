@@ -36,7 +36,7 @@ export interface UploadedSection {
 /** Server-side hash for sections that have no modern text yet. */
 export const UNMODERNIZED = "unmodernized";
 
-export const PUBLIC_KEYS = [
+const PUBLIC_KEYS = [
   "id",
   "kind",
   "chapter",
@@ -52,7 +52,7 @@ export const PUBLIC_KEYS = [
 
 const QUOTE_KEYS = ["span", "osis", "kjv_text", "bsb_text", "bsb_note"] as const;
 
-export const REVEAL_KEYS = ["review_status", "tags", "rounds", "rule_checks", "claims", "modern_sentences"] as const;
+const REVEAL_KEYS = ["review_status", "tags", "rounds", "rule_checks", "claims", "modern_sentences"] as const;
 
 export function publicPayload(s: UploadedSection): Record<string, unknown> {
   const out: Record<string, unknown> = {};

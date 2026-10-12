@@ -1,13 +1,9 @@
-import { readFileSync } from "node:fs";
-import { CANDIDATES_PATH, type CandidatesFile } from "../src/glossary/candidates.ts";
+import { loadCandidates } from "../src/glossary/candidates.ts";
 import { checkGlossaries, readGlossaries, unapproved } from "../src/glossary/check.ts";
 
 const glossaries = readGlossaries();
 const problems = [
-  ...checkGlossaries(
-    glossaries,
-    JSON.parse(readFileSync(CANDIDATES_PATH, "utf8")) as CandidatesFile,
-  ),
+  ...checkGlossaries(glossaries, loadCandidates()),
   ...unapproved(glossaries).map(
     (f) => `${f} has no approval date; run \`just glossary-approve\` after review`,
   ),

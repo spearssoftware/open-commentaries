@@ -20,12 +20,10 @@ export function sourceTexts(book: string, sections: SectionState[]): Record<stri
   const out: Record<string, string> = {};
   const byStart = new Map(sections.map((s) => [s.osis_start, s]));
   for (const [index, entry] of openMhccNt().sections(book).entries()) {
-    const [preverse, ...rest] = entry.raw.split(PREVERSE_END);
-    const body = rest.length ? rest.join(" ") : entry.raw;
-    const hasPreverse = rest.length > 0;
+    const [preverse = "", ...rest] = entry.raw.split(PREVERSE_END);
     const comment = byStart.get(entry.osisStart);
-    if (comment) out[comment.id] = plain(body);
-    if (!hasPreverse || preverse === undefined) continue;
+    if (comment) out[comment.id] = plain(rest.length ? rest.join(" ") : entry.raw);
+    if (!rest.length) continue;
     const at = preverse.search(CHAPTER_TITLE);
     const bookPart = at < 0 ? preverse : preverse.slice(0, at);
     const chapterPart = at < 0 ? "" : preverse.slice(at);

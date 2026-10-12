@@ -1,6 +1,18 @@
 // Runtime validation of section state files against src/types.ts. Returns a list of problems
 // (empty when valid) so a test can report every issue at once.
 
+import {
+  FLAG_TYPES,
+  KJV_MATCHES,
+  MODALITIES,
+  MODEL_FAMILIES,
+  REVIEW_STATUSES,
+  REVIEWER_ROLES,
+  SECTION_KINDS,
+  SECTION_TAGS,
+  SHALL_SENSES,
+} from "./types.ts";
+
 type Check = (value: unknown, path: string, problems: string[]) => void;
 
 const isObject = (v: unknown): v is Record<string, unknown> =>
@@ -19,7 +31,7 @@ const nul: Check = (v, p, out) => {
   if (v !== null) out.push(`${p}: expected null`);
 };
 const oneOf =
-  (...values: string[]): Check =>
+  (...values: readonly string[]): Check =>
   (v, p, out) => {
     if (typeof v !== "string" || !values.includes(v))
       out.push(`${p}: expected one of ${values.join("|")}`);
@@ -61,30 +73,11 @@ const shape =
       if (!(key in fields)) out.push(`${p}.${key}: unexpected field`);
   };
 
-const modelFamily = oneOf("claude", "gpt");
-const reviewStatus = oneOf(
-  "unreviewed",
-  "machine_verified",
-  "needs_human",
-  "human_reviewed",
-  "withheld",
-);
+const modelFamily = oneOf(...MODEL_FAMILIES);
+const reviewStatus = oneOf(...REVIEW_STATUSES);
 
 const flag = shape({
-  type: oneOf(
-    "dropped",
-    "added",
-    "changed",
-    "strength",
-    "modality",
-    "referent",
-    "reference",
-    "wording",
-    "voice",
-    "justification_rejected",
-    "dated_view",
-    "meaning",
-  ),
+  type: oneOf(...FLAG_TYPES),
   claim: optional(num),
   sentence: optional(num),
   detail: str,
@@ -95,7 +88,7 @@ const flag = shape({
 const section = shape({
   id: str,
   commentary_id: str,
-  kind: oneOf("intro", "comment"),
+  kind: oneOf(...SECTION_KINDS),
   seq: num,
   osis_start: str,
   osis_end: str,
@@ -108,8 +101,8 @@ const section = shape({
     shape({
       span: str,
       osis: nullable(str),
-      source: oneOf("claude", "gpt", "code"),
-      kjv_match: oneOf("exact", "loose", "none"),
+      source: oneOf(...MODEL_FAMILIES, "code"),
+      kjv_match: oneOf(...KJV_MATCHES),
       kjv_text: nullable(str),
       bsb_text: nullable(str),
       bsb_note: nullable(str),
@@ -119,15 +112,7 @@ const section = shape({
     shape({
       n: num,
       text: str,
-      modality: oneOf(
-        "assertion",
-        "exhortation",
-        "warning",
-        "promise",
-        "question",
-        "prayer",
-        "conditional",
-      ),
+      modality: oneOf(...MODALITIES),
       strength: str,
       sentences: array(num),
       found_by: array(modelFamily),
@@ -136,7 +121,7 @@ const section = shape({
   ),
   modern_heading: nullable(str),
   modern_sentences: array(
-    shape({ text: str, source: array(num), shall_sense: optional(oneOf("future", "obligation")) }),
+    shape({ text: str, source: array(num), shall_sense: optional(oneOf(...SHALL_SENSES)) }),
   ),
   modern_text: nullable(str),
   text_hash: nullable(str),
@@ -164,7 +149,7 @@ const section = shape({
   review_status: reviewStatus,
   ai_modernized: bool,
   human_edited: bool,
-  tags: array(oneOf("dated_view", "contested_withdrawn", "pipeline_error")),
+  tags: array(oneOf(...SECTION_TAGS)),
   editorial_note: nul,
   provenance: shape({
     prompt_versions: record(str),
@@ -176,7 +161,7 @@ const section = shape({
   }),
   reviews: array(
     shape({
-      reviewer: oneOf("maintainer", "study-leader", "pastor"),
+      reviewer: oneOf(...REVIEWER_ROLES),
       phase: oneOf("blind", "amended"),
       decision: oneOf("approve", "flag"),
       type: optional(oneOf("meaning", "wording")),

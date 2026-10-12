@@ -3,20 +3,22 @@
 // send without a preflight this server never answers) and a localhost Host header (DNS rebinding).
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { CANDIDATES_PATH, type CandidatesFile } from "../glossary/candidates.ts";
+import { type CandidatesFile, loadCandidates } from "../glossary/candidates.ts";
 import {
+  approveGlossaries,
   candidateStatuses,
   checkGlossaries,
+  GLOSSARY_FILES,
   type Glossaries,
   readGlossaries,
   unapproved,
+  writeGlossary,
 } from "../glossary/check.ts";
-import { DATA_DIR, readSections, sectionFileName } from "../ingest/ingest.ts";
+import { readSections } from "../ingest/ingest.ts";
 import page from "./index.html";
 import { sourceTexts } from "./source.ts";
 
 const ROOT = join(import.meta.dir, "../..");
-const GLOSSARY_DIR = join(ROOT, "glossary");
 const NOTES_DIR = join(ROOT, ".local-review");
 const NOTES_PATH = join(NOTES_DIR, "notes.json");
 
@@ -31,11 +33,7 @@ type Notes = Record<string, SectionNote>;
 const readNotes = (): Notes =>
   existsSync(NOTES_PATH) ? (JSON.parse(readFileSync(NOTES_PATH, "utf8")) as Notes) : {};
 
-const readCandidates = (): CandidatesFile =>
-  JSON.parse(readFileSync(CANDIDATES_PATH, "utf8")) as CandidatesFile;
-
-function glossaryState(g: Glossaries = readGlossaries()) {
-  const candidates = readCandidates();
+function glossaryState(g: Glossaries, candidates: CandidatesFile) {
   return {
     glossaries: g,
     statuses: candidateStatuses(g, candidates),
@@ -44,17 +42,20 @@ function glossaryState(g: Glossaries = readGlossaries()) {
   };
 }
 
-const FILES = ["locked", "drift", "strength"] as const;
-
-/** Writes changed files; a changed file loses its approval date, since Kevin approved other content. */
-function saveGlossaries(next: Glossaries): void {
-  const current = readGlossaries();
-  for (const name of FILES) {
+/**
+ * Writes changed files and returns what is now on disk. A changed file loses its approval date,
+ * since Kevin approved other content.
+ */
+function saveGlossaries(next: Glossaries): Glossaries {
+  const saved = readGlossaries();
+  for (const name of GLOSSARY_FILES) {
     const strip = (f: { approved: string | null }) => JSON.stringify({ ...f, approved: null });
-    if (strip(current[name]) === strip(next[name])) continue;
+    if (strip(saved[name]) === strip(next[name])) continue;
     const file = { ...next[name], approved: null };
-    writeFileSync(join(GLOSSARY_DIR, `${name}.json`), `${JSON.stringify(file, null, 2)}\n`);
+    writeGlossary(name, file);
+    Object.assign(saved, { [name]: file });
   }
+  return saved;
 }
 
 function guard(req: Request): Response | null {
@@ -79,10 +80,9 @@ function withGuard(handler: (req: Request) => Response | Promise<Response>) {
 }
 
 export function startServer(book: string, port: number) {
-  const fileFor = (id: string) => {
-    const s = readSections(book).find((x) => x.id === id);
-    return s ? join(DATA_DIR, book, sectionFileName(s)) : null;
-  };
+  // Ingest and candidate collection do not run while the page is open, so both load once.
+  const candidates = loadCandidates();
+  const sectionIds = new Set(readSections(book).map((s) => s.id));
   return Bun.serve({
     hostname: "127.0.0.1",
     port,
@@ -98,7 +98,7 @@ export function startServer(book: string, port: number) {
       "/api/notes/:id": {
         PUT: withGuard(async (req) => {
           const id = decodeURIComponent((req as Request & { params: { id: string } }).params.id);
-          if (!fileFor(id)) return json({ error: "unknown section" }, 404);
+          if (!sectionIds.has(id)) return json({ error: "unknown section" }, 404);
           const body = (await req.json()) as Partial<SectionNote> | null;
           const notes = readNotes();
           if (body?.status !== "ok" && body?.status !== "problem") {
@@ -116,24 +116,24 @@ export function startServer(book: string, port: number) {
         }),
       },
       "/api/glossary": {
-        GET: withGuard(() => json({ candidates: readCandidates().candidates, ...glossaryState() })),
+        GET: withGuard(() =>
+          json({
+            candidates: candidates.candidates,
+            ...glossaryState(readGlossaries(), candidates),
+          }),
+        ),
         PUT: withGuard(async (req) => {
-          const next = (await req.json()) as Glossaries;
-          saveGlossaries(next);
-          return json(glossaryState());
+          const saved = saveGlossaries((await req.json()) as Glossaries);
+          return json(glossaryState(saved, candidates));
         }),
       },
       "/api/glossary/approve": {
         POST: withGuard(() => {
-          const state = glossaryState();
-          if (state.problems.length)
-            return json({ error: "Resolve the problems first", ...state }, 409);
-          const today = new Date().toISOString().slice(0, 10);
-          for (const name of FILES) {
-            const file = { ...state.glossaries[name], approved: today };
-            writeFileSync(join(GLOSSARY_DIR, `${name}.json`), `${JSON.stringify(file, null, 2)}\n`);
-          }
-          return json(glossaryState());
+          const problems = approveGlossaries(readGlossaries(), candidates);
+          const state = glossaryState(readGlossaries(), candidates);
+          return problems.length
+            ? json({ error: "Resolve the problems first", ...state }, 409)
+            : json(state);
         }),
       },
     },

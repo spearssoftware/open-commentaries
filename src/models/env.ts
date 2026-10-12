@@ -2,7 +2,7 @@ import { homedir } from "node:os";
 import { join } from "node:path";
 
 /** The only variables a model CLI ever receives. Credentials and Claude Code session state are never passed. */
-export const ENV_ALLOWLIST = ["HOME", "PATH", "TMPDIR", "USER", "LANG"] as const;
+const ENV_ALLOWLIST = ["HOME", "PATH", "TMPDIR", "USER", "LANG"] as const;
 
 /** Codex's dedicated home: its own login and nothing else, so Kevin's main config never loads. */
 export const CODEX_HOME = join(homedir(), ".local/share/open-commentaries/codex-home");

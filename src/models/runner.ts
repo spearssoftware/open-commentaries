@@ -43,20 +43,20 @@ export class MalformedOutputError extends Error {
   override name = "MalformedOutputError";
 }
 
-export const MAX_RETRIES = 2;
+const MAX_RETRIES = 2;
 
-export interface CallDirs {
+interface CallDirs {
   work: string;
   io: string;
 }
 
-export interface Attempt {
-  output: unknown;
+interface Attempt<T> {
+  output: T;
   model: string;
   usage: Usage;
 }
 
-export interface Spawned {
+interface Spawned {
   stdout: string;
   stderr: string;
   exitCode: number;
@@ -99,20 +99,35 @@ export function summarize(text: string): string {
   return line.length > 300 ? `${line.slice(0, 300)}…` : line;
 }
 
-export function checkOutput(output: unknown, schema: JsonSchema): unknown {
+/** Validates output against the schema; the cast to T is what the schema describes. */
+export function checkOutput<T>(output: unknown, schema: JsonSchema): T {
   const problems = validateJson(output, schema);
   if (problems.length)
     throw new MalformedOutputError(`Output does not match the schema: ${problems.join("; ")}`);
-  return output;
+  return output as T;
+}
+
+/** Parses JSON-lines CLI output; a line that is not JSON means the CLI itself misbehaved. */
+export function parseJsonLines(cli: string, stdout: string): Record<string, unknown>[] {
+  return stdout
+    .split("\n")
+    .filter((line) => line.trim())
+    .map((line) => {
+      try {
+        return JSON.parse(line) as Record<string, unknown>;
+      } catch {
+        throw new CliError(`${cli} printed a non-JSON line: ${summarize(line)}`);
+      }
+    });
 }
 
 /** Runs one attempt per fresh pair of directories, retrying only malformed output. */
-export async function runIsolated(
+export async function runIsolated<T>(
   cli: string,
   bin: string,
   env: Record<string, string>,
-  attempt: (dirs: CallDirs) => Promise<Attempt>,
-): Promise<ModelResult> {
+  attempt: (dirs: CallDirs) => Promise<Attempt<T>>,
+): Promise<ModelResult<T>> {
   const version = cliVersion(bin, env);
   const started = performance.now();
   let lastError: MalformedOutputError | undefined;

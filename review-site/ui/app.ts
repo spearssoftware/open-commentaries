@@ -340,6 +340,19 @@ function decisionForm(
   return form;
 }
 
+// One reveal request per section and text version; amending a decision reuses it.
+const reveals = new Map<string, Promise<Reveal>>();
+function revealFor(section: Section): Promise<Reveal> {
+  const key = `${section.id}\u0000${section.text_hash}`;
+  let reveal = reveals.get(key);
+  if (!reveal) {
+    reveal = api<Reveal>(`/api/sections/${encodeURIComponent(section.id)}/reveal`);
+    reveal.catch(() => reveals.delete(key));
+    reveals.set(key, reveal);
+  }
+  return reveal;
+}
+
 function renderCard(book: string, section: Section, onChange: () => void): HTMLElement {
   const card = el("article", "card");
 
@@ -400,7 +413,7 @@ function renderCard(book: string, section: Section, onChange: () => void): HTMLE
 
     const revealHost = el("div");
     parts.push(revealHost);
-    api<Reveal>(`/api/sections/${encodeURIComponent(section.id)}/reveal`)
+    revealFor(section)
       .then((r) => revealHost.replaceChildren(revealPanel(r)))
       .catch((e: unknown) => {
         revealHost.replaceChildren(

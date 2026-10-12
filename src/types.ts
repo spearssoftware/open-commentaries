@@ -1,24 +1,30 @@
 // Section state schema, as defined in docs/specs/modernization.md ("Section state file").
 
-export type SectionKind = "intro" | "comment";
+export const SECTION_KINDS = ["intro", "comment"] as const;
+export type SectionKind = (typeof SECTION_KINDS)[number];
 
-export type ReviewStatus =
-  | "unreviewed"
-  | "machine_verified"
-  | "needs_human"
-  | "human_reviewed"
-  | "withheld";
+export const REVIEW_STATUSES = [
+  "unreviewed",
+  "machine_verified",
+  "needs_human",
+  "human_reviewed",
+  "withheld",
+] as const;
+export type ReviewStatus = (typeof REVIEW_STATUSES)[number];
 
-export type SectionTag = "dated_view" | "contested_withdrawn" | "pipeline_error";
+export const SECTION_TAGS = ["dated_view", "contested_withdrawn", "pipeline_error"] as const;
+export type SectionTag = (typeof SECTION_TAGS)[number];
 
-export type ModelFamily = "claude" | "gpt";
+export const MODEL_FAMILIES = ["claude", "gpt"] as const;
+export type ModelFamily = (typeof MODEL_FAMILIES)[number];
 
 export interface Reference {
   osis: string;
   inferred: boolean;
 }
 
-export type KjvMatch = "exact" | "loose" | "none";
+export const KJV_MATCHES = ["exact", "loose", "none"] as const;
+export type KjvMatch = (typeof KJV_MATCHES)[number];
 
 export interface Quote {
   span: string;
@@ -30,14 +36,16 @@ export interface Quote {
   bsb_note: string | null;
 }
 
-export type Modality =
-  | "assertion"
-  | "exhortation"
-  | "warning"
-  | "promise"
-  | "question"
-  | "prayer"
-  | "conditional";
+export const MODALITIES = [
+  "assertion",
+  "exhortation",
+  "warning",
+  "promise",
+  "question",
+  "prayer",
+  "conditional",
+] as const;
+export type Modality = (typeof MODALITIES)[number];
 
 export interface Claim {
   n: number;
@@ -49,7 +57,8 @@ export interface Claim {
   disputed: boolean;
 }
 
-export type ShallSense = "future" | "obligation";
+export const SHALL_SENSES = ["future", "obligation"] as const;
+export type ShallSense = (typeof SHALL_SENSES)[number];
 
 export interface ModernSentence {
   text: string;
@@ -66,19 +75,21 @@ export interface RuleCheck {
   override?: string;
 }
 
-export type FlagType =
-  | "dropped"
-  | "added"
-  | "changed"
-  | "strength"
-  | "modality"
-  | "referent"
-  | "reference"
-  | "wording"
-  | "voice"
-  | "justification_rejected"
-  | "dated_view"
-  | "meaning";
+export const FLAG_TYPES = [
+  "dropped",
+  "added",
+  "changed",
+  "strength",
+  "modality",
+  "referent",
+  "reference",
+  "wording",
+  "voice",
+  "justification_rejected",
+  "dated_view",
+  "meaning",
+] as const;
+export type FlagType = (typeof FLAG_TYPES)[number];
 
 export interface Flag {
   type: FlagType;
@@ -109,7 +120,8 @@ export interface Provenance {
   generated_at: string | null;
 }
 
-export type ReviewerRole = "maintainer" | "study-leader" | "pastor";
+export const REVIEWER_ROLES = ["maintainer", "study-leader", "pastor"] as const;
+export type ReviewerRole = (typeof REVIEWER_ROLES)[number];
 
 export interface Review {
   reviewer: ReviewerRole;

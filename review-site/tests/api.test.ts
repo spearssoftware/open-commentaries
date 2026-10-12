@@ -192,5 +192,14 @@ describe("decisions", () => {
     const token = await setup([s]);
     const [listed] = ((await (await call("/api/sections", { token })).json()) as Listing).sections;
     expect(listed?.text_hash).toBe("unmodernized");
+    await call("/api/decisions", {
+      method: "POST",
+      token,
+      body: { section_id: s.id, phase: "blind", decision: "approve", text_hash: "unmodernized" },
+    });
+    const { decisions } = (await (await call("/admin/export", { maintainer: MAINTAINER })).json()) as {
+      decisions: Record<string, unknown>[];
+    };
+    expect(decisions[0]?.text_hash).toBeNull();
   });
 });
