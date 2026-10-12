@@ -40,3 +40,7 @@ verify-sources:
 # Parse the sources into section state files, e.g. `just ingest John`.
 ingest book:
     bun scripts/ingest.ts "$1"
+
+# Make one real isolated call to each model CLI and check that nothing leaks in.
+probe-models:
+    bun scripts/probe-models.ts

@@ -1,0 +1,63 @@
+#!/usr/bin/env bun
+import { existsSync, readdirSync, writeFileSync } from "node:fs";
+import { assertIsolation, nextResponse, readStdin, requireFlags, violation } from "./common.ts";
+
+const FEATURES = `apps                 stable             true
+hooks                stable             true
+memories             stable             false
+shell_tool           stable             true
+resize_all_images    removed            true
+auth_elicitation     stable             true
+brand_new_tool       under development  true`;
+
+const args = process.argv.slice(2);
+if (args[0] === "--version") {
+  console.log("codex-cli 0.0.0-stub");
+  process.exit(0);
+}
+if (args[0] === "features" && args[1] === "list") {
+  console.log(FEATURES);
+  process.exit(0);
+}
+if (!process.env.CODEX_HOME) violation("CODEX_HOME not set");
+assertIsolation("codex", args, ["CODEX_HOME"]);
+requireFlags(args, [
+  "exec",
+  "-",
+  "--ignore-user-config",
+  "--ignore-rules",
+  "--ephemeral",
+  "--skip-git-repo-check",
+  "--json",
+  ["-s", "read-only"],
+  ["-c", 'approval_policy="never"'],
+]);
+for (const f of ["apps", "hooks", "shell_tool", "brand_new_tool"]) {
+  if (!args.some((a, i) => a === "--disable" && args[i + 1] === f)) violation(`feature ${f} not disabled`);
+}
+for (const setting of ['web_search="disabled"', "project_doc_max_bytes=0", "project_doc_fallback_filenames=[]"]) {
+  if (!args.some((a, i) => a === "-c" && args[i + 1] === setting)) violation(`missing -c ${setting}`);
+}
+const value = (flag: string) => args[args.indexOf(flag) + 1] ?? violation(`missing ${flag}`);
+const work = value("-C");
+if (!existsSync(work) || readdirSync(work).length) violation(`-C ${work} is not an empty directory`);
+const schema = value("--output-schema");
+if (!existsSync(schema)) violation("schema file missing");
+const out = value("-o");
+const stdin = await readStdin();
+if (!stdin.trim()) violation("empty stdin");
+const r = nextResponse("codex", { args, stdin, model: value("-m") });
+
+if (r.fail) {
+  console.error(r.fail);
+  process.exit(1);
+}
+if (r.writeFile) writeFileSync("leak.txt", "x");
+const emit = (e: object) => console.log(JSON.stringify(e));
+emit({ type: "thread.started", thread_id: "stub" });
+emit({ type: "turn.started" });
+if (r.tool) emit({ type: "item.started", item: { id: "item_0", type: r.tool } });
+const text = r.raw ?? JSON.stringify(r.output);
+emit({ type: "item.completed", item: { id: "item_1", type: "agent_message", text } });
+writeFileSync(out, text);
+emit({ type: "turn.completed", usage: { input_tokens: 20, cached_input_tokens: 0, output_tokens: 7 } });

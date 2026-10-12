@@ -1,0 +1,61 @@
+#!/usr/bin/env bun
+import { writeFileSync } from "node:fs";
+import { assertIsolation, nextResponse, readStdin, requireFlags, violation } from "./common.ts";
+
+const args = process.argv.slice(2);
+if (args[0] === "--version") {
+  console.log("2.0.0 (stub)");
+  process.exit(0);
+}
+assertIsolation("claude", args);
+requireFlags(args, [
+  "-p",
+  "--safe-mode",
+  "--restricted",
+  "--strict-mcp-config",
+  "--disable-slash-commands",
+  "--no-session-persistence",
+  "--verbose",
+  ["--tools", ""],
+  ["--setting-sources", ""],
+  ["--permission-mode", "dontAsk"],
+  ["--permission-prompts", "none"],
+  ["--output-format", "stream-json"],
+]);
+const value = (flag: string) => args[args.indexOf(flag) + 1] ?? violation(`missing ${flag}`);
+const model = value("--model");
+const stdin = await readStdin();
+if (!stdin.trim()) violation("empty stdin");
+const r = nextResponse("claude", { args, stdin, system: value("--system-prompt"), model });
+
+if (r.fail) {
+  console.error(r.fail);
+  process.exit(1);
+}
+if (r.writeFile) writeFileSync("leak.txt", "x");
+const emit = (e: object) => console.log(JSON.stringify(e));
+emit({
+  type: "system",
+  subtype: "init",
+  tools: r.initTools ?? ["StructuredOutput"],
+  mcp_servers: [],
+  slash_commands: [],
+  skills: [],
+  model,
+});
+if (r.tool) {
+  emit({ type: "assistant", message: { content: [{ type: "tool_use", name: r.tool, input: {} }] } });
+}
+emit({
+  type: "assistant",
+  message: { content: [{ type: "tool_use", name: "StructuredOutput", input: r.output ?? {} }] },
+});
+emit({
+  type: "result",
+  subtype: "success",
+  is_error: false,
+  result: r.raw ?? JSON.stringify(r.output),
+  ...(r.raw === undefined ? { structured_output: r.output } : {}),
+  usage: { input_tokens: 10, output_tokens: 5, cache_read_input_tokens: 0 },
+  modelUsage: { [model]: {} },
+});
