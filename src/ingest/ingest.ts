@@ -182,7 +182,7 @@ export function readSections(book: string, dir = join(DATA_DIR, book)): SectionS
 
 /**
  * Writes state files. Unchanged files are left alone; a file whose section has moved past
- * "unreviewed" is never overwritten.
+ * "unreviewed" or has recorded reviews is never overwritten.
  */
 export function writeSections(
   book: string,
@@ -193,11 +193,11 @@ export function writeSections(
   const existing = new Map(readSections(book, dir).map((s) => [s.id, s]));
   const blocked = sections.filter((s) => {
     const prev = existing.get(s.id);
-    return prev && prev.review_status !== "unreviewed";
+    return prev && (prev.review_status !== "unreviewed" || prev.reviews.length > 0);
   });
   if (blocked.length) {
     throw new Error(
-      `Refusing to re-ingest ${blocked.length} section(s) past "unreviewed", e.g. ${blocked[0]?.id}`,
+      `Refusing to re-ingest ${blocked.length} section(s) past "unreviewed" or with reviews, e.g. ${blocked[0]?.id}`,
     );
   }
   const expected = new Set(sections.map(sectionFileName));

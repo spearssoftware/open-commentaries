@@ -1,0 +1,35 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "open-commentaries-review",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-06-01",
+	// No *.workers.dev: the custom domain is the only ingress.
+	"workers_dev": false,
+	"observability": {
+		"enabled": true
+	},
+	// Static UI. API and admin paths always reach the Worker first.
+	"assets": {
+		"directory": "./public",
+		"binding": "ASSETS",
+		"run_worker_first": ["/api/*", "/admin/*"]
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "open-commentaries-review",
+			// Replace with the id printed by `wrangler d1 create open-commentaries-review`.
+			"database_id": "REPLACE_ME",
+			"migrations_dir": "./migrations"
+		}
+	],
+	// Secrets (never committed), set once with `wrangler secret put`:
+	//   REVIEW_TOKEN_SALT      salt for hashing reviewer and maintainer tokens
+	//   MAINTAINER_TOKEN_HASH  hex SHA-256 of `${REVIEW_TOKEN_SALT}:${MAINTAINER_TOKEN}`
+	"routes": [
+		{
+			"pattern": "review.gnosistools.com",
+			"custom_domain": true
+		}
+	]
+}
