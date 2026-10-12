@@ -1,3 +1,4 @@
+import { bookByOsis } from "../src/bible/books.ts";
 import { parseChapterRange } from "../src/review/chapters.ts";
 import { createToken, reviewUrl } from "../src/review/client.ts";
 import type { ReviewerRole } from "../src/types.ts";
@@ -10,6 +11,7 @@ if (!role || !book || !chapters) {
     "Usage: just review-assign <maintainer|study-leader|pastor> <OSIS book> <chapters>",
   );
 }
+bookByOsis(book);
 const reviewer = ROLES.find((r) => r === role);
 if (!reviewer) throw new Error(`Reviewer must be one of ${ROLES.join(", ")}; got "${role}"`);
 const { from, to } = parseChapterRange(chapters);

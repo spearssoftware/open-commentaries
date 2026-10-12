@@ -318,6 +318,7 @@ function decisionForm(
           text_hash: section.text_hash,
         },
       });
+      section.decisions = section.decisions.filter((d) => d.phase !== phase);
       section.decisions.push({
         phase,
         decision,
@@ -341,9 +342,6 @@ function decisionForm(
 
 function renderCard(book: string, section: Section, onChange: () => void): HTMLElement {
   const card = el("article", "card");
-  const blind = section.decisions.find((d) => d.phase === "blind");
-  const amended = section.decisions.find((d) => d.phase === "amended");
-  if (blind) card.classList.add("done");
 
   card.append(el("h3", undefined, sectionLabel(book, section)));
   if (section.heading) card.append(el("p", "heading", section.heading));
@@ -371,6 +369,9 @@ function renderCard(book: string, section: Section, onChange: () => void): HTMLE
   };
 
   const buildSlot = (): HTMLElement[] => {
+    const blind = section.decisions.find((d) => d.phase === "blind");
+    const amended = section.decisions.find((d) => d.phase === "amended");
+    card.classList.toggle("done", blind !== undefined);
     const parts: HTMLElement[] = [];
     if (section.decisions.length) {
       const list = el("ul", "recorded");
@@ -406,14 +407,12 @@ function renderCard(book: string, section: Section, onChange: () => void): HTMLE
           el("p", "error", e instanceof Error ? e.message : "Could not load the machine review."),
         );
       });
-    if (!amended) {
-      const actions = el("div", "actions");
-      const amend = el("button", undefined, "Amend my decision");
-      amend.type = "button";
-      amend.addEventListener("click", () => actions.replaceChildren(choices("amended")));
-      actions.append(amend);
-      parts.push(actions, formHost);
-    }
+    const actions = el("div", "actions");
+    const amend = el("button", undefined, amended ? "Change my amendment" : "Amend my decision");
+    amend.type = "button";
+    amend.addEventListener("click", () => actions.replaceChildren(choices("amended")));
+    actions.append(amend);
+    parts.push(actions, formHost);
     return parts;
   };
 

@@ -1,3 +1,4 @@
+import { bookByOsis } from "../src/bible/books.ts";
 import { readSections } from "../src/ingest/ingest.ts";
 import { chapterInRange, parseChapterRange } from "../src/review/chapters.ts";
 import { uploadSections } from "../src/review/client.ts";
@@ -8,6 +9,7 @@ if (!book || !chapters) {
     "Usage: just review-deploy <OSIS book> <chapters>, e.g. just review-deploy John 1-3",
   );
 }
+bookByOsis(book);
 const range = parseChapterRange(chapters);
 const sections = readSections(book)
   .filter((s) => chapterInRange(s.chapter, range))

@@ -1,34 +1,11 @@
-import { env } from "cloudflare:test";
+import { applyD1Migrations, env } from "cloudflare:test";
 import worker from "../src/index";
 import type { UploadedSection } from "../src/payload";
-
-// Mirrors migrations/0001_review_schema.sql (inline so tests need no text imports).
-const schemaSql = `
-CREATE TABLE IF NOT EXISTS sections (
-  id TEXT PRIMARY KEY, book TEXT NOT NULL, chapter INTEGER NOT NULL, seq INTEGER NOT NULL,
-  text_hash TEXT NOT NULL, review_status TEXT NOT NULL, round INTEGER,
-  public_payload TEXT NOT NULL, reveal_payload TEXT NOT NULL
-);
-CREATE TABLE IF NOT EXISTS tokens (
-  id INTEGER PRIMARY KEY, hash TEXT NOT NULL UNIQUE, reviewer TEXT NOT NULL, book TEXT NOT NULL,
-  chapter_from INTEGER NOT NULL, chapter_to INTEGER NOT NULL, revoked INTEGER NOT NULL DEFAULT 0,
-  created_at TEXT NOT NULL
-);
-CREATE TABLE IF NOT EXISTS decisions (
-  id TEXT PRIMARY KEY, token_id INTEGER NOT NULL REFERENCES tokens(id), section_id TEXT NOT NULL,
-  reviewer TEXT NOT NULL, phase TEXT NOT NULL CHECK (phase IN ('blind', 'amended')),
-  decision TEXT NOT NULL CHECK (decision IN ('approve', 'flag')),
-  type TEXT CHECK (type IN ('meaning', 'wording')), dated_view INTEGER NOT NULL DEFAULT 0,
-  comment TEXT, text_hash TEXT NOT NULL, status_at_review TEXT NOT NULL, round INTEGER,
-  created_at TEXT NOT NULL, UNIQUE (token_id, section_id, text_hash, phase)
-)`;
 
 export const MAINTAINER = "test-maintainer";
 
 export async function seedSchema(): Promise<void> {
-  for (const stmt of schemaSql.split(";").map((s) => s.trim()).filter(Boolean)) {
-    await env.DB.prepare(stmt).run();
-  }
+  await applyD1Migrations(env.DB, env.TEST_MIGRATIONS);
 }
 
 export function call(

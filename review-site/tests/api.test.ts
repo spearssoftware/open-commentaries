@@ -139,6 +139,23 @@ describe("decisions", () => {
     expect((await post("blind")).status).toBe(201);
     expect((await post("blind")).status).toBe(409);
     expect((await post("amended")).status).toBe(201);
+    expect((await post("amended")).status).toBe(201);
+  });
+
+  it("the book introduction belongs to ranges that start at chapter 1", async () => {
+    const intro = section(0, 1, { kind: "intro", osis_start: "John", osis_end: "John" });
+    const first = await setup([intro, section(1, 2)], { from: 1, to: 1 });
+    const listed = ((await (await call("/api/sections", { token: first })).json()) as Listing).sections;
+    expect(listed.map((s) => s.chapter)).toEqual([0, 1]);
+    const later = await (
+      await call("/admin/tokens", {
+        method: "POST",
+        maintainer: MAINTAINER,
+        body: { reviewer: "pastor", book: "John", chapter_from: 2, chapter_to: 3 },
+      })
+    ).json();
+    const token = (later as { token: string }).token;
+    expect((await call(`/api/sections/${encodeURIComponent(intro.id)}/reveal`, { token })).status).toBe(403);
   });
 
   it("the server copies hash, status, and round from the section; export includes them", async () => {

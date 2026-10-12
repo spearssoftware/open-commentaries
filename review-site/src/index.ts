@@ -70,8 +70,10 @@ const maintainer: MiddlewareHandler<AppEnv> = async (c, next) => {
 app.use("/api/*", reviewer);
 app.use("/admin/*", maintainer);
 
+/** Chapter 0 holds the book introduction; it belongs to every range that starts at chapter 1. */
 const inRange = (t: TokenRow, s: { book: string; chapter: number }) =>
-  s.book === t.book && s.chapter >= t.chapter_from && s.chapter <= t.chapter_to;
+  s.book === t.book &&
+  ((s.chapter >= t.chapter_from && s.chapter <= t.chapter_to) || (s.chapter === 0 && t.chapter_from === 1));
 
 async function sectionFor(c: Context<AppEnv>, id: string): Promise<SectionRow | null> {
   const row = await c.env.DB.prepare("SELECT * FROM sections WHERE id = ?").bind(id).first<SectionRow>();
@@ -81,9 +83,9 @@ async function sectionFor(c: Context<AppEnv>, id: string): Promise<SectionRow | 
 app.get("/api/sections", async (c) => {
   const t = c.get("token");
   const { results: sections } = await c.env.DB.prepare(
-    "SELECT * FROM sections WHERE book = ? AND chapter BETWEEN ? AND ? ORDER BY seq",
+    "SELECT * FROM sections WHERE book = ? AND (chapter BETWEEN ? AND ? OR (chapter = 0 AND ? = 1)) ORDER BY seq",
   )
-    .bind(t.book, t.chapter_from, t.chapter_to)
+    .bind(t.book, t.chapter_from, t.chapter_to, t.chapter_from)
     .all<SectionRow>();
   const { results: mine } = await c.env.DB.prepare(
     "SELECT section_id, text_hash, phase, decision, type, dated_view, comment FROM decisions WHERE token_id = ?",
@@ -143,7 +145,10 @@ app.post("/api/decisions", async (c) => {
     `INSERT INTO decisions (id, token_id, section_id, reviewer, phase, decision, type, dated_view, comment,
        text_hash, status_at_review, round, created_at)
      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-     ON CONFLICT (token_id, section_id, text_hash, phase) DO NOTHING`,
+     ON CONFLICT (token_id, section_id, text_hash, phase) DO UPDATE SET
+       decision = excluded.decision, type = excluded.type, dated_view = excluded.dated_view,
+       comment = excluded.comment, created_at = excluded.created_at
+     WHERE decisions.phase = 'amended'`,
   )
     .bind(
       id,
@@ -161,7 +166,7 @@ app.post("/api/decisions", async (c) => {
       new Date().toISOString(),
     )
     .run();
-  if (result.meta.changes === 0) return c.json({ error: `a ${phase} decision is already recorded` }, 409);
+  if (result.meta.changes === 0) return c.json({ error: "a blind decision is already recorded" }, 409);
   return c.json({ id }, 201);
 });
 
