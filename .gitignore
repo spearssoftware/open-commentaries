@@ -7,3 +7,4 @@ tests/.cache/
 .wrangler/
 .DS_Store
 *.log
+.local-review/

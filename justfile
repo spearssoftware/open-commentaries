@@ -96,3 +96,7 @@ glossary-approve:
 # Check that the glossaries cover every candidate and carry an approval date (required before Stage 1).
 glossary-check:
     bun scripts/glossary-check.ts
+
+# Browse ingested sections and triage the glossaries in a local page (http://127.0.0.1:4173).
+review-local book="John":
+    bun scripts/review-local.ts "$1"

@@ -136,3 +136,21 @@ export function unapproved(g: Glossaries): string[] {
     .filter(([, file]) => (file as { approved: string | null }).approved === null)
     .map(([name]) => `${name}.json`);
 }
+
+export type CandidateStatus = "locked" | "allowed" | "drift" | "strength" | "open";
+
+/** Where each candidate is covered, keyed by category and coverKey. */
+export function candidateStatuses(g: Glossaries, candidates: CandidatesFile): CandidateStatus[] {
+  const locked = lockedKeys(g.locked);
+  const allowed = new Set(g.locked.allowed_to_change.map((e) => coverKey(e.term)));
+  const drift = new Set(g.drift.entries.flatMap((e) => [e.word, ...e.forms].map(coverKey)));
+  const strength = new Set(g.strength.entries.map((e) => coverKey(e.word)));
+  return candidates.candidates.map((c) => {
+    const key = coverKey(c.term);
+    if (locked.has(key)) return "locked";
+    if (c.category === "theological_terms" && allowed.has(key)) return "allowed";
+    if (drift.has(key)) return "drift";
+    if (strength.has(key)) return "strength";
+    return "open";
+  });
+}
