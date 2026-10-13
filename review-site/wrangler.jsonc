@@ -19,7 +19,7 @@
 			"binding": "DB",
 			"database_name": "open-commentaries-review",
 			// Replace with the id printed by `wrangler d1 create open-commentaries-review`.
-			"database_id": "REPLACE_ME",
+			"database_id": "95bd05c2-203b-4c23-8ea2-6175a54df97c",
 			"migrations_dir": "./migrations"
 		}
 	],
