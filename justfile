@@ -84,6 +84,7 @@ review-site-deploy:
     cd review-site && npm ci && npm run deploy
 
 # Generate a new salt and maintainer token, set both Worker secrets, and write .env.local (invalidates all review links).
+[confirm("This invalidates every review link already issued. Continue?")]
 review-rotate-keys:
     bun scripts/review-rotate-keys.ts
 
