@@ -74,16 +74,18 @@ review-site-deploy:
     One-time setup (from review-site/):
       npx wrangler login
       npx wrangler d1 create open-commentaries-review   # put the id in wrangler.jsonc
-      SALT=$(openssl rand -hex 32); echo "$SALT"; npx wrangler secret put REVIEW_TOKEN_SALT
-      TOKEN=$(openssl rand -base64 32); echo "$TOKEN"
-      printf '%s' "$SALT:$TOKEN" | shasum -a 256         # npx wrangler secret put MAINTAINER_TOKEN_HASH
-      export MAINTAINER_TOKEN="$TOKEN"                   # for the review-* recipes
+    Then, after the first deploy, from the repo root:
+      just review-rotate-keys                           # sets both secrets and writes .env.local
     EOF
     if grep -q REPLACE_ME review-site/wrangler.jsonc; then
       echo "review-site/wrangler.jsonc still contains REPLACE_ME; create the D1 database and set database_id first." >&2
       exit 1
     fi
     cd review-site && npm ci && npm run deploy
+
+# Generate a new salt and maintainer token, set both Worker secrets, and write .env.local (invalidates all review links).
+review-rotate-keys:
+    bun scripts/review-rotate-keys.ts
 
 # Collect glossary candidates from both models, one isolated call per chapter. Resumable.
 glossary-candidates book:
